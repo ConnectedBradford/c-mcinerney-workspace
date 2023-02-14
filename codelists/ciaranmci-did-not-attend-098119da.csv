@@ -1,0 +1,293 @@
+code,term
+102281000000108,Did not attend asthma clinic
+102291000000105,Did not attend cryotherapy clinic
+102301000000109,Did not attend hyperthyroidism clinic
+102311000000106,Did not attend epilepsy clinic
+102321000000100,Did not attend chronic obstructive pulmonary disease clinic
+102331000000103,Did not attend stroke clinic
+102341000000107,Did not attend physiotherapy appointment
+1036961000000106,Did not attend mild cognitive impairment review
+1036971000000104,Did not attend mild cognitive impairment review 
+105381000000105,Did not attend cryotherapy clinic
+105391000000107,Did not attend hyperthyroidism clinic
+105401000000105,Did not attend epilepsy clinic
+105411000000107,Did not attend chronic obstructive pulmonary disease clinic
+105421000000101,Did not attend physiotherapy appointment
+1078521000000108,Did not attend general practitioner access hub appointment
+1078981000000104,Did not attend musculoskeletal extended scope practitioner appointment
+1086421000000102,"Did not attend diphtheria, tetanus and acellular pertussis, inactivated polio, Haemophilus influenzae type b and hepatitis B vaccination"
+109351000000102,Did not attend cryotherapy clinic
+110011000000107,Did not attend chronic obstructive pulmonary disease clinic
+1101631000000104,Did not attend gender identity clinic
+111971000000107,Did not attend podiatry clinic
+112741000000109,Did not attend podiatry clinic
+117471000000107,Did not attend psychiatry clinic
+122211000000109,Did not attend psychiatry clinic
+1240631000000102,Did not attend severe acute respiratory syndrome coronavirus 2 vaccination
+1324831000000104,Did not attend for first dose of severe acute respiratory syndrome coronavirus 2 vaccine
+1324841000000108,Did not attend for second dose of severe acute respiratory syndrome coronavirus 2 vaccine
+1373761000000103,Did not attend smallpox virus vaccination
+1373781000000107,Did not attend for first dose of smallpox virus vaccine
+1373791000000109,Did not attend for second dose of smallpox virus vaccine
+1373801000000108,Did not attend for third dose of smallpox virus vaccine
+153513006,Did not attend - reason given
+153514000,Patient did not attend: [no reason] or [defaulted from f/u]
+170691000000100,Did not attend peripheral vascular disease clinic
+170701000000100,Did not attend substance misuse clinic
+170711000000103,Did not attend community psychiatric nurse review
+170731000000106,Did not attend dietetic clinic
+175351000000105,Did not attend peripheral vascular disease clinic
+175361000000108,Did not attend substance misuse clinic
+175371000000101,Did not attend community psychiatric nurse review
+175391000000102,Did not attend dietetic clinic
+185326000,Did not attend - reason given
+185329007,Did not attend - appointment mix-up
+197951000000105,Did not attend vaginal swab
+197961000000108,Did not attend travel vaccination
+197971000000101,Did not attend blood test
+199301000000100,Did not attend diabetic retinopathy clinic
+199331000000106,Did not attend influenza vaccination appointment
+200141000000108,Did not attend cognitive behaviour therapy
+200361000000106,Did not attend practice nurse heart failure clinic
+200961000000107,Did not attend mental health review
+201541000000106,Did not attend community anticoagulation clinic
+201741000000102,Did not attend child immunisation
+201751000000104,Did not attend retinal screening
+201761000000101,Did not attend cervical smear
+2021000000109,Patient did not attend: [no reason] or [defaulted from f/u]
+203921000000106,Did not attend initial appointment
+212731000000102,Did not attend vaginal swab
+212741000000106,Did not attend vaginal swab
+212771000000100,Did not attend blood test
+212781000000103,Did not attend blood test
+214811000000108,Did not attend diabetic retinopathy clinic
+214821000000102,Did not attend diabetic retinopathy clinic
+216671000000108,Did not attend cognitive behaviour therapy
+216681000000105,Did not attend cognitive behaviour therapy
+217751000000106,Did not attend practice nurse heart failure clinic
+217761000000109,Did not attend practice nurse heart failure clinic
+219191000000107,DNA - Did not attend mental health review
+219201000000109,DNA - Did not attend mental health review
+219751000000103,Did not attend community anticoagulation clinic
+219761000000100,Did not attend community anticoagulation clinic
+248051000000100,Did not attend weight monitoring clinic
+248571000000104,Did not attend heart failure clinic
+248831000000104,Did not attend general practitioner chronic disease monitoring clinic
+251151000000105,Did not attend weight monitoring clinic 
+251161000000108,Did not attend heart failure clinic 
+251171000000101,Did not attend general practitioner chronic disease monitoring clinic 
+25261000000107,Did not attend smoking cessation clinic
+270426007,Did not attend - no reason
+274131000000104,Did not attend weight monitoring clinic 
+274141000000108,Did not attend heart failure clinic 
+274151000000106,Did not attend general practitioner chronic disease monitoring clinic 
+275981000000102,Did not attend breast screening clinic
+281399006,Did not attend
+286621000000107,Did not attend renal clinic
+286631000000109,Did not attend renal clinic 
+286641000000100,Did not attend renal clinic 
+288291000000106,Did not attend
+288301000000105,Did not attend retinal screening
+292491000000105,Did not attend
+292501000000104,Did not attend retinal screening
+293191000000109,Did not attend bowel cancer screening programme nurse clinic
+294261000000108,Did not attend bowel cancer screening
+294661000000105,Did not attend ear nose and throat special interest general practitioner clinic
+294671000000103,Did not attend ear nose and throat special interest general practitioner clinic 
+294681000000101,Did not attend ear nose and throat special interest general practitioner clinic 
+295261000000109,Did not attend ophthalmology special interest general practitioner clinic
+295271000000102,Did not attend opthalmology special interest general practitioner clinic 
+295281000000100,Did not attend opthalmology special interest general practitioner clinic 
+295291000000103,Did not attend dermatology special interest general practitioner clinic
+295301000000104,Did not attend dermatology special interest general practitioner clinic 
+295311000000102,Did not attend dermatology special interest general practitioner clinic 
+295321000000108,Did not attend gynaecology special interest general practitioner clinic
+295331000000105,Did not attend gynaecology special interest general practitioner clinic 
+295341000000101,Did not attend gynaecology special interest general practitioner clinic 
+295491000000102,Did not attend cardiology special interest general practitioner clinic
+295501000000108,Did not attend cardiology special interest general practitioner clinic 
+295511000000105,Did not attend cardiology special interest general practitioner clinic 
+298141000000107,Did not attend chronic kidney disease monitoring clinic
+298151000000105,Did not attend chronic kidney disease monitoring clinic 
+298161000000108,Did not attend chronic kidney disease monitoring clinic 
+299591000000104,Did not attend for community disease modifying antirheumatic drug monitoring
+299601000000105,Did not attend for community DMARD monitoring follow up 
+299611000000107,Did not attend for community DMARD monitoring follow up 
+306861000000107,Did not attend diabetes structured education programme
+306871000000100,Did not attend diabetes structured education programme 
+306881000000103,Did not attend diabetes structured education programme 
+307081000000106,Did not attend headache special interest general practitioner clinic
+307091000000108,Did not attend headache special interest general practitioner clinic 
+307101000000100,Did not attend headache special interest general practitioner clinic 
+307141000000102,Did not attend dose adjustment for normal eating diabetes structured education programme
+307151000000104,Did not attend dose adjustment for normal eating diabetes structured education programme 
+307161000000101,Did not attend dose adjustment for normal eating diabetes structured education programme 
+307171000000108,Did not attend diabetes education and self management for ongoing and newly diagnosed structured programme
+307181000000105,Did not attend diabetes education and self management for ongoing and newly diagnosed structured programme 
+307191000000107,Did not attend diabetes education and self management for ongoing and newly diagnosed structured programme 
+307201000000109,Did not attend expert patient education versus routine treatment diabetes structured education programme
+307211000000106,Did not attend expert patient education versus routine treatment diabetes structured education programme 
+307221000000100,Did not attend expert patient education versus routine treatment diabetes structured education programme 
+307231000000103,Did not attend expert patients programme
+307241000000107,Did not attend expert patient programme 
+307251000000105,Did not attend expert patient programme 
+314503007,Did not attend - hospital appointment
+32141000000105,Patient did not attend: [no reason] or [defaulted from f/u]
+341331000000109,Did not attend minor surgery clinic
+341341000000100,Did not attend minor surgery clinic 
+341351000000102,Did not attend minor surgery clinic 
+354171000000107,Did not attend hospital anticoagulation clinic
+354181000000109,Did not attend hospital anticoagulation clinic 
+354191000000106,Did not attend hospital anticoagulation clinic 
+354291000000101,Did not attend general practitioner anticoagulant clinic
+354301000000102,Did not attend general practitioner anticoagulant clinic 
+354311000000100,Did not attend general practitioner anticoagulant clinic 
+364891000000106,Did not attend hospital disease monitoring antirheumatic drug monitoring clinic
+364901000000107,Did not attend hospital disease monitoring antirheumatic drug monitoring clinic 
+364911000000109,Did not attend hospital disease monitoring antirheumatic drug monitoring clinic 
+364921000000103,Did not attend general practitioner disease modifying antirheumatic drug monitoring clinic
+364931000000101,Did not attend general practitioner disease modifying antirheumatic drug monitoring clinic 
+364941000000105,Did not attend general practitioner disease modifying antirheumatic drug monitoring clinic 
+36891000000108,DNA - Did not attend smoking cessation clinic
+36901000000109,DNA - Did not attend smoking cessation clinic
+375601000000108,Did not attend cardiovascular disease risk assessment
+375611000000105,Did not attend cardiovascular disease risk assessment 
+375621000000104,Did not attend cardiovascular disease risk assessment 
+38151000000106,Did not attend mental health appointment
+382201000000105,Did not attend cardiovascular disease primary prevention programme
+382211000000107,Did not attend coronary vascular disease primary prevention programme 
+382221000000101,Did not attend coronary vascular disease primary prevention programme 
+38481000000107,Did not attend mental health appointment
+38731000000100,Did not attend mental health appointment
+389957003,DNA - Did not attend diabetic clinic
+389958008,DNA - Did not attend cardiac clinic
+389959000,DNA - Did not attend cholesterol clinic
+389960005,DNA - Did not attend hypertension clinic
+390691007,DNA - Did not attend diabetic clinic
+390692000,DNA - Did not attend cardiac clinic
+390693005,DNA - Did not attend cholesterol clinic
+390694004,DNA - Did not attend hypertension clinic
+390922008,Did not attend diabetic clinic
+390923003,Did not attend cardiac clinic
+390924009,Did not attend cholesterol clinic
+390925005,Did not attend hypertension clinic
+397710003,Did not attend outpatient appointment
+401202005,Did not attend mental health appointment
+408336008,Did not attend physiotherapy appointment
+40961000000109,Did not attend mental health appointment
+410543007,Did not attend
+412767008,Did not attend psychiatry clinic
+413103005,"Did not attend diphtheria, tetanus and pertussis, Haemophilus influenzae type b and polio vaccination"
+413104004,"Did not attend diphtheria, tetanus and acellular pertussis, polio and measles, mumps and rubella vaccine booster"
+413105003,"Did not attend second diphtheria, tetanus and pertussis, Haemophilus influenzae type b and polio vaccination"
+413106002,"Did not attend third diphtheria, tetanus and pertussis, Haemophilus influenzae type b and polio vaccination"
+413120009,Did not attend podiatry clinic
+413313008,Did not attend dentist in last 12 - 18 months
+413986001,Did not attend community psychiatric nurse review
+413987005,Did not attend dietetic clinic
+413988000,Did not attend peripheral vascular disease clinic
+413989008,Did not attend substance misuse clinic
+43321000000109,Did not attend mental health appointment
+44771000000107,Did not attend mental health appointment
+503241000000102,Did not attend genitourinary medicine clinic
+503251000000104,Did not attend genitourinary medicine clinic 
+503261000000101,Did not attend genitourinary medicine clinic 
+504451000000102,Did not attend extended hours clinic
+504461000000104,Did not attend extended hours clinic - enhanced services administration 
+504471000000106,Did not attend extended hours clinic - enhanced services administration 
+504511000000102,Did not attend for measles mumps rubella catch-up vaccination
+514041000000105,Did not attend learning disabilities annual health assessment
+514051000000108,Did not attend learning disabilities annual health assessment 
+515801000000102,Did not attend new patient screening
+515811000000100,Did not attend new patient screening 
+516411000000108,Did not attend measles mumps and rubella vaccination
+516591000000103,Did not attend meningitis C vaccination
+517491000000101,Did not attend pneumococcal vaccination
+517501000000107,Did not attend pneumococcal vaccination 
+517511000000109,"Did not attend diphtheria, tetanus and acellular pertussis vaccination"
+518281000000103,"Did not attend diphtheria, tetanus, acellular pertussis and polio vaccination"
+519421000000105,Did not attend haemophilus influenzae type B and meningitis C vaccination
+519431000000107,Did not attend haemophilus influenzae type b and meningitis C vaccination 
+519941000000105,Did not attend second measles mumps and rubella vaccination
+519981000000102,Did not attend second meningitis C vaccination
+520001000000109,Did not attend third meningitis C vaccination
+520021000000100,Did not attend second pneumococcal vaccination
+520041000000107,Did not attend third pneumococcal vaccination
+521381000000109,Did not attend asthma review
+521411000000106,Did not attend stroke review
+522351000000107,Did not attend National Health Service Health Check
+522361000000105,Did not attend national health service health check 
+699191007,Did not attend asthma review
+710151000000101,Did not attend influenza A virus subtype H1N1 vaccination
+716261000000107,Did not attend community disease modifying antirheumatic drug monitoring
+736815004,Did not attend abdominal aortic aneurysm screening
+759501000000109,Did not attend spirometry clinic
+759511000000106,Did not attend spirometry clinic 
+759651000000109,Did not attend colposcopy clinic
+759661000000107,Did not attend colposcopy clinic 
+761241000000103,Did not attend weight management special interest general practitioner clinic
+761251000000100,Did not attend weight management special interest general practitioner clinic 
+762371000000108,Did not attend congenital heart disease clinic
+762381000000105,Did not attend congenital heart disease clinic 
+762811000000109,Did not attend diabetes foot screening
+762821000000103,Did not attend diabetes foot screening 
+763151000000107,Did not attend psychotherapy appointment
+763161000000105,Did not attend psychotherapy appointment 
+765271000000106,Did not attend walk in centre
+765281000000108,Did not attend walk in centre 
+774581000000102,Did not attend fast track suspected cancer clinic
+774591000000100,Did not attend fast track suspected cancer clinic 
+774601000000106,Did not attend fast track suspected gynaecological cancer clinic
+774611000000108,Did not attend fast track suspected gynaecological cancer clinic 
+784561000000100,Did not attend abdominal aortic aneurysm screening
+784571000000107,Did not attend abdominal aortic aneurysm screening 
+790751000000101,Did not attend expert patient programme
+835251000000106,Did not attend Bacillus Calmette-Guerin vaccination
+835281000000100,Did not attend Mantoux test
+835291000000103,Did not attend Mantoux reading
+842821000000109,"Did not attend post exposure diphtheria, tetanus, acellular pertussis and inactivated polio vaccination"
+842831000000106,"Did not attend post exposure diphtheria, tetanus, acellular pertussis and inactivated polio vaccination "
+864251000000101,Did not attend National Health Service Health Check annual review
+864261000000103,Did not attend NHS Health Check annual review 
+866351000000103,Did not attend pertussis vaccination in pregnancy
+866361000000100,Did not attend pertussis in pregnancy vaccination 
+869131000000101,Did not attend herpes zoster vaccination
+870011000000106,Did not attend first rotavirus vaccination
+870041000000107,Did not attend second rotavirus vaccination
+870401000000102,Did not attend child and adolescent mental health service appointment
+870411000000100,Did not attend child and adolescent mental health service appointment 
+87161000000103,Did not attend asthma clinic
+87181000000107,Did not attend stroke clinic
+872241000000102,Did not attend optometrist ocular hypertension monitoring
+880031000000109,Did not attend Child and Adolescent Mental Health Service choice appointment
+880041000000100,Did not attend child and adolescent mental health service choice appointment 
+880051000000102,Did not attend Child and Adolescent Mental Health Service partnership appointment
+880061000000104,Did not attend child and adolescent mental health service partnership appointment 
+880071000000106,Did not attend Child and Adolescent Mental Health Service return appointment
+880081000000108,Did not attend child and adolescent mental health service return appointment 
+882081000000109,Did not attend counselling appointment
+882091000000106,Did not attend counselling appointment 
+882141000000100,Did not attend second intranasal seasonal influenza vaccination
+882181000000108,Did not attend first intranasal seasonal influenza vaccination
+882741000000104,Did not attend booster meningitis C vaccination
+882751000000101,Did not attend booster meningitis C vaccination 
+883491000000106,Did not attend depression review
+88591000000101,Did not attend hyperthyroidism clinic
+88601000000107,Did not attend stroke clinic
+886071000000108,Did not attend first intranasal pandemic influenza vaccination
+886111000000102,Did not attend second intranasal pandemic influenza vaccination
+890651000000108,Did not attend postnatal examination
+89581000000109,Did not attend asthma clinic
+918791000000100,Did not attend antenatal appointment
+918801000000101,Did not attend antenatal appointment 
+920741000000101,Did not attend nurse appointment
+920751000000103,Did not attend nurse appointment 
+924331000000103,Did not attend general practitioner appointment
+924341000000107,Did not attend general practitioner appointment 
+93391000000102,Did not attend cancer clinic
+93401000000104,Did not attend epilepsy clinic
+948921000000107,Did not attend contraceptive clinic
+948931000000109,Did not attend contraceptive clinic 
+956821000000104,Did not attend health visitor 3 to 4 month contact with family
+956831000000102,Did not attend health visitor 3 to 4 month contact with family 
+962761000000109,Did not attend clinic
