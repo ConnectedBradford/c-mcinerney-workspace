@@ -1,0 +1,1592 @@
+Concept	Preferred Term	Id
+Delirium due to opioid withdrawal (disorder)	Delirium due to opioid withdrawal	16279021000119106
+Vascular dementia without behavioral disturbance (disorder)	Vascular dementia without behavioural disturbance	16276361000119109
+Bulimia nervosa in full remission (disorder)	Bulimia nervosa in full remission	16270871000119105
+Bulimia nervosa in partial remission (disorder)	Bulimia nervosa in partial remission	16270831000119107
+Severe major depressive disorder co-occurrent with anxiety single episode (disorder)	Severe major depressive disorder co-occurrent with anxiety single episode	16266991000119108
+Moderate major depressive disorder co-occurrent with anxiety single episode (disorder)	Moderate major depressive disorder co-occurrent with anxiety single episode	16266831000119100
+Mild major depressive disorder co-occurrent with anxiety single episode (disorder)	Mild major depressive disorder co-occurrent with anxiety single episode	16265951000119109
+Illness anxiety disorder (disorder)	Illness anxiety disorder	16265701000119107
+Recurrent major depressive disorder in partial remission co-occurrent with anxiety (disorder)	Recurrent major depressive disorder in partial remission co-occurrent with anxiety	16265301000119106
+Recurrent major depressive disorder co-occurrent with anxiety in full remission (disorder)	Recurrent major depressive disorder co-occurrent with anxiety in full remission	16265061000119105
+Recurrent moderate major depressive disorder co-occurrent with anxiety (disorder)	Recurrent moderate major depressive disorder co-occurrent with anxiety	16264901000119109
+Recurrent severe major depressive disorder co-occurrent with anxiety (disorder)	Recurrent severe major depressive disorder co-occurrent with anxiety	16264821000119108
+Recurrent mild major depressive disorder co-occurrent with anxiety (disorder)	Recurrent mild major depressive disorder co-occurrent with anxiety	16264621000119109
+Bipolar disorder caused by drug (disorder)	Bipolar disorder caused by drug	16238741000119105
+Depressive disorder caused by methamphetamine (disorder)	Depressive disorder caused by methamphetamine	16238221000119109
+Depressive disorder caused by amphetamine (disorder)	Depressive disorder caused by amphetamine	16238181000119101
+Delirium due to substance withdrawal syndrome (disorder)	Delirium due to substance withdrawal	16236701000119107
+Delirium due to methamphetamine intoxication (disorder)	Delirium due to methamphetamine intoxication	16236661000119100
+Behavioral disturbance co-occurrent and due to late onset Alzheimer dementia (disorder)	Behavioural disturbance co-occurrent and due to late onset Alzheimer dementia	16219201000119101
+Psychotic disorder caused by methamphetamine (disorder)	Psychotic disorder caused by methamphetamine	15921731000119106
+Mental disorder caused by methamphetamine (disorder)	Mental disorder caused by methamphetamine	12398361000119105
+Mood disorder caused by methamphetamine (disorder)	Mood disorder caused by methamphetamine	12398321000119100
+Anxiety disorder caused by methamphetamine (disorder)	Anxiety disorder caused by methamphetamine	12398201000119102
+Gender dysphoria in adolescence and adulthood (disorder)	Gender dysphoria in adolescence and adulthood	12277711000119108
+Gender dysphoria in childhood (disorder)	Gender dysphoria in childhood	12277671000119109
+Depressive disorder in mother complicating childbirth (disorder)	Depressive disorder in mother complicating childbirth	10835871000119104
+Mental disorder in mother complicating childbirth (disorder)	Mental disorder in mother complicating childbirth	10811201000119102
+Major depressive disorder in mother complicating pregnancy (disorder)	Major depressive disorder in mother complicating pregnancy	10811161000119107
+Major depressive disorder in mother complicating childbirth (disorder)	Major depressive disorder in mother complicating childbirth	10811121000119102
+Psychotic disorder in mother complicating pregnancy (disorder)	Psychotic disorder in mother complicating pregnancy	10760461000119107
+Psychotic disorder in mother complicating childbirth (disorder)	Psychotic disorder in mother complicating childbirth	10760421000119102
+Anxiety disorder in mother complicating childbirth (disorder)	Anxiety disorder in mother complicating childbirth	10743001000119103
+Behavioral disturbance due to multi-infarct dementia (disorder)	Behavioral disturbance due to multi-infarct dementia	293671000119109
+Opioid-induced mood disorder due to opioid dependence (disorder)	Opioid-induced mood disorder due to opioid dependence	288861000119108
+Opioid-induced mood disorder due to opioid abuse (disorder)	Opioid-induced mood disorder due to opioid abuse	288851000119106
+Reactive depressive psychosis, single episode (disorder)	Reactive depressive psychosis, single episode	288751000119101
+Vascular dementia with behavioral disturbance (disorder)	Vascular dementia with behavioural disturbance	288631000119104
+Psychosis caused by inhalant (disorder)	Psychosis caused by inhalant	288461000119105
+Hyposomnia co-occurrent and due to psychological disorder (disorder)	Hyposomnia co-occurrent and due to psychological disorder	288421000119100
+Identity disorder of childhood (disorder)	Identity disorder of childhood	270291000119109
+Alzheimer's disease co-occurrent with delirium (disorder)	Alzheimer's disease co-occurrent with delirium	142011000119109
+Depressed mood in Alzheimer's disease (disorder)	Depressed mood in Alzheimer's disease	142001000119106
+Delusions in Alzheimer's disease (disorder)	Delusions in Alzheimer's disease	141991000119109
+Memory disorder co-occurrent and due to organic brain damage (disorder)	Memory disorder co-occurrent and due to organic brain damage	140621000119106
+Severe seasonal affective disorder (disorder)	Severe seasonal affective disorder	133121000119109
+Rapid cycling bipolar I disorder (disorder)	Rapid cycling bipolar I disorder	133091000119105
+Dementia due to Rett's syndrome (disorder)	Dementia due to Rett's syndrome	130121000119104
+Multi-infarct dementia due to atherosclerosis (disorder)	Multi-infarct dementia due to atherosclerosis	106021000119105
+Amnestic disorder associated with general medical condition (disorder)	Amnestic disorder associated with general medical condition	105451000119102
+Early onset Alzheimer's disease with behavioral disturbance (disorder)	Early onset Alzheimer's disease with behavioral disturbance	105421000119105
+Postpartum major depression in remission (disorder)	Postpartum major depression in remission	104851000119103
+Dementia due to Parkinson's disease (disorder)	Dementia due to Parkinson's disease	101421000119107
+Altered behavior in Alzheimer's disease (disorder)	Altered behavior in Alzheimer's disease	97751000119108
+Episodic mood disorder (disorder)	Episodic mood disorder	94921000119107
+Anxiety in pregnancy (disorder)	Anxiety in pregnancy	94641000119109
+Depressive disorder in mother complicating pregnancy (disorder)	Depressive disorder in mother complicating pregnancy	94631000119100
+Stress reaction with psychomotor agitation (disorder)	Stress reaction with psychomotor agitation	92501000119101
+Epileptic dementia with behavioral disturbance (disorder)	Epileptic dementia with behavioural disturbance	82381000119103
+Dementia due to multiple sclerosis with altered behavior (disorder)	Dementia due to multiple sclerosis with altered behaviour	82371000119101
+Altered behavior in dementia due to Huntington chorea (disorder)	Altered behaviour in Huntington's dementia	82361000119107
+Mixed dementia (disorder)	Mixed dementia	79341000119107
+Acute psychosis (disorder)	Acute psychosis	65971000052100
+Postpartum psychosis in remission (disorder)	Postpartum psychosis in remission	60401000119104
+Impulse control disorder in remission (disorder)	Impulse control disorder in remission	60251000119101
+Pervasive developmental disorder of residual state (disorder)	Pervasive developmental disorder of residual state	39951000119105
+Presenile dementia with delusions (disorder)	Presenile dementia with delusions	31081000119101
+Severe manic bipolar I disorder (disorder)	Severe manic bipolar I disorder	23741000119105
+Psychosis in early childhood (disorder)	Psychosis in early childhood	22641000119109
+Anxiety disorder caused by drug (disorder)	Anxiety disorder caused by drug	22621000119103
+Primary degenerative dementia (disorder)	Primary degenerative dementia	22381000119105
+Dementia co-occurrent and due to Pick's disease (disorder)	Dementia due to Pick's disease	21921000119103
+Organic mental disorder caused by phencyclidine (disorder)	Phencyclidine induced mental problem	21841000119100
+Psychotic disorder caused by phencyclidine (disorder)	Psychotic disorder caused by phencyclidine	21831000119109
+Mood disorder of manic type (disorder)	Mood disorder of manic type	21071000119101
+Psychological disorder during pregnancy (disorder)	Psychological disorder during pregnancy	18491000119109
+Perinatal depression (disorder)	Perinatal depression	10211000132109
+Psychotic disorder caused by amphetamine use (disorder)	Psychotic disorder due to amphetamine use	7761000119106
+Psychogenic fugue co-occurrent and due to stress reaction (disorder)	Psychogenic fugue co-occurrent and due to stress reaction	7031000119100
+Hallucinations co-occurrent and due to late onset dementia (disorder)	Hallucinations co-occurrent and due to late onset dementia	2421000119107
+Dementia with behavioral disturbance (disorder)	Dementia with behavioural disturbance	1591000119103
+Dementia of the Alzheimer type with behavioral disturbance (disorder)	Dementia of the Alzheimer type with behavioral disturbance	1581000119101
+Severe recurrent major depression (disorder)	Severe recurrent major depression	281000119103
+Severe mixed bipolar I disorder (disorder)	Severe mixed bipolar I disorder	271000119101
+Severe depressed bipolar I disorder (disorder)	Severe depressed bipolar I disorder	261000119107
+Severe major depression, single episode (disorder)	Severe major depression, single episode	251000119105
+Frontal variant non-amnestic Alzheimer disease (disorder)	Frontal variant non-amnestic Alzheimer disease	1263585001
+Logopenic non-amnestic Alzheimer disease (disorder)	Logopenic non-amnestic Alzheimer disease	1263555006
+Functional diplopia (disorder)	Functional diplopia	1260351002
+Depression following menopause (disorder)	Postmenopausal depression	1260298008
+Progressive essential tremor, speech impairment, facial dysmorphism, intellectual disability, abnormal behavior syndrome (disorder)	Progressive essential tremor, speech impairment, facial dysmorphism, intellectual disability, abnormal behavior syndrome	1260130005
+Dementia due to classical pantothenate kinase associated neurodegeneration (disorder)	Dementia due to classical pantothenate kinase associated neurodegeneration	1259990004
+Dementia due to atypical pantothenate kinase associated neurodegeneration (disorder)	Dementia due to atypical pantothenate kinase associated neurodegeneration	1259679007
+Dementia due to multiple system atrophy (disorder)	Dementia due to multiple system atrophy	1259677009
+Dementia due to obstructive hydrocephalus (disorder)	Dementia due to obstructive hydrocephalus	1259675001
+Dementia due to paraneoplastic encephalitis (disorder)	Dementia due to paraneoplastic encephalitis	1259667007
+Dementia due to progressive subcortical gliosis (disorder)	Dementia due to progressive subcortical gliosis	1259665004
+Dementia due to polyarteritis nodosa (disorder)	Dementia due to polyarteritis nodosa	1259663006
+Dementia due to inflammatory disorder of musculoskeletal system (disorder)	Dementia due to rheumatological disease	1259661008
+Dementia due to renal failure (disorder)	Dementia due to renal failure	1259656006
+Dementia due to acquired hypothyroidism (disorder)	Dementia due to acquired hypothyroidism	1259591007
+Dementia due to autoimmune encephalitis (disorder)	Dementia due to autoimmune encephalitis	1259586006
+Dementia due to and following dialysis (disorder)	Post-dialysis dementia	1259584009
+Dementia due to celiac disease (disorder)	Dementia due to coeliac disease	1259581001
+Dementia due to Behcet syndrome (disorder)	Dementia due to Behcet syndrome	1259579003
+Dementia due to hypertensive encephalopathy (disorder)	Dementia due to hypertensive encephalopathy	1259531005
+Dementia due to sporadic Creutzfeldt-Jakob disease (disorder)	Dementia due to sporadic Creutzfeldt-Jakob disease	1259529001
+Dementia due to trypanosomiasis (disorder)	Dementia due to trypanosomiasis	1259524006
+Dementia due to variant Creutzfeldt-Jakob disease (disorder)	Dementia due to variant Creutzfeldt-Jakob disease	1259522005
+Dementia due to subacute sclerosing panencephalitis (disorder)	Dementia due to subacute sclerosing panencephalitis	1259519008
+Dementia due to systemic lupus erythematosus (disorder)	Dementia due to systemic lupus erythematosus	1259517005
+Dementia due to Whipple disease (disorder)	Dementia due to Whipple disease	1259513009
+Dementia due to Wilson disease (disorder)	Dementia due to Wilson disease	1259511006
+Dementia due to iatrogenic Creutzfeldt-Jakob disease (disorder)	Dementia due to iatrogenic Creutzfeldt-Jakob disease	1259503001
+Dementia due to kuru (disorder)	Dementia due to kuru	1259501004
+Dementia due to hemorrhagic cerebral infarction due to hypertension (disorder)	Dementia due to hemorrhagic cerebral infarction due to hypertension	1259499007
+Dementia due to Lyme disease (disorder)	Dementia due to Lyme disease	1259496000
+Dementia due to leukodystrophy (disorder)	Dementia due to leukodystrophy	1259494002
+Dementia due to metastatic malignant neoplasm to brain (disorder)	Dementia due to metastatic malignant neoplasm to brain	1259492003
+Dementia due to cerebral amyloid angiopathy (disorder)	Dementia due to cerebral amyloid angiopathy	1259488005
+Dementia due to cerebral vasculitis (disorder)	Dementia due to cerebral vasculitis	1259485008
+Dementia due to fatal familial insomnia (disorder)	Dementia due to fatal familial insomnia	1259480003
+Dementia due to familial Creutzfeldt-Jakob disease (disorder)	Dementia due to familial Creutzfeldt-Jakob disease	1259478009
+Dementia due to genetic disease (disorder)	Dementia due to genetic disease	1259476008
+Dementia due to fragile X syndrome (disorder)	Dementia due to fragile X syndrome	1259473000
+Dementia due to Hashimoto encephalopathy (disorder)	Dementia due to Hashimoto encephalopathy	1259471003
+Dementia due to Gerstmann Straussler Scheinker syndrome (disorder)	Dementia due to Gerstmann Straussler Scheinker syndrome	1259469003
+Dementia due to hypercalcemia (disorder)	Dementia due to hypercalcemia	1259467001
+Dementia due to hepatic failure (disorder)	Dementia due to hepatic failure	1259465009
+Alzheimer disease with psychosis (disorder)	Alzheimer disease with psychosis	1259128002
+Adult-onset tic disorder (disorder)	Adult-onset tic disorder	1259070005
+Trichodynia (disorder)	Trichodynia	1258920002
+Mental disorder during puerperium (disorder)	Mental disorder during puerperium	1258898000
+Trichotemnomania (disorder)	Trichotemnomania	1256062004
+Trichoteiromania (disorder)	Trichoteiromania	1256061006
+Intellectual disability, macrocephaly, hypotonia, behavioral abnormalities syndrome (disorder)	Intellectual disability, macrocephaly, hypotonia, behavioural abnormalities syndrome	1254652005
+Organic mental disorder caused by ethanol (disorder)	Organic mental disorder caused by ethanol	1234783007
+Mood disorder with depressive symptoms caused by ethanol (disorder)	Mood disorder with depressive symptoms caused by ethanol	1234782002
+Mood disorder with manic symptoms caused by ethanol (disorder)	Mood disorder with manic symptoms caused by ethanol	1234781009
+Mood disorder with mixed manic and depressive symptoms caused by ethanol (disorder)	Mood disorder with mixed manic and depressive symptoms caused by ethanol	1234780005
+Mood disorder caused by ethanol (disorder)	Mood disorder caused by ethanol	1234779007
+Psychosis caused by ethanol (disorder)	Psychosis caused by ethanol	1231846001
+Psychotic disorder with insight present (disorder)	Psychotic disorder with insight present	1231503005
+Delusion of emitting foul body odor (disorder)	Delusion of emitting foul body odor	1220650006
+Early onset schizophrenia (disorder)	Early onset schizophrenia	1204417003
+Adolescent rumination disorder (disorder)	Adolescent rumination disorder	1197718003
+Functional vomiting in childhood (disorder)	Functional vomiting in childhood	1197717008
+Psychogenic movement disorder (disorder)	Psychogenic movement disorder	1197149002
+Organic mental disorder caused by sedative (disorder)	Organic mental disorder caused by sedative	1187205008
+Integral membrane protein 2B related amyloidosis (disorder)	ITM2B-related amyloidosis	1187126002
+Chronic traumatic encephalopathy (disorder)	Chronic traumatic encephalopathy	1187004001
+Dementia caused by manganese and/or manganese compound (disorder)	Dementia caused by manganese	1186887004
+Dementia due to nutritional deficiency disorder (disorder)	Dementia due to nutritional deficiency	1186883000
+Dementia due to niacin deficiency (disorder)	Dementia due to niacin deficiency	1186881003
+Dementia due to cobalamin deficiency (disorder)	Dementia due to cobalamin deficiency	1186880002
+Dementia due to thiamine deficiency (disorder)	Dementia due to thiamine deficiency	1186879000
+Dementia due to vitamin E deficiency (disorder)	Dementia due to vitamin E deficiency	1186877003
+Developmental academic disorder due to iodine deficiency (disorder)	Developmental academic disorder due to iodine deficiency	1186832000
+Developmental academic disorder due to iron deficiency (disorder)	Developmental academic disorder due to iron deficiency	1186826005
+Developmental academic disorder due to nutritional stunting (disorder)	Developmental academic disorder due to nutritional stunting	1186823002
+Developmental academic disorder due to deficiency of micronutrients (disorder)	Developmental academic disorder due to micronutrient deficiency	1186821000
+HtrA serine peptidase 1-related autosomal dominant cerebral small vessel disease (disorder)	HTRA1-related autosomal dominant cerebral small vessel disease	1186724002
+Prepubertal anorexia nervosa (disorder)	Prepubertal anorexia nervosa	1186723008
+Tic disorder due to neurosyphilis (disorder)	Neurosyphilitic tic disorder	1177060002
+Tic disorder due to encephalitis (disorder)	Encephalitic tic disorder	1177058004
+Tic disorder due to post-encephalitic syndrome (disorder)	Tic disorder due to post-encephalitic syndrome	1177006005
+Tic disorder due to prion disease (disorder)	Tic disorder due to prion disease	1177002007
+Tic disorder due to rheumatic chorea (disorder)	Tic disorder due to rheumatic chorea	1177001000
+Foreign accent syndrome (disorder)	Foreign accent syndrome	1163406003
+Autosomal dominant Alzheimer disease due to mutation of presenilin 1 (disorder)	Autosomal dominant Alzheimer disease due to mutation of presenilin 1	1156800008
+Autosomal dominant Alzheimer disease due to mutation of presenilin 2 (disorder)	Autosomal dominant Alzheimer disease due to mutation of presenilin 2	1156798001
+Autosomal dominant Alzheimer disease due to mutation of amyloid precursor protein (disorder)	Autosomal dominant Alzheimer disease due to mutation of amyloid precursor protein	1156789004
+Persistent depressive disorder (disorder)	Persistent depressive disorder	1153575004
+Treatment resistant depression (disorder)	Treatment resistant depression	1153570009
+Dementia due to deficiency of folic acid (disorder)	Dementia due to deficiency of folic acid	1148924004
+Neuropsychiatric disorder due to systemic lupus erythematosus (disorder)	Neuropsychiatric disorder due to systemic lupus erythematosus	1144942002
+Possession trance disorder (disorder)	Possession trance disorder	1142047007
+Orthorexia nervosa (disorder)	Orthorexia nervosa	870568002
+Pervasive developmental disorder with cognitive developmental delay and complete impairment of functional language (disorder)	Pervasive developmental disorder with cognitive developmental delay and complete impairment of functional language	870308001
+Pervasive developmental disorder with abscence of functional language (disorder)	Pervasive developmental disorder with abscence of functional language	870307006
+Pervasive developmental disorder with complete impairment of functional language (disorder)	Pervasive developmental disorder with complete impairment of functional language	870306002
+Pervasive developmental disorder with cognitive developmental delay and marked impairment of functional language (disorder)	Pervasive developmental disorder with cognitive developmental delay and marked impairment of functional language	870305003
+Pervasive developmental disorder with complete impairment of functional language without loss of previously acquired skills (disorder)	Pervasive developmental disorder with complete impairment of functional language without loss of previously acquired skills	870304004
+Pervasive developmental disorder with complete impairment of functional language with loss of previously acquired skills (disorder)	Pervasive developmental disorder with complete impairment of functional language with loss of previously acquired skills	870303005
+Pervasive developmental disorder with severe impairment of functional language without loss of previously acquired skills (disorder)	Pervasive developmental disorder with severe impairment of functional language without loss of previously acquired skills	870282001
+Pervasive developmental disorder with severe impairment of functional language with loss of previously acquired skills (disorder)	Pervasive developmental disorder with severe impairment of functional language with loss of previously acquired skills	870280009
+Pervasive developmental disorder with disorder of intellectual development and complete impairment of functional language with loss of previously acquired skills (disorder)	Pervasive developmental disorder with disorder of intellectual development and complete impairment of functional language with loss of previously acquired skills	870270005
+Pervasive developmental disorder with disorder of intellectual development and absence of functional language with loss of previously acquired skills (disorder)	Pervasive developmental disorder with disorder of intellectual development and absence of functional language with loss of previously acquired skills	870269009
+Pervasive developmental disorder with disorder of intellectual development and complete impairment of functional language without loss of previously acquired skills (disorder)	Pervasive developmental disorder with disorder of intellectual development and complete impairment of functional language without loss of previously acquired skills	870268001
+Pervasive developmental disorder with disorder of intellectual development and marked impairment of functional language without loss of previously acquired skills (disorder)	Pervasive developmental disorder with disorder of intellectual development and marked impairment of functional language without loss of previously acquired skills	870267006
+Pervasive developmental disorder with disorder of intellectual development and marked impairment of functional language with loss of previously acquired skills (disorder)	Pervasive developmental disorder with disorder of intellectual development and marked impairment of functional language with loss of previously acquired skills	870266002
+Pervasive developmental disorder with disorder of intellectual development with loss of previously acquired skills (disorder)	Pervasive developmental disorder with disorder of intellectual development with loss of previously acquired skills	870265003
+Pervasive developmental disorder with disorder of intellectual development and pervasive impairment of functional language without loss of previously acquired skills (disorder)	Pervasive developmental disorder with disorder of intellectual development and pervasive impairment of functional language without loss of previously acquired skills	870264004
+Pervasive developmental disorder with impairment of functional language (disorder)	Pervasive developmental disorder with impairment of functional language	870263005
+Pervasive developmental disorder with disorder of intellectual development without loss of previously acquired skills (disorder)	Pervasive developmental disorder with disorder of intellectual development without loss of previously acquired skills	870262000
+Pervasive developmental disorder with marked impairment of functional language without loss of previously acquired skills (disorder)	Pervasive developmental disorder with marked impairment of functional language without loss of previously acquired skills	870261007
+Pervasive developmental disorder with marked impairment of functional language with loss of previously acquired skills (disorder)	Pervasive developmental disorder with marked impairment of functional language with loss of previously acquired skills	870260008
+Dementia due to iron deficiency (disorder)	Dementia due to iron deficiency	840465008
+Dementia due to carbon monoxide poisoning (disorder)	Dementia due to carbon monoxide poisoning	840464007
+Mood disorder with depressive symptoms caused by amfetamine and/or amfetamine derivative (disorder)	Mood disorder with depressive symptoms caused by amphetamine and/or amphetamine derivative	838530009
+Mood disorder with mixed depressive and manic symptoms caused by amfetamine and/or amfetamine derivative (disorder)	Mood disorder with mixed depressive and manic symptoms caused by amfetamine and/or amfetamine derivative	838529004
+Mood disorder with manic symptoms caused by amfetamine and/or amfetamine derivative (disorder)	Mood disorder with manic symptoms caused by amfetamine and/or amfetamine derivative	838528007
+Amyotrophic lateral sclerosis, parkinsonism, dementia complex (disorder)	Amyotrophic lateral sclerosis, parkinsonism, dementia complex	838276009
+Cortical vascular dementia (disorder)	Cortical vascular dementia	833326008
+Persistent adjustment disorder (disorder)	Persistent adjustment disorder	789399002
+Disinhibited behavior due to dementia (disorder)	Disinhibited behavior due to dementia	789170003
+Mood disorder caused by synthetic cannabinoid (disorder)	Synthetic cannabinoid induced mood disorder	789119007
+Rapid cycling bipolar II disorder (disorder)	Rapid cycling bipolar II disorder	789061003
+Transient motor tic (disorder)	Transient motor tic	789053008
+Mood disorder caused by cannabis (disorder)	Mood disorder caused by cannabis	788983007
+Impulse control disorder caused by synthetic cathinone (disorder)	Impulse control disorder caused by synthetic cathinone	788958007
+Impulse control disorder caused by stimulant (disorder)	Impulse control disorder caused by stimulant	788957002
+Impulse control disorder caused by psychoactive substance (disorder)	Impulse control disorder caused by psychoactive substance	788956006
+Impulse control disorder caused by cocaine (disorder)	Impulse control disorder caused by cocaine	788955005
+Dissociative neurological symptom disorder co-occurrent with tremor (disorder)	Dissociative neurological symptom disorder co-occurrent with tremor	788912006
+Dissociative neurological symptom disorder co-occurrent with Parkinsonism (disorder)	Dissociative neurological symptom disorder co-occurrent with Parkinsonism	788911004
+Dissociative neurological symptom disorder co-occurrent with myoclonus (disorder)	Dissociative neurological symptom disorder co-occurrent with myoclonus	788910003
+Dissociative neurological symptom disorder co-occurrent with facial spasm (disorder)	Dissociative neurological symptom disorder co-occurrent with facial spasm	788909008
+Dissociative neurological symptom disorder co-occurrent with dystonia (disorder)	Dissociative neurological symptom disorder co-occurrent with dystonia	788908000
+Dissociative neurological symptom disorder co-occurrent with chorea (disorder)	Dissociative neurological symptom disorder co-occurrent with chorea	788907005
+Dementia due to pellagra (disorder)	Dementia due to pellagra	788899002
+Dementia caused by volatile inhalant (disorder)	Dementia caused by volatile inhalant	788898005
+Amnestic disorder caused by volatile solvent (disorder)	Amnestic disorder caused by volatile solvent	788864001
+Amnestic disorder caused by psychoactive substance (disorder)	Amnestic disorder caused by psychoactive substance	788863007
+Antenatal depression (disorder)	Antenatal depression	788120007
+Familial dementia Danish type (disorder)	ADan amyloidosis	783258000
+Familial dementia British type (disorder)	ABri amyloidosis	783161005
+Macrocephaly, intellectual disability, autism syndrome (disorder)	Macrocephaly, intellectual disability, autism syndrome	783089006
+Adjustment disorder with mixed anxiety and depressed mood (disorder)	Adjustment disorder with mixed anxiety and depressed mood	782501005
+Protein kinase cAMP-dependent type I regulatory subunit beta-related neurodegenerative dementia with intermediate filaments (disorder)	PRKAR1B-related neurodegenerative dementia with intermediate filaments	774069007
+Autism spectrum disorder due to AUTS2 activator of transcription and developmental regulator deficiency (disorder)	Autism spectrum disorder due to AUTS2 deficiency	771512003
+Autism epilepsy syndrome due to branched chain ketoacid dehydrogenase kinase deficiency (disorder)	Autism epilepsy syndrome due to branched chain ketoacid dehydrogenase kinase deficiency	771448004
+Mixed hyperactive hypoactive delirium following surgical procedure (disorder)	Mixed hyperactive hypoactive postoperative delirium	771421000
+Hypoactive delirium following surgical procedure (disorder)	Hypoactive postoperative delirium	771420004
+Hyperactive delirium following surgical procedure (disorder)	Hyperactive postoperative delirium	771419005
+Delirium following surgical procedure (disorder)	Postoperative delirium	771418002
+Developmental delay with autism spectrum disorder and gait instability (disorder)	Developmental delay with autism spectrum disorder and gait instability	770790004
+Bipolar I disorder, most recent episode depression (disorder)	Bipolar I disorder, most recent episode depression	767636002
+Bipolar I disorder, most recent episode manic (disorder)	Bipolar I disorder, most recent episode manic	767635003
+Bipolar affective disorder, most recent episode mixed (disorder)	Bipolar affective disorder, most recent episode mixed	767633005
+Bipolar disorder, most recent episode manic (disorder)	Bipolar disorder, most recent episode manic	767632000
+Bipolar disorder, most recent episode depression (disorder)	Bipolar disorder, most recent episode depression	767631007
+Activity dependent neuroprotector homeobox related multiple congenital anomalies, intellectual disability, autism spectrum disorder (disorder)	ADNP-related multiple congenital anomalies, intellectual disability, autism spectrum disorder	766824003
+Sexual arousal by exposure of genitals to non-consenting prepubertal and postpubertal person (disorder)	Sexual arousal by exposure of genitals to non-consenting prepubertal and postpubertal person	765399000
+Psychosis and severe depression co-occurrent and due to bipolar affective disorder (disorder)	Psychosis and severe depression co-occurrent and due to bipolar affective disorder	765176007
+Telephone scatologia (disorder)	Telephone scatologia	765169002
+Asphyxiophilia (disorder)	Asphyxiophilia	765151006
+Sexual arousal by exposure of genitals to non-consenting prepubertal person (disorder)	Sexual arousal by exposure of genitals to non-consenting prepubertal person	765112001
+Sexual arousal by exposure of genitals to non-consenting postpubertal person (disorder)	Sexual arousal by exposure of genitals to non-consenting postpubertal person	765111008
+Sexual arousal by exposure of genitals to non-consenting person (disorder)	Sexual arousal by exposure of genitals to non-consenting person	765110009
+Pedophilia targeting children of male sex (disorder)	Pedophilia targeting children of male sex	765109004
+Pedophilia targeting children of female sex (disorder)	Pedophilia targeting children of female sex	765108007
+Severe bodily distress disorder (disorder)	Severe bodily distress disorder	764785006
+Moderate bodily distress disorder (disorder)	Moderate bodily distress disorder	764784005
+Mild bodily distress disorder (disorder)	Mild bodily distress disorder	764783004
+Subcortical dementia (disorder)	Subcortical dementia	762707000
+Penoscrotodynia (disorder)	Penoscrotodynia	762522008
+Obsessive compulsive disorder caused by synthetic cathinone (disorder)	Obsessive compulsive disorder caused by synthetic cathinone	762516004
+Anxiety disorder caused by synthetic cathinone (disorder)	Anxiety disorder caused by synthetic cathinone	762515000
+Mood disorder with mixed depressive and manic symptoms caused by synthetic cathinone (disorder)	Mood disorder with mixed depressive and manic symptoms caused by synthetic cathinone	762514001
+Mood disorder with manic symptoms caused by synthetic cathinone (disorder)	Mood disorder with manic symptoms caused by synthetic cathinone	762513007
+Mood disorder with depressive symptoms caused by synthetic cathinone (disorder)	Mood disorder with depressive symptoms caused by synthetic cathinone	762512002
+Mood disorder caused by synthetic cathinone (disorder)	Mood disorder caused by synthetic cathinone	762511009
+Psychotic disorder with schizophreniform symptoms caused by synthetic cathinone (disorder)	Psychotic disorder with schizophreniform symptoms caused by synthetic cathinone	762510005
+Psychotic disorder with delusions caused by synthetic cathinone (disorder)	Psychotic disorder with delusions caused by synthetic cathinone	762509000
+Psychotic disorder with hallucinations caused by synthetic cathinone (disorder)	Psychotic disorder with hallucinations caused by synthetic cathinone	762508008
+Psychotic disorder caused by synthetic cathinone (disorder)	Psychotic disorder caused by synthetic cathinone	762507003
+Delirium caused by synthetic cathinone (disorder)	Delirium caused by synthetic cathinone	762506007
+Complex dissociative intrusion disorder (disorder)	Complex dissociative intrusion disorder	762461003
+Dementia due to and following injury of head (disorder)	Dementia due to and following injury of head	762351006
+Dementia due to prion disease (disorder)	Dementia due to prion disease	762350007
+Childhood onset conduct-dissocial disorder (disorder)	Childhood onset conduct-dissocial disorder	762347009
+Mood disorder with mixed depressive and manic symptoms caused by dissociative drug (disorder)	Mood disorder with mixed depressive and manic symptoms caused by dissociative drug	762346000
+Mood disorder with depressive symptoms caused by dissociative drug (disorder)	Mood disorder with depressive symptoms caused by dissociative drug	762345001
+Mood disorder with manic symptoms caused by dissociative drug (disorder)	Mood disorder with manic symptoms caused by dissociative drug	762344002
+Mood disorder with mixed depressive and manic symptoms caused by volatile inhalant (disorder)	Mood disorder with mixed depressive and manic symptoms caused by volatile inhalant	762340006
+Mood disorder with depressive symptoms caused by volatile inhalant (disorder)	Mood disorder with depressive symptoms caused by volatile inhalant	762339009
+Mood disorder with manic symptoms caused by volatile inhalant (disorder)	Mood disorder with manic symptoms caused by volatile inhalant	762338001
+Mood disorder with mixed depressive and manic symptoms caused by hallucinogen (disorder)	Mood disorder with mixed depressive and manic symptoms caused by hallucinogen	762337006
+Mood disorder with depressive symptoms caused by hallucinogen (disorder)	Mood disorder with depressive symptoms caused by hallucinogen	762336002
+Mood disorder with manic symptoms caused by hallucinogen (disorder)	Mood disorder with manic symptoms caused by hallucinogen	762335003
+Obsessive compulsive disorder caused by stimulant (disorder)	Obsessive compulsive disorder caused by stimulant	762332000
+Anxiety disorder caused by stimulant (disorder)	Anxiety disorder caused by stimulant	762331007
+Mood disorder with mixed depressive and manic symptoms caused by stimulant (disorder)	Mood disorder with mixed depressive and manic symptoms caused by stimulant	762330008
+Mood disorder with depressive symptoms caused by stimulant (disorder)	Mood disorder with depressive symptoms caused by stimulant	762329003
+Mood disorder caused by stimulant (disorder)	Mood disorder caused by stimulant	762328006
+Psychotic disorder with delusions caused by stimulant (disorder)	Psychotic disorder with delusions caused by stimulant	762327001
+Psychotic disorder with hallucinations caused by stimulant (disorder)	Psychotic disorder with hallucinations caused by stimulant	762326005
+Psychotic disorder caused by stimulant (disorder)	Psychotic disorder caused by stimulant	762325009
+Delirium caused by stimulant (disorder)	Delirium caused by stimulant	762324008
+Mood disorder with mixed depressive and manic symptoms caused by opioid (disorder)	Mood disorder with mixed depressive and manic symptoms caused by opioid	762322007
+Mood disorder with depressive symptoms caused by opioid (disorder)	Mood disorder with depressive symptoms caused by opioid	762321000
+Mood disorder with manic symptoms caused by opioid (disorder)	Mood disorder with manic symptoms caused by opioid	762320004
+Anxiety disorder caused by synthetic cannabinoid (disorder)	Anxiety disorder caused by synthetic cannabinoid	737341006
+Psychotic disorder caused by synthetic cannabinoid (disorder)	Psychotic disorder caused by synthetic cannabinoid	737340007
+Delirium caused by synthetic cannabinoid (disorder)	Delirium caused by synthetic cannabinoid	737339005
+Secondary psychotic syndrome with hallucinations and delusions (disorder)	Secondary psychotic syndrome with hallucinations and delusions	737225007
+Dissociative neurological symptom disorder co-occurrent with symptom of speech production (disorder)	Dissociative neurological symptom disorder co-occurrent with symptom of speech production	736316005
+Dissociative neurological symptom disorder co-occurrent with alteration of consciousness (disorder)	Dissociative neurological symptom disorder co-occurrent with alteration of consciousness	736315009
+Dissociative neurological symptom disorder co-occurrent with cognitive symptoms (disorder)	Dissociative neurological symptom disorder co-occurrent with cognitive symptoms	736314008
+Dissociative neurological symptom disorder co-occurrent with symptoms of gait disorder (disorder)	Dissociative neurological symptom disorder co-occurrent with symptoms of gait disorder	736313002
+Exertional heat stroke (disorder)	Exertional heat stroke	735907005
+Psychotic disorder with schizophreniform symptoms caused by cocaine (disorder)	Psychotic disorder with schizophreniform symptoms caused by cocaine	735750005
+Lifelong situational anorgasmia (disorder)	Lifelong situational anorgasmia	735628004
+Lifelong generalized anorgasmia (disorder)	Lifelong generalized anorgasmia	735627009
+Acquired situational anorgasmia (disorder)	Acquired situational anorgasmia	735626000
+Acquired generalized anorgasmia (disorder)	Acquired generalised anorgasmia	735625001
+Gaming disorder predominantly offline (disorder)	Gaming disorder predominantly offline	735553005
+Gaming disorder predominantly online (disorder)	Gaming disorder predominantly online	735552000
+Gaming disorder (disorder)	Gaming disorder	735551007
+Gambling disorder predominantly online (disorder)	Gambling disorder predominantly online	735550008
+Gambling disorder predominantly offline (disorder)	Gambling disorder predominantly offline	735549008
+Dissociative neurological symptom disorder co-occurrent with dizziness (disorder)	Dissociative neurological symptom disorder co-occurrent with dizziness	735548000
+Dissociative neurological symptom disorder co-occurrent with auditory symptom (disorder)	Dissociative neurological symptom disorder co-occurrent with auditory symptom	735547005
+Dissociative neurological symptom disorder co-occurrent with swallowing symptom (disorder)	Dissociative neurological symptom disorder co-occurrent with swallowing symptom	735546001
+Dissociative neurological symptom disorder with visual symptom (disorder)	Dissociative neurological symptom disorder with visual symptom	735545002
+Dissociative neurological disorder with symptom of movement disorder (disorder)	Dissociative neurological disorder with symptom of movement disorder	735544003
+Dissociative neurological disorder with symptom of alteration of sensation (disorder)	Dissociative neurological disorder with symptom of alteration of sensation	735543009
+Dissociative neurological disorder with symptom of weakness (disorder)	Dissociative neurological disorder with symptom of weakness	735542004
+Dissociative neurological symptom disorder (disorder)	Functional neurological disorder	735541006
+Autism spectrum disorder, epilepsy, arthrogryposis syndrome (disorder)	Autism spectrum disorder, epilepsy, arthrogryposis syndrome	733623005
+Dementia co-occurrent and due to Down syndrome (disorder)	Dementia with Down syndrome	733194007
+Dementia co-occurrent and due to progressive multifocal leukoencephalopathy (disorder)	Dementia with progressive multifocal leucoencephalopathy	733193001
+Dementia due to herpes encephalitis (disorder)	Dementia due to herpes encephalitis	733192006
+Dementia due to chronic subdural hematoma (disorder)	Dementia due to chronic subdural hematoma	733191004
+Dementia due to primary malignant neoplasm of brain (disorder)	Dementia due to primary malignant neoplasm of brain	733190003
+Dementia following injury caused by exposure to ionizing radiation (disorder)	Dementia following injury caused by exposure to ionizing radiation	733185001
+Dementia caused by heavy metal exposure (disorder)	Dementia caused by heavy metal exposure	733184002
+Major depression with psychotic features (disorder)	Major depression with psychotic features	726772006
+Delirium co-occurrent with dementia (disorder)	Delirium co-occurrent with dementia	725898002
+Epilepsy co-occurrent and due to dementia (disorder)	Epilepsy co-occurrent and due to dementia	724992007
+Functional paraparesis (disorder)	Functional paraparesis	724819000
+Functional monoparesis (disorder)	Functional monoparesis	724818008
+Dementia due to infectious disease (disorder)	Dementia due to infectious disease	724777003
+Dementia due to disorder of central nervous system (disorder)	Dementia due to disorder of central nervous system	724776007
+Cognitive impairment co-occurrent and due to primary psychotic disorder (disorder)	Cognitive impairment co-occurrent and due to primary psychotic disorder	724760003
+Psychomotor symptom co-occurrent and due to psychotic disorder (disorder)	Psychomotor symptom co-occurrent and due to psychotic disorder	724759008
+Manic symptoms co-occurrent and due to primary psychotic disorder (disorder)	Manic symptoms co-occurrent and due to primary psychotic disorder	724758000
+Depressive symptoms due to primary psychotic disorder (disorder)	Depressive symptoms due to primary psychotic disorder	724757005
+Negative symptoms co-occurrent and due to primary psychotic disorder (disorder)	Negative symptoms co-occurrent and due to primary psychotic disorder	724756001
+Positive symptoms co-occurrent and due to primary psychotic disorder (disorder)	Positive symptoms co-occurrent and due to primary psychotic disorder	724755002
+Amnestic disorder due to multiple etiological factors (disorder)	Amnestic disorder due to multiple aetiological factors	724747009
+Delirium due to multiple etiological factors (disorder)	Delirium due to multiple aetiological factors	724746000
+Paraphilia involving solitary behavior or consenting individuals (disorder)	Paraphilia involving solitary behaviour or consenting individuals	724745001
+Paraphilia involving non-consenting individual (disorder)	Paraphilia involving non-consenting individual	724744002
+Coercive sexual sadism (disorder)	Coercive sexual sadism	724743008
+Adolescent onset conduct-dissocial disorder with normal prosocial emotions (disorder)	Adolescent onset conduct-dissocial disorder with normal prosocial emotions	724742003
+Adolescent onset conduct-dissocial disorder with limited prosocial emotions (disorder)	Adolescent onset conduct-dissocial disorder with limited prosocial emotions	724741005
+Adolescent onset conduct-dissocial disorder (disorder)	Adolescent onset conduct-dissocial disorder	724740006
+Childhood onset conduct-dissocial disorder with normal prosocial emotions (disorder)	Childhood onset conduct-dissocial disorder with normal prosocial emotions	724739009
+Childhood onset conduct-dissocial disorder with limited prosocial emotions (disorder)	Childhood onset conduct-dissocial disorder with limited prosocial emotions	724738001
+Oppositional defiant disorder without chronic irritability-anger with normal prosocial emotions (disorder)	Oppositional defiant disorder without chronic irritability-anger with normal prosocial emotions	724737006
+Oppositional defiant disorder without chronic irritability-anger with limited prosocial emotions (disorder)	Oppositional defiant disorder without chronic irritability-anger with limited prosocial emotions	724736002
+Oppositional defiant disorder without chronic irritability-anger (disorder)	Oppositional defiant disorder without chronic irritability-anger	724735003
+Oppositional defiant disorder co-occurrent with chronic irritability-anger with normal prosocial emotions (disorder)	Oppositional defiant disorder co-occurrent with chronic irritability-anger with normal prosocial emotions	724734004
+Oppositional defiant disorder co-occurrent with chronic irritability-anger (disorder)	Oppositional defiant disorder co-occurrent with chronic irritability-anger	724733005
+Obsessive compulsive disorder caused by psychoactive substance (disorder)	Obsessive compulsive disorder caused by psychoactive substance	724730008
+Psychotic disorder caused by psychoactive substance (disorder)	Psychotic disorder caused by psychoactive substance	724729003
+Anxiety disorder caused by ketamine (disorder)	Anxiety disorder caused by ketamine	724723002
+Anxiety disorder caused by dissociative drug (disorder)	Anxiety disorder caused by dissociative drug	724722007
+Mood disorder caused by ketamine (disorder)	Mood disorder caused by ketamine	724721000
+Mood disorder caused by dissociative drug (disorder)	Mood disorder caused by dissociative drug	724720004
+Psychotic disorder caused by ketamine (disorder)	Psychotic disorder caused by ketamine	724719005
+Psychotic disorder caused by dissociative drug (disorder)	Psychotic disorder caused by dissociative drug	724718002
+Delirium caused by dissociative drug (disorder)	Delirium caused by dissociative drug	724717007
+Delirium caused by ketamine (disorder)	Delirium caused by ketamine	724716003
+Anxiety disorder caused by methylenedioxymethamphetamine (disorder)	Anxiety disorder caused by methylenedioxymethamphetamine	724708007
+Mood disorder caused by methylenedioxymethamphetamine (disorder)	Mood disorder caused by methylenedioxymethamphetamine	724707002
+Psychotic disorder caused by methylenedioxymethamphetamine (disorder)	Psychotic disorder caused by methylenedioxymethamphetamine	724706006
+Delirium caused by methylenedioxymethamphetamine (disorder)	Delirium caused by methylenedioxymethamphetamine	724705005
+Psychotic disorder caused by volatile inhalant (disorder)	Psychotic disorder caused by volatile inhalant	724702008
+Psychotic disorder caused by hallucinogen (disorder)	Psychotic disorder caused by hallucinogen	724696008
+Obsessive compulsive disorder caused by cocaine (disorder)	Obsessive compulsive disorder caused by cocaine	724693000
+Mood disorder with mixed depressive and manic symptoms caused by cocaine (disorder)	Mood disorder with mixed depressive and manic symptoms caused by cocaine	724692005
+Mood disorder with manic symptoms caused by cocaine (disorder)	Mood disorder with manic symptoms caused by cocaine	724691003
+Mood disorder with depressive symptoms caused by cocaine (disorder)	Mood disorder with depressive symptoms caused by cocaine	724690002
+Psychotic disorder caused by cocaine (disorder)	Psychotic disorder caused by cocaine	724689006
+Amnestic disorder caused by anxiolytic (disorder)	Amnestic disorder caused by anxiolytic	724687008
+Amnestic disorder caused by hypnotic (disorder)	Amnestic disorder caused by hypnotic	724686004
+Amnestic disorder caused by sedative (disorder)	Amnestic disorder caused by sedative	724685000
+Mood disorder with mixed depressive and manic symptoms caused by anxiolytic (disorder)	Mood disorder with mixed depressive and manic symptoms caused by anxiolytic	724684001
+Mood disorder with mixed depressive and manic symptoms caused by hypnotic (disorder)	Mood disorder with mixed depressive and manic symptoms caused by hypnotic	724683007
+Mood disorder with mixed depressive and manic symptoms caused by sedative (disorder)	Mood disorder with mixed depressive and manic symptoms caused by sedative	724682002
+Mood disorder with manic symptoms caused by anxiolytic (disorder)	Mood disorder with manic symptoms caused by anxiolytic	724681009
+Mood disorder with manic symptoms caused by hypnotic (disorder)	Mood disorder with manic symptoms caused by hypnotic	724680005
+Mood disorder with manic symptoms caused by sedative (disorder)	Mood disorder with manic symptoms caused by sedative	724679007
+Mood disorder with depressive symptoms caused by anxiolytic (disorder)	Mood disorder with depressive symptoms caused by anxiolytic	724678004
+Mood disorder with depressive symptoms caused by hypnotic (disorder)	Mood disorder with depressive symptoms caused by hypnotic	724677009
+Mood disorder with depressive symptoms caused by sedative (disorder)	Mood disorder with depressive symptoms caused by sedative	724676000
+Psychotic disorder caused by anxiolytic (disorder)	Psychotic disorder caused by anxiolytic	724675001
+Psychotic disorder caused by hypnotic (disorder)	Psychotic disorder caused by hypnotic	724674002
+Psychotic disorder caused by sedative (disorder)	Psychotic disorder caused by sedative	724673008
+Psychotic disorder caused by opioid (disorder)	Psychotic disorder caused by opioid	724655005
+Anxiety disorder caused by opioid (disorder)	Anxiety disorder caused by opioid	724654009
+Stereotypic movement disorder without self-injurious behavior (disorder)	Stereotypic movement disorder without self-injurious behaviour	724652008
+Intellectual developmental disorder due to nutritional deficiency (disorder)	Intellectual developmental disorder due to nutritional deficiency	724564005
+Tic due to and following infection (disorder)	Tic due to and following infection	724545004
+Infection causing tic (disorder)	Infection causing tic	724544000
+Sleep disorder caused by cannabis (disorder)	Sleep disorder caused by cannabis	723937009
+Psychotic disorder caused by cannabis (disorder)	Psychotic disorder caused by cannabis	723936000
+Psychotic disorder caused by alcohol with schizophreniform symptoms (disorder)	Psychotic disorder caused by alcohol with schizophreniform symptoms	723927004
+Significantly low body weight co-occurrent and due to anorexia nervosa of binge-eating purging type (disorder)	Significantly low body weight co-occurrent and due to anorexia nervosa of binge-eating purging type	723920002
+Significantly low body weight co-occurrent and due to anorexia nervosa of restricting type (disorder)	Significantly low body weight co-occurrent and due to anorexia nervosa of restricting type	723919008
+Dangerously low body weight co-occurrent and due to anorexia nervosa of binge-eating purging type (disorder)	Dangerously low body weight co-occurrent and due to anorexia nervosa of binge-eating purging type	723918000
+Dangerously low body weight co-occurrent and due to anorexia nervosa of restricting type (disorder)	Dangerously low body weight co-occurrent and due to anorexia nervosa of restricting type	723917005
+Bodily distress disorder (disorder)	Bodily distress disorder	723916001
+Secondary dissociative disorder (disorder)	Secondary dissociative disorder	723915002
+Olfactory reference disorder (disorder)	Olfactory reference disorder	723913009
+Secondary mood disorder (disorder)	Secondary mood disorder	723912004
+Bipolar type II disorder currently in full remission (disorder)	Bipolar type II disorder currently in full remission	723905008
+Bipolar type I disorder currently in full remission (disorder)	Bipolar type I disorder currently in full remission	723903001
+Delusional disorder currently in full remission (disorder)	Delusional disorder currently in full remission	723901004
+Delusional disorder currently in partial remission (disorder)	Delusional disorder currently in partial remission	723900003
+Delusional disorder currently symptomatic (disorder)	Delusional disorder currently symptomatic	723899008
+Rapidly progressive dementia (disorder)	Rapidly progressive dementia	723390000
+Isodicentric chromosome 15 syndrome (disorder)	Isodicentric chromosome 15 syndrome	723332005
+Ischemic vascular dementia (disorder)	Ischaemic vascular dementia	723123001
+Primary tic disorder (disorder)	Primary tic disorder	723122006
+Dementia due to chromosomal anomaly (disorder)	Dementia due to chromosomal anomaly	722980006
+Dementia due to metabolic abnormality (disorder)	Dementia due to metabolic abnormality	722979008
+Dementia caused by toxin (disorder)	Dementia caused by toxin	722978000
+Dementia co-occurrent and due to neurocysticercosis (disorder)	Dementia co-occurrent and due to neurocysticercosis	722977005
+Secondary stereotypy (disorder)	Secondary stereotypy	722976001
+Primary stereotypy (disorder)	Primary stereotypy	722975002
+Tic due to developmental disorder (disorder)	Tic due to developmental disorder	722973009
+Secondary tic disorder (disorder)	Secondary tic disorder	722972004
+Anorexia nervosa co-occurrent with significantly low body weight (disorder)	Anorexia nervosa co-occurrent with significantly low body weight	722960005
+Anorexia nervosa co-occurrent with dangerously low body weight (disorder)	Anorexia nervosa co-occurrent with dangerously low body weight	722959000
+Adult rumination syndrome of ingested food (disorder)	Adult rumination syndrome of ingested food	722877006
+Non-amnestic Alzheimer disease (disorder)	Non-amnestic Alzheimer disease	722600006
+Autism and facial port-wine stain syndrome (disorder)	Autism and facial port-wine stain syndrome	722287002
+Minimal major depression (disorder)	Minimal major depression	720455008
+Minimal major depression single episode (disorder)	Minimal major depression single episode	720454007
+Moderately severe major depression single episode (disorder)	Moderately severe major depression single episode	720453001
+Moderately severe recurrent major depression (disorder)	Moderately severe recurrent major depression	720452006
+Minimal recurrent major depression (disorder)	Minimal recurrent major depression	720451004
+Psychosis co-occurrent and due to Parkinson's disease (disorder)	Psychosis co-occurrent and due to Parkinson's disease	719717006
+1p21.3 microdeletion syndrome (disorder)	1p21.3 microdeletion syndrome	719600006
+Moderately severe depression (disorder)	Moderately severe depression	719593009
+Moderately severe major depression (disorder)	Moderately severe major depression	719592004
+X-linked intellectual disability and hypotonia with facial dysmorphism and aggressive behavior syndrome (disorder)	X-linked intellectual disability and hypotonia with facial dysmorphism and aggressive behavior syndrome	719157002
+Minimal depression (disorder)	Minimal depression	718636001
+Atypical Rett syndrome (disorder)	Atypical Rett syndrome	718393002
+X-linked epilepsy with learning disability and behavior disorder syndrome (disorder)	X-linked epilepsy with learning disability and behavior disorder syndrome	717223008
+Disruptive mood dysregulation disorder (disorder)	Disruptive mood dysregulation disorder	715924009
+Parkinsonism co-occurrent with dementia of Guadeloupe (disorder)	Parkinsonism with dementia of Guadeloupe	715737004
+Dementia co-occurrent with human immunodeficiency virus infection (disorder)	Dementia co-occurrent with human immunodeficiency virus infection	713844000
+Organic brain syndrome co-occurrent with human immunodeficiency virus infection (disorder)	Organic brain syndrome co-occurrent with human immunodeficiency virus infection	713491003
+Presenile dementia co-occurrent with human immunodeficiency virus infection (disorder)	Presenile dementia co-occurrent with human immunodeficiency virus infection	713488003
+Pathological demand avoidance (disorder)	Pathological demand avoidance	712884004
+Acute polymorphic psychotic disorder co-occurrent with symptoms of schizophrenia (disorder)	Acute polymorphic psychotic disorder co-occurrent with symptoms of schizophrenia	712850003
+Acute polymorphic psychotic disorder without symptoms of schizophrenia (disorder)	Acute polymorphic psychotic disorder without symptoms of schizophrenia	712824002
+Acute depression (disorder)	Acute depression	712823008
+Female athlete triad (disorder)	Female athlete triad	710072005
+Residual Asperger's disorder (disorder)	Residual Asperger's disorder	708037001
+Self-induced vomiting to lose weight (disorder)	Self-induced vomiting to lose weight	705001007
+Delirium due to benzodiazepine withdrawal (disorder)	Delirium due to benzodiazepine withdrawal	703850002
+Dysexecutive syndrome (disorder)	Dysexecutive syndrome	703041000
+Attention deficit hyperactivity disorder, inattentive presentation (restrictive) (disorder)	Attention deficit hyperactivity disorder, inattentive presentation (restrictive)	702815001
+High-functioning autism (disorder)	High-functioning autism	702732007
+Mental disorder in mother complicating pregnancy (disorder)	Mental disorder in mother complicating pregnancy	702711004
+FOXG1 syndrome (disorder)	FOXG1 syndrome	702450004
+Avoidant restrictive food intake disorder (disorder)	Avoidant restrictive food intake disorder	700213005
+Chronic post-traumatic stress disorder following military combat (disorder)	Chronic post-traumatic stress disorder following military combat	699241002
+Delirium in remission (disorder)	Delirium in remission	698958008
+Depressive disorder in remission (disorder)	Depressive disorder in remission	698957003
+Primary degenerative dementia of the Alzheimer type, presenile onset in remission (disorder)	Primary degenerative dementia of the Alzheimer type, presenile onset in remission	698955006
+Primary degenerative dementia of the Alzheimer type, senile onset in remission (disorder)	Primary degenerative dementia of the Alzheimer type, senile onset in remission	698954005
+Dissociative disorder in remission (disorder)	Dissociative disorder in remission	698952009
+Delusional disorder in remission (disorder)	Delusional disorder in remission	698951002
+Dementia in remission (disorder)	Dementia in remission	698949001
+Vascular dementia in remission (disorder)	Vascular dementia in remission	698948009
+Conduct disorder in remission (disorder)	Conduct disorder in remission	698947004
+Cyclothymia in remission (disorder)	Cyclothymia in remission	698946008
+Dementia associated with cerebral anoxia (disorder)	Dementia associated with cerebral anoxia	698781002
+Dementia associated with viral encephalitis (disorder)	Dementia associated with viral encephalitis	698726009
+Dementia associated with neurosyphilis (disorder)	Dementia associated with neurosyphilis	698725008
+Adjustment disorder in remission (disorder)	Adjustment disorder in remission	698701000
+Borderline personality disorder in remission (disorder)	Borderline personality disorder in remission	698700004
+Antisocial personality disorder in remission (disorder)	Antisocial personality disorder in remission	698699000
+Bulimia nervosa in remission (disorder)	Bulimia nervosa in remission	698698008
+Adjustment disorder with mixed disturbance of emotions and conduct in remission (disorder)	Adjustment disorder with mixed disturbance of emotions and conduct in remission	698697003
+Adjustment disorder with depressed mood in remission (disorder)	Adjustment disorder with depressed mood in remission	698696007
+Anorexia nervosa in remission (disorder)	Anorexia nervosa in remission	698695006
+Adjustment disorder with anxious mood in remission (disorder)	Adjustment disorder with anxious mood in remission	698693004
+Attention deficit hyperactivity disorder, predominantly hyperactive impulsive type in remission (disorder)	Attention deficit hyperactivity disorder, predominantly hyperactive impulsive type in remission	698692009
+Avoidant personality disorder in remission (disorder)	Avoidant personality disorder in remission	698690001
+Attention deficit hyperactivity disorder, predominantly inattentive type in remission (disorder)	Attention deficit hyperactivity disorder, predominantly inattentive type in remission	698689005
+Post-traumatic dementia with behavioral change (disorder)	Post-traumatic dementia with behavioural change	698687007
+Dementia associated with multiple sclerosis (disorder)	Dementia associated with multiple sclerosis	698626001
+Dementia associated with normal pressure hydrocephalus (disorder)	Dementia associated with normal pressure hydrocephalus	698625002
+Dementia associated with cerebral lipidosis (disorder)	Dementia associated with cerebral lipidosis	698624003
+Obsessional personality disorder (disorder)	Obsessional personality disorder	473457009
+Compulsive personality disorder (disorder)	Compulsive personality disorder	473456000
+Atypical psychosis (disorder)	Atypical psychosis	473452003
+Fetishistic transvestism (disorder)	Fetishistic transvestism	472981000
+Severe major depression (disorder)	Severe major depression	450714000
+Delayed posttraumatic stress disorder following military combat (disorder)	Delayed posttraumatic stress disorder following military combat	446180007
+Acute posttraumatic stress disorder following military combat (disorder)	Acute posttraumatic stress disorder following military combat	446175003
+Adult attention deficit hyperactivity disorder (disorder)	Adult attention deficit hyperactivity disorder	444613000
+Complex posttraumatic stress disorder (disorder)	Complex posttraumatic stress disorder	443919007
+Psychogenic tremor (disorder)	Psychogenic tremor	443853005
+Nonverbal learning disorder (disorder)	Nonverbal learning disorder	443735008
+Mental disorder caused by drug (disorder)	Mental disorder due to drug	442351006
+Dementia due to Huntington chorea (disorder)	Dementia due to Huntington chorea	442344002
+Active but odd autism (disorder)	Active but odd autism	442314000
+Chronic hypomanic personality disorder (disorder)	Chronic hypomanic personality disorder	442245003
+Psychosexual dysfunction associated with inhibited libido (disorder)	Psychosexual dysfunction associated with inhibited libido	442243005
+Psychogenic dyskinesia (disorder)	Psychogenic dyskinesia	442183006
+Psychogenic fatigue (disorder)	Psychogenic fatigue	442099003
+Chronic depressive personality disorder (disorder)	Chronic depressive personality disorder	442057004
+Psychogenic disorder of the genitourinary system (disorder)	Psychogenic disorder of the genitourinary system	441972000
+Lethal catatonia (disorder)	Lethal catatonia	441833000
+Residual childhood psychosis (disorder)	Residual childhood psychosis	441716003
+Chronic psychogenic pain (disorder)	Chronic psychogenic pain	441711008
+Affective psychosis (disorder)	Affective psychosis	441704009
+Binge eating disorder (disorder)	Binge eating disorder	439960005
+Savant syndrome (disorder)	Savant syndrome	432091002
+Conduct disorder (disorder)	Conduct disorder	430909002
+Severe major depression, single episode, with psychotic features (disorder)	Severe major depression, single episode, with psychotic features	430852001
+Factitious disorder with predominantly psychological signs and symptoms (disorder)	Factitious disorder with predominantly psychological signs and symptoms	430751001
+Factitious disorder with predominantly physical signs and symptoms (disorder)	Factitious disorder with predominantly physical signs and symptoms	430744005
+Vascular dementia (disorder)	Vascular dementia	429998004
+Mood disorder caused by drug (disorder)	Mood disorder caused by drug	429672007
+Sleep-related dissociative disorder (disorder)	Sleep-related dissociative disorder	429571005
+Dementia due to Creutzfeldt Jakob disease (disorder)	Dementia due to Creutzfeldt Jakob disease	429458009
+Transient organic mental disorder (disorder)	Transient organic mental disorder	428703001
+Nightmares associated with chronic post-traumatic stress disorder (disorder)	Nightmares associated with chronic post-traumatic stress disorder	428687006
+Delusional disorder caused by drug (disorder)	Drug-induced delusional disorder	427975003
+Eating disorder in remission (disorder)	Eating disorder in remission	427469003
+Developmental delay in feeding (disorder)	Developmental delay in feeding	426881004
+Premenstrual dysphoric disorder in remission (disorder)	Premenstrual dysphoric disorder in remission	426578000
+Chronic stress disorder (disorder)	Chronic stress disorder	426174008
+Chronic organic mental disorder (disorder)	Chronic organic mental disorder	425919003
+Adjustment reaction to medical therapy (disorder)	Adjustment reaction to medical therapy	425914008
+Psychophysiologic insomnia (disorder)	Psychophysiologic insomnia	425832009
+Psychogenic vocal cord dysfunction (disorder)	Psychogenic vocal cord dysfunction	425743007
+Dementia associated with Parkinson's Disease (disorder)	Dementia associated with Parkinson's Disease	425390006
+Dementia with acquired immunodeficiency syndrome (disorder)	Dementia with AIDS (acquired immunodeficiency syndrome)	421529006
+Presenile dementia with acquired immunodeficiency syndrome (disorder)	Presenile dementia with AIDS (acquired immunodeficiency syndrome)	421023003
+Organic brain syndrome with acquired immunodeficiency syndrome (disorder)	Organic brain syndrome with AIDS (acquired immunodeficiency syndrome)	420774007
+Organic dementia with acquired immunodeficiency syndrome (disorder)	Organic dementia with AIDS (acquired immunodeficiency syndrome)	420614009
+Duplicative flashbacks (disorder)	Duplicative flashbacks	417360004
+Factitious keratitis (disorder)	Factitious keratitis	417294004
+Short duration flashbacks (disorder)	Short duration flashbacks	417143004
+Primary degenerative dementia of the Alzheimer type, senile onset (disorder)	Primary degenerative dementia of the Alzheimer type, senile onset	416975007
+Primary degenerative dementia of the Alzheimer type, presenile onset (disorder)	Primary degenerative dementia of the Alzheimer type, presenile onset	416780008
+Episodic flashbacks (disorder)	Episodic flashbacks	416714005
+Late onset schizophrenia (disorder)	Late onset schizophrenia	416340002
+Long duration flashbacks (disorder)	Long duration flashbacks	416073003
+Depression requiring intervention (disorder)	Depression requiring intervention	413296003
+Infantile psychosis (disorder)	Infantile psychosis	408858002
+Infantile autism (disorder)	Infantile autism	408857007
+Attention deficit hyperactivity disorder (disorder)	Attention deficit hyperactivity disorder	406506008
+Psychogenic loss of appetite (disorder)	Psychogenic loss of appetite	405788002
+Postoperative confusion (disorder)	Postoperative confusion	404906000
+Pinocchio syndrome (disorder)	Pinocchio syndrome	403595006
+Psychogenic formication (disorder)	Psychogenic formication	403594005
+Phobic fear of skin cancer (disorder)	Phobic fear of skin cancer	403593004
+Cutaneous Munchausen syndrome by proxy (disorder)	Cutaneous Munchausen syndrome by proxy	403590001
+Addiction to sunbed use (disorder)	Addiction to sunbed use	403588002
+Addiction to sun exposure (disorder)	Addiction to sun exposure	403587007
+Cutaneous Munchausen syndrome (disorder)	Cutaneous Munchausen syndrome	403586003
+Patch test artifact (disorder)	Patch test artefact	403585004
+Contact urticaria artefacta (disorder)	Contact urticaria artefacta	403584000
+Deliberate self-cutting (disorder)	Deliberate self-cutting	403583006
+Self-inflicted caustic burn (disorder)	Self-inflicted caustic burn	403582001
+Pseudostigmata (disorder)	Pseudostigmata	403581008
+Religious stigmata (disorder)	Religious stigmata	403580009
+Factitious lymphedema (disorder)	Factitious lymphoedema	403579006
+Factitious blistering (disorder)	Factitious blistering	403578003
+Callosity caused by biting and/or chewing (disorder)	Callosity caused by biting and/or chewing	403170002
+Callosity due to habit tic (disorder)	Callosity due to habit tic	403169003
+Addictive behavior with potential to damage skin (disorder)	Addictive behaviour with potential to damage skin	402738002
+Artefactual skin disease (disorder)	Artefactual skin disease	402737007
+Factitious skin disease (disorder)	Factitious skin disease	402736003
+Habit tic affecting hair (disorder)	Habit tic affecting hair	402735004
+Nail dystrophy due to habit tic (disorder)	Nail dystrophy due to habit tic	402734000
+Habit tic affecting skin (disorder)	Habit tic affecting skin	402733006
+Habit tic (disorder)	Habit tic	402732001
+Somatization disorder (disorder)	Somatisation disorder	397923000
+Briquet's syndrome (disorder)	Briquet's syndrome	397826007
+Polysomatizing disorder (disorder)	Polysomatizing disorder	397795007
+Adjustment reaction of late life (disorder)	Adjustment reaction of late life	386825004
+Adjustment reaction of childhood (disorder)	Adjustment reaction of childhood	386824000
+Adjustment reaction of adult life (disorder)	Adjustment reaction of adult life	386823006
+Adjustment reaction of adolescence (disorder)	Adjustment reaction of adolescence	386822001
+Adjustment reaction in infancy (disorder)	Adjustment reaction in infancy	386821008
+Socialized behavior disorder (disorder)	Socialized behavior disorder	386820009
+Phobic disorder (disorder)	Phobic disorder	386810004
+Psychogenic syncope (disorder)	Psychogenic syncope	386572005
+Psychogenic pylorospasm (disorder)	Psychogenic pylorospasm	386537007
+Autistic spectrum disorder with isolated skills (disorder)	Autistic spectrum disorder with isolated skills	373618009
+Panic disorder (disorder)	Panic disorder	371631005
+Severe bipolar II disorder (disorder)	Severe bipolar II disorder	371604007
+Severe bipolar disorder (disorder)	Severe bipolar disorder	371600003
+Severe bipolar I disorder (disorder)	Severe bipolar I disorder	371599001
+Bipolar I disorder (disorder)	Bipolar I disorder	371596008
+Senile dementia with psychosis (disorder)	Senile dementia with psychosis	371026009
+Senile dementia with delusion (disorder)	Senile dementia with delusion	371024007
+Major depressive disorder (disorder)	Major depressive disorder	370143000
+Delirium due to sedative withdrawal (disorder)	Delirium due to sedative withdrawal	361151007
+Specific number difficulty (disorder)	Specific number difficulty	359661001
+Cotard's syndrome (disorder)	Cotard's syndrome	357705009
+Involutional depression (disorder)	Involutional depression	321717001
+Major depression, melancholic type (disorder)	Major depression, melancholic type	320751009
+Recurrent major depressive disorder with melancholic features (disorder)	Recurrent major depressive disorder with melancholic features	319768000
+Posttraumatic stress disorder, delayed onset (disorder)	Posttraumatic stress disorder, delayed onset	318784009
+Stockholm syndrome (disorder)	Stockholm syndrome	317816007
+Organic mental disorder caused by hypnotic agent (disorder)	Organic mental disorder caused by hypnotic agent	313915006
+Chronic post-traumatic stress disorder (disorder)	Chronic post-traumatic stress disorder	313182004
+Senile dementia of the Lewy body type (disorder)	Senile dementia of the Lewy body type	312991009
+Organic mental disorder caused by anxiolytic agent (disorder)	Anxiolytic-induced organic mental disorder	312936002
+Severe depression (disorder)	Severe depression	310497006
+Moderate depression (disorder)	Moderate depression	310496002
+Mild depression (disorder)	Mild depression	310495003
+Organic mental disorder caused by caffeine (disorder)	Organic mental disorder caused by caffeine	309279000
+Cycloid psychosis (disorder)	Cycloid psychosis	307417003
+Psychosomatic abdominal pain (disorder)	Psychosomatic abdominal pain	307199009
+Caregiver stress syndrome (disorder)	Caregiver stress syndrome	300979000
+Endogenous depression (disorder)	Endogenous depression	300706003
+Confusional state (disorder)	Confusional state	286933003
+Chronic confusional state (disorder)	Chronic confusional state	280994000
+Erotomania (disorder)	Erotomania	280949006
+Occupational neurosis (disorder)	Occupational neurosis	280946004
+Derealization syndrome (disorder)	Derealization syndrome	280945000
+Dissociative confusion (disorder)	Dissociative confusion	280943007
+Couvade (disorder)	Couvade	280901000
+Shell shock (disorder)	Shell shock	279611005
+Maternity blues (disorder)	Maternity blues	279225001
+Dementia of frontal lobe type (disorder)	Dementia of frontal lobe type	278857002
+Acute schizophrenia-like psychotic disorder (disorder)	Acute schizophrenia-like psychotic disorder	278853003
+Paranoid-hallucinatory epileptic psychosis (disorder)	Paranoid-hallucinatory epileptic psychosis	278852008
+Delusional dysmorphophobia (disorder)	Delusional dysmorphophobia	278508007
+Involutional paranoid state (disorder)	Involutional paranoid state	278506006
+Dissociative stupor (disorder)	Dissociative stupor	276300008
+Dissociative possession disorder (disorder)	Dissociative possession disorder	276297003
+Dissociative trance (disorder)	Dissociative trance	276296007
+Psychogenic overeating (disorder)	Psychogenic overeating	275474009
+Specific work inhibition (disorder)	Specific work inhibition	275473003
+Psychogenic dysphonia (disorder)	Psychogenic dysphonia	275472008
+Gardner-Diamond syndrome (disorder)	Painful bruising syndrome	275446004
+Acute polymorphic psychotic disorder (disorder)	Acute polymorphic psychotic disorder	274953007
+Borderline schizophrenia (disorder)	Borderline schizophrenia	274952002
+Self-inflicted skin lesions (disorder)	Self-inflicted skin lesions	274949005
+Endogenous depression - recurrent (disorder)	Endogenous depression - recurrent	274948002
+Stress and adjustment reaction (disorder)	Stress and adjustment reaction	271952001
+Schizoaffective disorder, manic type (disorder)	Schizoaffective disorder, manic type	271428004
+Childhood disinhibited attachment disorder (disorder)	Childhood disinhibited attachment disorder	270905000
+Lack or loss of sexual desire (disorder)	Lack or loss of sexual desire	270903007
+Schizoaffective disorder, mixed type (disorder)	Schizoaffective disorder, mixed type	270901009
+Poor insight into neurotic condition (disorder)	Poor insight into neurotic condition	268958005
+Neurotic condition, insight present (disorder)	Neurotic condition, insight present	268957000
+Specific spelling disorder (disorder)	Specific spelling disorder	268738002
+Excessive sexual drive (disorder)	Excessive sexual drive	268724009
+Dissociative motor disorder (disorder)	Dissociative motor disorder	268715000
+Childhood and adolescent disturbance with elective mutism (disorder)	Childhood and adolescent disturbance with elective mutism	268669006
+Childhood and adolescent disturbance with introversion (disorder)	Childhood and adolescent disturbance with introversion	268668003
+Childhood and adolescent disturbance with shyness (disorder)	Childhood and adolescent disturbance with shyness	268667008
+Childhood and adolescent disturbance with sensitivity (disorder)	Childhood and adolescent disturbance with sensitivity	268666004
+Childhood emotional disorder (disorder)	Childhood emotional disorder	268664001
+Unsocial childhood truancy (disorder)	Unsocial childhood truancy	268662002
+Nonaggressive unsocial conduct disorder (disorder)	Nonaggressive unsocial conduct disorder	268661009
+Specific academic or work inhibition (disorder)	Specific academic or work inhibition	268658008
+Somatoform autonomic dysfunction - gastrointestinal tract (disorder)	Somatoform autonomic dysfunction - gastrointestinal tract	268650001
+Psychoneurotic personality disorder (disorder)	Psychoneurotic personality disorder	268634009
+Introverted personality disorder (disorder)	Introverted personality disorder	268633003
+Acute paranoid reaction (disorder)	Acute paranoid reaction	268624000
+Chronic paranoid psychosis (disorder)	Chronic paranoid psychosis	268622001
+Recurrent major depressive episodes (disorder)	Recurrent major depressive episodes	268621008
+Manic disorder, single episode (disorder)	Manic disorder, single episode	268619003
+Acute schizophrenic episode (disorder)	Acute schizophrenic episode	268617001
+Senile and presenile organic psychotic conditions (disorder)	Senile and presenile organic psychotic conditions	268612007
+Jumping disease (disorder)	Jumping disease	267414004
+Pregnancy with mental disorders (disorder)	Pregnancy with mental disorders	267320004
+Self-induced purging (disorder)	Self-induced purging	249520001
+Self-induced purging to lose weight (disorder)	Self-induced purging to lose weight	248118000
+Flashing (disorder)	Flashing	248103001
+Schizophrenic prodrome (disorder)	Schizophrenic prodrome	247804008
+Seasonal affective disorder (disorder)	Seasonal affective disorder	247803002
+Psychosomatic rheumatism (disorder)	Psychosomatic rheumatism	247364000
+Hyposchemazia (disorder)	Hyposchemazia	238979004
+Hyperschemazia (disorder)	Hyperschemazia	238978007
+Delusional hyperhidrosis (disorder)	Delusional hyperhidrosis	238977002
+Delusions of infestation (disorder)	Delusions of infestation	238974009
+Delusions of parasitosis (disorder)	Delusions of parasitosis	238973003
+Cutaneous monosymptomatic delusional psychosis (disorder)	Cutaneous monosymptomatic delusional psychosis	238972008
+Psychogenic sensory disturbance of skin (disorder)	Psychogenic sensory disturbance of skin	238967004
+Syphilophobia (disorder)	Syphilophobia	238966008
+Venereophobia (disorder)	Venereophobia	238965007
+Trichophobia (disorder)	Trichophobia	238961003
+Dermatological non-disease (disorder)	Dermatological non-disease	238960002
+Disorders of cutaneous image and perception (disorder)	Disorders of cutaneous image and perception	238959007
+Repetitive self-excoriation (disorder)	Repetitive self-excoriation	238958004
+Factitial panniculitis (disorder)	Factitial panniculitis	238884009
+Severe postnatal psychosis (disorder)	Severe postnatal psychosis	237352005
+Mild postnatal psychosis (disorder)	Mild postnatal psychosis	237351003
+Severe postnatal depression (disorder)	Severe postnatal depression	237350002
+Mild postnatal depression (disorder)	Mild postnatal depression	237349002
+Psychogenic urinary incontinence (disorder)	Psychogenic urinary incontinence	236667007
+Gingivitis artefacta (disorder)	Gingivitis artefacta	235004005
+Factitious asthma (disorder)	Factitious asthma	233690008
+Conjunctivitis artefacta (disorder)	Factitious conjunctivitis	231864002
+Depressive conduct disorder (disorder)	Depressive conduct disorder	231542000
+Conduct disorder - unsocialized (disorder)	Conduct disorder - unsocialised	231541007
+Conduct disorder - in family context (disorder)	Conduct disorder - in family context	231540008
+Adolescent - emotional problem (disorder)	Adolescent - emotional problem	231539006
+Behavioral and emotional disorder with onset in childhood (disorder)	Behavioural and emotional disorder with onset in childhood	231538003
+Developmental agnosia (disorder)	Developmental agnosia	231537008
+Atypical autism (disorder)	Atypical autism	231536004
+Dermatological pathomimicry (disorder)	Dermatological pathomimicry	231531009
+Post-concussional personality disorder (disorder)	Post-concussional personality disorder	231530005
+Anxious personality disorder (disorder)	Anxious personality disorder	231528008
+Explosive personality disorder (disorder)	Explosive personality disorder	231527003
+Fanatic personality (disorder)	Fanatic personality	231526007
+Manipulative personality disorder (disorder)	Manipulative personality disorder	231525006
+Interictal behavior disorder (disorder)	Interictal behavior disorder	231524005
+Atypical bulimia nervosa (disorder)	Atypical bulimia nervosa	231523004
+Atypical anorexia nervosa (disorder)	Atypical anorexia nervosa	231522009
+Weight fixation (disorder)	Weight fixation	231521002
+Behavioral syndrome associated with physiological disturbance and physical factors (disorder)	Behavioral syndrome associated with physiological disturbance and physical factors	231520001
+Depersonalization-derealization syndrome (disorder)	Depersonalisation-derealisation syndrome	231519007
+Somatoform autonomic dysfunction (disorder)	Somatoform autonomic dysfunction	231517009
+Cutaneous hypochondriasis (disorder)	Cutaneous hypochondriasis	231516000
+Hypochondriacal pain (disorder)	Hypochondriacal pain	231515001
+Dissociative astasia-abasia (disorder)	Dissociative astasia-abasia	231509001
+Mixed anxiety and depressive disorder (disorder)	Mixed anxiety and depressive disorder	231504006
+Masked depression (disorder)	Masked depression	231500002
+Endogenous depression first episode (disorder)	Endogenous depression first episode	231499006
+Hypomania (disorder)	Hypomania	231496004
+Manic stupor (disorder)	Manic stupor	231495000
+Mania (disorder)	Mania	231494001
+Acute transient psychotic disorder (disorder)	Acute transient psychotic disorder	231489001
+Persistent delusional disorder (disorder)	Persistent delusional disorder	231487004
+Post-schizophrenic depression (disorder)	Post-schizophrenic depression	231485007
+Postleucotomy syndrome (disorder)	Postleucotomy syndrome	231456001
+Organic pseudoretarded personality (disorder)	Organic pseudoretarded personality	231455002
+Organic pseudopsychopathic personality (disorder)	Organic pseudopsychopathic personality	231454003
+Lobotomy syndrome (disorder)	Lobotomy syndrome	231453009
+Limbic epilepsy personality syndrome (disorder)	Limbic epilepsy personality syndrome	231452004
+Epileptic psychosis (disorder)	Epileptic psychosis	231449007
+Age-associated memory impairment (disorder)	Age-associated memory impairment	231448004
+Organic emotionally labile disorder (disorder)	Organic emotionally labile disorder	231446000
+Organic dissociative disorder (disorder)	Organic dissociative disorder	231445001
+Organic bipolar disorder (disorder)	Organic bipolar disorder	231444002
+Right hemispheric organic affective disorder (disorder)	Right hemispheric organic affective disorder	231443008
+Organic catatonic disorder (disorder)	Organic catatonic disorder	231442003
+Delirium of mixed origin (disorder)	Delirium of mixed origin	231440006
+Toxic confusional state (disorder)	Toxic confusional state	231439009
+Presbyophrenic psychosis (disorder)	Presbyophrenic psychosis	231438001
+Reactive psychoses (disorder)	Reactive psychoses	231437006
+Cluster tic syndrome (disorder)	Cluster tic syndrome	230539002
+Gestural tic disorder (disorder)	Gestural tic disorder	230338006
+Motor tic disorder (disorder)	Motor tic disorder	230337001
+Vocal tic disorder (disorder)	Vocal tic disorder	230336005
+Facial tic disorder (disorder)	Facial tic disorder	230335009
+Tic caused by drug (disorder)	Tic caused by drug	230334008
+Akinetic-rigid form of Huntington's disease (disorder)	Akinetic-rigid form of Huntington's disease	230301006
+Late onset Huntington's disease (disorder)	Late onset Huntington's disease	230300007
+Juvenile onset Huntington's disease (disorder)	Juvenile onset Huntington's disease	230299004
+Patchy dementia (disorder)	Patchy dementia	230289009
+Mixed cortical and subcortical vascular dementia (disorder)	Mixed cortical and subcortical vascular dementia	230287006
+Subcortical vascular dementia (disorder)	Subcortical vascular dementia	230286002
+Vascular dementia of acute onset (disorder)	Vascular dementia of acute onset	230285003
+Post-traumatic dementia (disorder)	Traumatic encephalopathy	230282000
+Progressive aphasia in Alzheimer's disease (disorder)	Progressive aphasia in Alzheimer's disease	230280008
+Focal Alzheimer's disease (disorder)	Focal Alzheimer's disease	230269008
+Non-familial Alzheimer's disease of late onset (disorder)	Non-familial Alzheimer's disease of late onset	230268000
+Familial Alzheimer's disease of late onset (disorder)	Familial Alzheimer's disease of late onset	230267005
+Non-familial Alzheimer's disease of early onset (disorder)	Non-familial Alzheimer's disease of early onset	230266001
+Familial Alzheimer's disease of early onset (disorder)	Familial Alzheimer's disease of early onset	230265002
+Deficits in attention motor control and perception (disorder)	Deficits in attention motor control and perception	229715008
+Developmental motor speech disorder (disorder)	Developmental motor speech disorder	229700007
+Motor speech disorder (disorder)	Motor speech disorder	229683000
+Psychogenic stammering (disorder)	Psychogenic stammering	229630008
+Localized dissociative amnesia (disorder)	Localized dissociative amnesia	225040001
+Mental disorders during pregnancy, childbirth and the puerperium (disorder)	Mental disorders during pregnancy, childbirth and the puerperium	199257008
+Anxiety disorder (disorder)	Anxiety disorder	197480006
+Charles Bonnet syndrome (disorder)	Charles Bonnet syndrome	193756007
+Pica of infancy and childhood (disorder)	Pica of infancy and childhood	192631000
+Psychogenic feeding disorder of infancy and childhood (disorder)	Psychogenic feeding disorder of infancy and childhood	192630004
+Childhood or adolescent disorder of social functioning (disorder)	Childhood or adolescent disorder of social functioning	192616009
+Childhood phobic anxiety disorder (disorder)	Childhood phobic anxiety disorder	192611004
+Mixed disorder of scholastic skills (disorder)	Mixed disorder of scholastic skills	192575009
+Disorder of psychological development (disorder)	Disorder of psychological development	192562009
+Elaboration of physical symptoms for psychological reasons (disorder)	Elaboration of physical symptoms for psychological reasons	192527004
+Bipolar affective disorder, current episode mixed (disorder)	Bipolar affective disorder, current episode mixed	192362008
+Mixed disorder of psychological development (disorder)	Mixed disorder of psychological development	192147004
+Specific reading disorder (disorder)	Specific reading disorder	192136006
+Hyperkinetic conduct disorder (disorder)	Hyperkinetic conduct disorder	192132008
+Hyperkinesis with developmental delay (disorder)	Hyperkinesis with developmental delay	192131001
+Child attention deficit disorder (disorder)	Child attention deficit disorder	192127007
+Academic underachievement disorder (disorder)	Academic underachievement disorder	192123006
+Sibling jealousy (disorder)	Sibling jealousy	192119003
+Childhood and adolescent fearfulness disturbance (disorder)	Childhood and adolescent fearfulness disturbance	192110004
+Disturbance of anxiety and fearfulness in childhood and adolescence (disorder)	Disturbance of anxiety and fearfulness in childhood and adolescence	192108001
+Neurotic delinquency (disorder)	Neurotic delinquency	192100008
+Childhood disorder of conduct and emotion (disorder)	Childhood disorder of conduct and emotion	192099000
+Isolated explosive disorder (disorder)	Isolated explosive disorder	192097003
+Group delinquency (disorder)	Group delinquency	192092009
+Aggressive unsocial conduct disorder (disorder)	Aggressive unsocial conduct disorder	192082001
+Chronic depression (disorder)	Chronic depression	192080009
+Postviral depression (disorder)	Postviral depression	192079006
+Change in personality (disorder)	Change in personality	192073007
+Organic memory impairment (disorder)	Organic memory impairment	192072002
+Specific nonpsychotic mental disorders following organic brain damage (disorder)	Specific nonpsychotic mental disorders following organic brain damage	192069009
+Hospitalism (disorder)	Hospitalism	192065003
+Elective mutism due to an adjustment reaction (disorder)	Elective mutism due to an adjustment reaction	192064004
+Adjustment reaction with physical symptoms (disorder)	Adjustment reaction with physical symptoms	192063005
+Concentration camp syndrome (disorder)	Concentration camp syndrome	192061007
+Adjustment reaction with destructiveness (disorder)	Adjustment reaction with destructiveness	192058006
+Adjustment reaction with antisocial behavior (disorder)	Adjustment reaction with antisocial behavior	192057001
+Adjustment reaction with aggression (disorder)	Adjustment reaction with aggression	192056005
+Culture shock (disorder)	Culture shock	192054008
+Early adult emancipation disorder (disorder)	Early adult emancipation disorder	192052007
+Adolescent emancipation disorder (disorder)	Adolescent emancipation disorder	192051000
+Prolonged depressive adjustment reaction (disorder)	Prolonged depressive adjustment reaction	192049004
+Brief depressive adjustment reaction (disorder)	Brief depressive adjustment reaction	192046006
+Stress reaction causing mixed disturbance of emotion and conduct (disorder)	Stress reaction causing mixed disturbance of emotion and conduct	192044009
+Acute post-trauma stress state (disorder)	Acute post-trauma stress state	192042008
+Acute situational disturbance (disorder)	Acute situational disturbance	192041001
+Acute stupor state due to acute stress reaction (disorder)	Acute stupor state due to acute stress reaction	192039002
+Acute fugue state due to acute stress reaction (disorder)	Acute fugue state due to acute stress reaction	192038005
+Acute panic state due to acute stress reaction (disorder)	Acute panic state due to acute stress reaction	192037000
+Psychogenic backache (disorder)	Psychogenic backache	192029008
+Non-organic loss of appetite (disorder)	Non-organic loss of appetite	192017004
+Non-organic infant feeding disturbance (disorder)	Non-organic infant feeding disturbance	192016008
+Psychogenic rumination (disorder)	Psychogenic rumination	192014006
+Transient childhood tic (disorder)	Transient childhood tic	191990001
+Psychogenic symptom of special sense organ (disorder)	Psychogenic symptom of special sense organ	191981008
+Psychogenic endocrine malfunction (disorder)	Psychogenic endocrine malfunction	191980009
+Psychogenic dysuria (disorder)	Psychogenic dysuria	191978003
+Psychogenic dysmenorrhea (disorder)	Psychogenic dysmenorrhoea	191977008
+Psychogenic constipation (disorder)	Psychogenic constipation	191973007
+Psychogenic dyspepsia (disorder)	Psychogenic dyspepsia	191972002
+Psychogenic cyclical vomiting (disorder)	Psychogenic cyclical vomiting	191970005
+Psychogenic pruritus (disorder)	Psychogenic pruritus	191966002
+Psychogenic skin symptoms (disorder)	Psychogenic skin symptoms	191965003
+Neurocirculatory asthenia (disorder)	Neurocirculatory asthenia	191962000
+Psychogenic hyperventilation (disorder)	Psychogenic hyperventilation	191956005
+Psychogenic hiccough (disorder)	Psychogenic hiccough	191955009
+Psychogenic cough (disorder)	Psychogenic cough	191954008
+Psychogenic air hunger (disorder)	Psychogenic air hunger	191953002
+Somatoform autonomic dysfunction - respiratory tract (disorder)	Somatoform autonomic dysfunction - respiratory tract	191952007
+Psychosexual identity disorder (disorder)	Psychosexual identity disorder	191787001
+Masochistic personality disorder (disorder)	Masochistic personality disorder	191774007
+Immature personality disorder (disorder)	Immature personality disorder	191773001
+Eccentric personality disorder (disorder)	Eccentric personality disorder	191772006
+Psychoinfantile personality (disorder)	Psychoinfantile personality	191766006
+Emotionally unstable personality disorder (disorder)	Emotionally unstable personality disorder	191765005
+Hypomanic personality disorder (disorder)	Hypomanic personality disorder	191753006
+Psychasthenic neurosis (disorder)	Psychasthenic neurosis	191746002
+Writer's cramp neurosis (disorder)	Writer's cramp neurosis	191744004
+Obsessional neurosis (disorder)	Obsessional neurosis	191738003
+Compulsive neurosis (disorder)	Compulsive neurosis	191737008
+Obsessive-compulsive disorder (disorder)	Obsessive-compulsive disorder	191736004
+Social phobia, fear of public washing (disorder)	Social phobia, fear of public washing	191726007
+Social phobia, fear of public speaking (disorder)	Social phobia, fear of public speaking	191725006
+Social phobia, fear of eating in public (disorder)	Social phobia, fear of eating in public	191724005
+Agoraphobia with panic attacks (disorder)	Agoraphobia with panic attacks	191722009
+Dissociative convulsions (disorder)	Dissociative convulsions	191714002
+Dissociative tremor (disorder)	Dissociative tremor	191713008
+Borderline psychosis of childhood (disorder)	Borderline psychosis of childhood	191697001
+Atypical childhood psychoses (disorder)	Atypical childhood psychoses	191696005
+Residual disintegrative psychoses (disorder)	Residual disintegrative psychoses	191693002
+Active disintegrative psychoses (disorder)	Active disintegrative psychoses	191692007
+Residual infantile autism (disorder)	Residual infantile autism	191690004
+Active infantile autism (disorder)	Active infantile autism	191689008
+Psychosis with origin in childhood (disorder)	Psychosis with origin in childhood	191687005
+Psychogenic stupor (disorder)	Psychogenic stupor	191683009
+Psychogenic paranoid psychosis (disorder)	Psychogenic paranoid psychosis	191680007
+Reactive confusion (disorder)	Reactive confusion	191678001
+Acute hysterical psychosis (disorder)	Acute hysterical psychosis	191677006
+Reactive depressive psychosis (disorder)	Reactive depressive psychosis	191676002
+Paranoia querulans (disorder)	Paranoia querulans	191672000
+Simple paranoid state (disorder)	Simple paranoid state	191668004
+Paranoid disorder (disorder)	Paranoid disorder	191667009
+Atypical depressive disorder (disorder)	Atypical depressive disorder	191659001
+Atypical manic disorder (disorder)	Atypical manic disorder	191658009
+Mixed bipolar affective disorder, in full remission (disorder)	Mixed bipolar affective disorder, in full remission	191643001
+Mixed bipolar affective disorder, severe, with psychosis (disorder)	Mixed bipolar affective disorder, severe, with psychosis	191641004
+Mixed bipolar affective disorder, moderate (disorder)	Mixed bipolar affective disorder, moderate	191639000
+Mixed bipolar affective disorder, mild (disorder)	Mixed bipolar affective disorder, mild	191638008
+Mixed bipolar affective disorder (disorder)	Mixed bipolar affective disorder	191636007
+Bipolar affective disorder, currently depressed, in full remission (disorder)	Bipolar affective disorder, currently depressed, in full remission	191634005
+Bipolar affective disorder, currently depressed, moderate (disorder)	Bipolar affective disorder, currently depressed, moderate	191630001
+Bipolar affective disorder, currently depressed, mild (disorder)	Bipolar affective disorder, currently depressed, mild	191629006
+Bipolar affective disorder, current episode depression (disorder)	Bipolar affective disorder, current episode depression	191627008
+Bipolar affective disorder, currently manic, in full remission (disorder)	Bipolar affective disorder, currently manic, in full remission	191625000
+Bipolar affective disorder, currently manic, severe, with psychosis (disorder)	Bipolar affective disorder, currently manic, severe, with psychosis	191623007
+Bipolar affective disorder, currently manic, moderate (disorder)	Bipolar affective disorder, currently manic, moderate	191621009
+Bipolar affective disorder, currently manic, mild (disorder)	Bipolar affective disorder, currently manic, mild	191620005
+Bipolar affective disorder, current episode manic (disorder)	Bipolar affective disorder, current episode manic	191618007
+Recurrent depression (disorder)	Recurrent depression	191616006
+Recurrent major depressive episodes, severe, with psychosis (disorder)	Recurrent major depressive episodes, severe, with psychosis	191613003
+Recurrent major depressive episodes, moderate (disorder)	Recurrent major depressive episodes, moderate	191611001
+Recurrent major depressive episodes, mild (disorder)	Recurrent major depressive episodes, mild	191610000
+Single major depressive episode, severe, with psychosis (disorder)	Single major depressive episode, severe, with psychosis	191604000
+Recurrent manic episodes, in full remission (disorder)	Recurrent manic episodes, in full remission	191597008
+Recurrent manic episodes, severe, with psychosis (disorder)	Recurrent manic episodes, severe, with psychosis	191595000
+Recurrent manic episodes, moderate (disorder)	Recurrent manic episodes, moderate	191593007
+Recurrent manic episodes, mild (disorder)	Recurrent manic episodes, mild	191592002
+Recurrent manic episodes (disorder)	Recurrent manic episodes	191590005
+Single manic episode in full remission (disorder)	Single manic episode in full remission	191588009
+Single manic episode, severe, with psychosis (disorder)	Single manic episode, severe, with psychosis	191586008
+Single manic episode, moderate (disorder)	Single manic episode, moderate	191584006
+Single manic episode, mild (disorder)	Single manic episode, mild	191583000
+Cenesthopathic schizophrenia (disorder)	Coenesthopathic schizophrenia	191577003
+Schizoaffective schizophrenia in remission (disorder)	Schizoaffective schizophrenia in remission	191574005
+Acute exacerbation of chronic schizoaffective schizophrenia (disorder)	Acute exacerbation of chronic schizoaffective schizophrenia	191572009
+Acute exacerbation of subchronic schizoaffective schizophrenia (disorder)	Acute exacerbation of subchronic schizoaffective schizophrenia	191571002
+Chronic schizoaffective schizophrenia (disorder)	Chronic schizoaffective schizophrenia	191570001
+Subchronic schizoaffective schizophrenia (disorder)	Subchronic schizoaffective schizophrenia	191569002
+Schizoaffective schizophrenia (disorder)	Schizoaffective schizophrenia	191567000
+Latent schizophrenia in remission (disorder)	Latent schizophrenia in remission	191565008
+Acute exacerbation of chronic latent schizophrenia (disorder)	Acute exacerbation of chronic latent schizophrenia	191564007
+Acute exacerbation of subchronic latent schizophrenia (disorder)	Acute exacerbation of subchronic latent schizophrenia	191563001
+Chronic latent schizophrenia (disorder)	Chronic latent schizophrenia	191562006
+Subchronic latent schizophrenia (disorder)	Subchronic latent schizophrenia	191561004
+Latent schizophrenia (disorder)	Latent schizophrenia	191559008
+Acute exacerbation of chronic paranoid schizophrenia (disorder)	Acute exacerbation of chronic paranoid schizophrenia	191555002
+Acute exacerbation of subchronic paranoid schizophrenia (disorder)	Acute exacerbation of subchronic paranoid schizophrenia	191554003
+Acute exacerbation of chronic catatonic schizophrenia (disorder)	Acute exacerbation of chronic catatonic schizophrenia	191548004
+Acute exacerbation of subchronic catatonic schizophrenia (disorder)	Acute exacerbation of subchronic catatonic schizophrenia	191547009
+Catatonic schizophrenia (disorder)	Catatonic schizophrenia	191542003
+Acute exacerbation of chronic schizophrenia (disorder)	Acute exacerbation of chronic schizophrenia	191531007
+Simple schizophrenia (disorder)	Simple schizophrenia	191527001
+Schizophrenic disorders (disorder)	Schizophrenic disorders	191526005
+Non-organic psychosis (disorder)	Non-organic psychosis	191525009
+Dementia associated with another disease (disorder)	Dementia associated with another disease	191519005
+Subacute confusional state, of cerebrovascular origin (disorder)	Subacute confusional state, of cerebrovascular origin	191512001
+Subacute confusional state, of metabolic origin (disorder)	Subacute confusional state, of metabolic origin	191511008
+Subacute confusional state, of endocrine origin (disorder)	Subacute confusional state, of endocrine origin	191510009
+Subacute confusional state, of infective origin (disorder)	Subacute confusional state, of infective origin	191509004
+Subacute confusional state, post-traumatic (disorder)	Subacute confusional state, post-traumatic	191508007
+Subacute delirium (disorder)	Subacute delirium	191507002
+Acute confusional state, of cerebrovascular origin (disorder)	Acute confusional state, of cerebrovascular origin	191505005
+Acute confusional state, of metabolic origin (disorder)	Acute confusional state, of metabolic origin	191504009
+Acute confusional state, of endocrine origin (disorder)	Acute confusional state, of endocrine origin	191503003
+Acute confusional state, of infective origin (disorder)	Acute confusional state, of infective origin	191502008
+Acute confusional state, post-traumatic (disorder)	Acute confusional state, post-traumatic	191501001
+Transient organic psychoses (disorder)	Transient organic psychoses	191499009
+Personality disorder caused by drug (disorder)	Drug-induced personality disorder	191496002
+Depressive disorder caused by drug (disorder)	Depressive disorder caused by drug	191495003
+Amnestic disorder caused by drug (disorder)	Amnestic disorder caused by drug	191494004
+Dementia caused by drug (disorder)	Drug-induced dementia	191493005
+Delirium caused by drug (disorder)	Delirium caused by drug	191492000
+Hallucinosis caused by drug (disorder)	Hallucinosis caused by drug	191486006
+Paranoid state caused by drug (disorder)	Drug-induced paranoid state	191485005
+Psychotic disorder caused by drug (disorder)	Drug-induced psychosis	191483003
+Alcoholic paranoia (disorder)	Alcoholic paranoia	191478006
+Alcohol withdrawal hallucinosis (disorder)	Alcohol withdrawal hallucinosis	191476005
+Chronic alcoholic brain syndrome (disorder)	Chronic alcoholic brain syndrome	191475009
+Korsakov's alcoholic psychosis with peripheral neuritis (disorder)	Korsakov's alcoholic psychosis with peripheral neuritis	191471000
+Arteriosclerotic dementia with depression (disorder)	Arteriosclerotic dementia with depression	191466007
+Arteriosclerotic dementia with paranoia (disorder)	Arteriosclerotic dementia with paranoia	191465006
+Arteriosclerotic dementia with delirium (disorder)	Arteriosclerotic dementia with delirium	191464005
+Uncomplicated arteriosclerotic dementia (disorder)	Uncomplicated arteriosclerotic dementia	191463004
+Senile dementia with delirium (disorder)	Senile dementia with delirium	191461002
+Senile dementia with depression (disorder)	Senile dementia with depression	191459006
+Senile dementia with paranoia (disorder)	Senile dementia with paranoia	191458003
+Senile dementia with depressive or paranoid features (disorder)	Senile dementia with depressive or paranoid features	191457008
+Presenile dementia with depression (disorder)	Presenile dementia with depression	191455000
+Presenile dementia with paranoia (disorder)	Presenile dementia with paranoia	191454001
+Presenile dementia with delirium (disorder)	Presenile dementia with delirium	191452002
+Uncomplicated presenile dementia (disorder)	Uncomplicated presenile dementia	191451009
+Uncomplicated senile dementia (disorder)	Uncomplicated senile dementia	191449005
+Organic psychotic condition (disorder)	Organic psychotic condition	191447007
+Morbid jealousy (disorder)	Morbid jealousy	162313000
+Stress-related problem (disorder)	Stress-related problem	162218007
+Mother-daughter symbiotic syndrome (disorder)	Mother-daughter symbiotic syndrome	129607003
+Frontal lobe syndrome (disorder)	Frontal lobe syndrome	129606007
+Postgastrectomy neurosis (disorder)	Postgastrectomy neurosis	129605006
+Delusion of heart disease syndrome (disorder)	Delusion of heart disease syndrome	129604005
+Symbiotic infantile psychosis (disorder)	Symbiotic infantile psychosis	129602009
+Psychogenic skin disease (disorder)	Psychogenic skin disease	129562004
+Developmental mental disorder (disorder)	Developmental mental disorder	129104009
+Chronic mental disorder (disorder)	Chronic mental disorder	128293007
+Separation anxiety (disorder)	Separation anxiety	126943008
+Conversion disorder, single episode (disorder)	Conversion disorder, single episode	111492006
+Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND panic attacks in partial remission (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND panic attacks in partial remission	111491004
+Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND severe panic attacks (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND severe panic attacks	111490003
+Dream anxiety disorder (disorder)	Dream anxiety disorder	111487009
+Symptomatic sexual sadism (disorder)	Symptomatic sexual sadism	111486000
+Mixed bipolar I disorder in full remission (disorder)	Mixed bipolar I disorder in full remission	111485001
+Undifferentiated schizophrenia (disorder)	Undifferentiated schizophrenia	111484002
+Catatonic schizophrenia in remission (disorder)	Catatonic schizophrenia in remission	111483008
+Subchronic schizophrenia with acute exacerbations (disorder)	Subchronic schizophrenia with acute exacerbations	111482003
+Psychoactive substance-induced organic dementia (disorder)	Psychoactive substance-induced organic dementia	111480006
+Organic mental disorder (disorder)	Organic mental disorder	111479008
+Reactive attachment disorder of infancy OR early childhood, disinhibited type (disorder)	Reactive attachment disorder of infancy OR early childhood, disinhibited type	111477005
+Neurosis (disorder)	Neurosis	111475002
+Indication for modification of patient psychological status (disorder)	Indication for modification of patient psychological status	109901006
+Indication for modification of patient physical status (disorder)	Indication for modification of patient physical status	109900007
+Indication for modification of patient emotional status (disorder)	Indication for modification of patient emotional status	109899002
+Indication for modification of patient cognitive status (disorder)	Indication for modification of patient cognitive status	109898005
+Indication for modification of patient behavior status (disorder)	Indication for modification of patient behavior status	109897000
+Indication for modification of patient status (disorder)	Indication for modification of patient status	109896009
+Factitious cheilitis (disorder)	Factitious cheilitis	109805003
+Mental disorder AND/OR culture bound syndrome (disorder)	Mental disorder AND/OR culture bound syndrome	106015009
+Amnesic shellfish poisoning (disorder)	Amnesic shellfish poisoning	95878009
+Munchausen syndrome by proxy (disorder)	Munchausen's by proxy	95637005
+Sadomasochism (disorder)	Sadomasochism	95636001
+Psychogenic aphonia (disorder)	Psychogenic aphonia	95439001
+Gender dysphoria (disorder)	Gender dysphoria	93461009
+Avoidant disorder of adolescence (disorder)	Avoidant disorder of adolescence	90790003
+Nicotine withdrawal syndrome (disorder)	Nicotine withdrawal	90755006
+Conversion dysphonia (disorder)	Conversion dysphonia	90483007
+Subcortical leukoencephalopathy (disorder)	Subcortical leukoencephalopathy	90099008
+Deferred diagnosis on Axis V (disorder)	Deferred diagnosis on Axis V	89989005
+Panic disorder with agoraphobia AND mild panic attacks (disorder)	Panic disorder with agoraphobia AND mild panic attacks	89948007
+Persecutory delusion disorder (disorder)	Persecutory delusion disorder	89618007
+Tic of organic origin (disorder)	Tic of organic origin	89601008
+Inhalant-induced mood disorder (disorder)	Inhalant-induced mood disorder	89451009
+Hypersomnia disorder related to another mental disorder (disorder)	Hypersomnia disorder related to another mental disorder	89415002
+Erotic zoophilia (disorder)	Erotic zoophilia	89248000
+Axis III diagnosis (disorder)	Axis III diagnosis	89016005
+Dissociative paralysis (disorder)	Dissociative paralysis	88984006
+Schizophreniform disorder (disorder)	Schizophreniform disorder	88975006
+Severe mood disorder without psychotic features (disorder)	Severe mood disorder without psychotic features	88939009
+Dissociative blindness (disorder)	Dissociative blindness	88902008
+Explosive type organic personality disorder (disorder)	Explosive type organic personality disorder	88845000
+Thyrotoxicosis factitia with thyrotoxic crisis (disorder)	Thyrotoxicosis factitia with thyrotoxic crisis	88740003
+Gender identity disorder (disorder)	Gender identity disorder	87991007
+Bipolar I disorder, single manic episode with catatonic features (disorder)	Bipolar I disorder, single manic episode with catatonic features	87950005
+Generalized neuromuscular exhaustion syndrome (disorder)	Generalised neuromuscular exhaustion syndrome	87842000
+Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND moderate panic attacks (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND moderate panic attacks	87798009
+Mild major depression (disorder)	Mild major depression	87512008
+Reactive depression (situational) (disorder)	Reactive depression (situational)	87414006
+Bipolar I disorder, most recent episode depressed with postpartum onset (disorder)	Bipolar I disorder, most recent episode depressed with postpartum onset	87203005
+Severe bipolar I disorder, single manic episode with psychotic features, mood-incongruent (disorder)	Severe bipolar I disorder, single manic episode with psychotic features, mood-incongruent	86058007
+Subchronic undifferentiated schizophrenia (disorder)	Subchronic undifferentiated schizophrenia	85861002
+Acute non-psychotic brain syndrome (disorder)	Acute non-psychotic brain syndrome	85821003
+Bipolar disorder in remission (disorder)	Bipolar disorder in remission	85248005
+Secondary dysthymia (disorder)	Secondary dysthymia	85080004
+Separation anxiety disorder of childhood, early onset (disorder)	Separation anxiety disorder of childhood, early onset	85061001
+Adjustment disorder with disturbance of conduct (disorder)	Adjustment disorder with disturbance of conduct	84984002
+Menopausal depression (disorder)	Menopausal depression	84788008
+Schizoaffective disorder, depressive type (disorder)	Schizoaffective disorder, depressive type	84760002
+Dependent personality disorder (disorder)	Dependent personality disorder	84466009
+Psychogenic amnesia (disorder)	Psychogenic amnesia	84209002
+Pedophilia (disorder)	Pedophilia	84002002
+Cluster C personality disorder (disorder)	Cluster C personality disorder	83890006
+Chronic schizophrenia (disorder)	Chronic schizophrenia	83746006
+Panic disorder with agoraphobia, moderate agoraphobic avoidance AND severe panic attacks (disorder)	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND severe panic attacks	83631006
+Organic mood disorder of mixed type (disorder)	Organic mood disorder of mixed type	83501007
+Body dysmorphic disorder (disorder)	Body dysmorphic disorder	83482000
+Agitated depression (disorder)	Agitated depression	83458005
+Organic mental disorder caused by amphetamine and/or amfetamine derivative (disorder)	Amphetamine-induced organic mental disorder	83367009
+Shyness disorder of childhood (disorder)	Shyness disorder of childhood	83253003
+Ghost sickness (disorder)	Ghost sickness	83233002
+Bipolar II disorder (disorder)	Bipolar II disorder	83225003
+Primary dysthymia (disorder)	Primary dysthymia	83176005
+Moderate manic bipolar I disorder (disorder)	Moderate manic bipolar I disorder	82998009
+Dementia paralytica juvenilis (disorder)	Dementia paralytica juvenilis	82959004
+Panic disorder with agoraphobia, moderate agoraphobic avoidance AND moderate panic attacks (disorder)	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND moderate panic attacks	82738004
+Orgasm disorder (disorder)	Orgasm disorder	82636008
+Panic disorder without agoraphobia with panic attacks in full remission (disorder)	Panic disorder without agoraphobia with panic attacks in full remission	82494000
+Agoraphobia without history of panic disorder without limited symptom attacks (disorder)	Agoraphobia without history of panic disorder without limited symptom attacks	82415003
+Anxiety disorder caused by amfetamine (disorder)	Amphetamine-induced anxiety disorder	82339009
+Postoperative depression (disorder)	Postoperative depression	82218004
+Inhibited male orgasm (disorder)	Inhibited male orgasm	81903006
+Hwa-byung (disorder)	Hwa-byung	81812009
+Bestiality (disorder)	Bestiality	81463002
+Severe bipolar II disorder, most recent episode major depressive without psychotic features (disorder)	Severe bipolar II disorder, most recent episode major depressive without psychotic features	81319007
+Narcissistic personality disorder (disorder)	Narcissistic personality disorder	80711002
+Subchronic paranoid schizophrenia (disorder)	Subchronic paranoid schizophrenia	79866005
+Stuporous depression (disorder)	Stuporous depression	79842004
+Moderate bipolar disorder (disorder)	Moderate bipolar disorder	79584002
+Ecouteurism (disorder)	Ecouteurism	79524000
+Cheshire cat syndrome (disorder)	Cheshire cat syndrome	79459002
+Mild major depression, single episode (disorder)	Mild major depression, single episode	79298009
+Chronic undifferentiated schizophrenia with acute exacerbations (disorder)	Chronic undifferentiated schizophrenia with acute exacerbations	79204003
+Dysthymia (disorder)	Dysthymia	78667006
+Severe manic bipolar I disorder with psychotic features, mood-congruent (disorder)	Severe manic bipolar I disorder with psychotic features, mood-congruent	78640000
+Bipolar I disorder, single manic episode, in partial remission (disorder)	Bipolar I disorder, single manic episode, in partial remission	78269000
+Bulimia nervosa (disorder)	Bulimia nervosa	78004001
+Severe major depression, single episode, with psychotic features, mood-congruent (disorder)	Severe major depression, single episode, with psychotic features, mood-congruent	77911002
+Gender identity disorder of adulthood, previously homosexual (disorder)	Gender identity disorder of adulthood, previously homosexual	77815007
+Anorexia nervosa, restricting type (disorder)	Anorexia nervosa, restricting type	77675002
+Mood disorder with major depressive-like episode due to general medical condition (disorder)	Mood disorder with major depressive-like episode due to general medical condition	77486005
+Jealous delusion disorder (disorder)	Jealous delusion disorder	77475008
+Adductor spastic dysphonia of conversion reaction (disorder)	Adductor spastic dysphonia of conversion reaction	77375009
+Organic mental disorder caused by cannabis (disorder)	Cannabis-induced organic mental disorder	77355000
+Partialism (disorder)	Partialism	77332003
+Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND mild panic attacks (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND mild panic attacks	76868007
+Panic disorder with agoraphobia, moderate agoraphobic avoidance AND panic attacks in partial remission (disorder)	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND panic attacks in partial remission	76812003
+Subchronic residual schizophrenia (disorder)	Subchronic residual schizophrenia	76566000
+Severe major depression, single episode, without psychotic features (disorder)	Severe major depression, single episode, without psychotic features	76441001
+Mal de ojo (disorder)	Mal de ojo	76399004
+Atypical tic disorder (disorder)	Atypical tic disorder	76236006
+Ganser syndrome (disorder)	Ganser syndrome	76129002
+Cyclothymia (disorder)	Cyclothymia	76105009
+Mood disorder with depressive features due to general medical condition (disorder)	Mood disorder with depressive features due to general medical condition	75837004
+Bipolar I disorder, most recent episode depressed with melancholic features (disorder)	Bipolar I disorder, most recent episode depressed with melancholic features	75752004
+Sangue dormido (disorder)	Sangue dormido	75605002
+Bipolar I disorder, single manic episode, in remission (disorder)	Bipolar I disorder, single manic episode, in remission	75360000
+Inhalant-induced psychotic disorder with delusions (disorder)	Inhalant-induced psychotic disorder with delusions	75122001
+Severe major depression without psychotic features (disorder)	Severe major depression without psychotic features	75084000
+Conduct disorder, solitary aggressive type (disorder)	Conduct disorder, solitary aggressive type	74850006
+Taijin kyofusho (disorder)	Taijin kyofusho	74803002
+Pedophilia, limited to incest (disorder)	Paedophilia, limited to incest	74791000
+Mild depressed bipolar I disorder (disorder)	Mild depressed bipolar I disorder	74686005
+Mood disorder in partial remission (disorder)	Mood disorder in partial remission	74266001
+Feeding disorder of infancy OR early childhood (disorder)	Feeding disorder of infancy OR early childhood	74142004
+Panic disorder with agoraphobia, severe agoraphobic avoidance AND panic attacks in partial remission (disorder)	Panic disorder with agoraphobia, severe agoraphobic avoidance AND panic attacks in partial remission	74010007
+Postpartum neurosis (disorder)	Postpartum neurosis	73972002
+Severe major depression with psychotic features (disorder)	Severe major depression with psychotic features	73867007
+Bipolar I disorder, most recent episode mixed with catatonic features (disorder)	Bipolar I disorder, most recent episode mixed with catatonic features	73471000
+Chronic vocal tic disorder (disorder)	Chronic vocal tic disorder	73462009
+Alcohol amnestic disorder (disorder)	Alcohol amnestic disorder	73097000
+Panic disorder without agoraphobia with mild panic attacks (disorder)	Panic disorder without agoraphobia with mild panic attacks	72861004
+Eating disorder (disorder)	Eating disorder	72366004
+Mild manic bipolar I disorder (disorder)	Mild manic bipolar I disorder	71984005
+Childhood disintegrative disorder (disorder)	Childhood disintegrative disorder	71961003
+Elective mutism (disorder)	Elective mutism	71959007
+Astasia-abasia (disorder)	Astasia-abasia	71802006
+Psychologic vaginismus (disorder)	Psychologic vaginismus	71787009
+Recurrent major depressive disorder with postpartum onset (disorder)	Recurrent major depressive disorder with postpartum onset	71336009
+Mild bipolar II disorder, most recent episode major depressive (disorder)	Mild bipolar II disorder, most recent episode major depressive	71294008
+Chronic residual schizophrenia (disorder)	Chronic residual schizophrenia	71103003
+Dissociative deafness (disorder)	Dissociative deafness	70967007
+Multi-infarct dementia, uncomplicated (disorder)	Multi-infarct dementia, uncomplicated	70936005
+Compulsive pedophilia (disorder)	Compulsive paedophilia	70922000
+Subchronic residual schizophrenia with acute exacerbations (disorder)	Subchronic residual schizophrenia with acute exacerbations	70814008
+Depersonalization disorder (disorder)	Depersonalisation disorder	70764005
+Major depression single episode, in partial remission (disorder)	Major depression single episode, in partial remission	70747007
+Agoraphobia (disorder)	Agoraphobia	70691001
+Caffeine-induced anxiety disorder (disorder)	Caffeine-induced anxiety disorder	70655008
+Severe bipolar disorder with psychotic features, mood-congruent (disorder)	Severe bipolar disorder with psychotic features, mood-congruent	70546001
+Cocaine intoxication delirium (disorder)	Cocaine intoxication delirium	70328006
+Conversion muteness (disorder)	Conversion muteness	70066000
+Severe mood disorder with psychotic features, mood-incongruent (disorder)	Severe mood disorder with psychotic features, mood-incongruent	70043001
+Korsakoff's psychosis (disorder)	Korsakoff's psychosis	69482004
+Anxiety hyperventilation (disorder)	Anxiety hyperventilation	69479009
+Conversion aphonia (disorder)	Conversion aphonia	69403006
+Major depressive disorder, single episode with catatonic features (disorder)	Major depressive disorder, single episode with catatonic features	69392006
+Kleptomania (disorder)	Kleptomania	69361009
+Psychotic disorder (disorder)	Psychotic disorder	69322001
+Chronic catatonic schizophrenia (disorder)	Chronic catatonic schizophrenia	68995007
+Gender identity disorder of adolescence, previously heterosexual (disorder)	Gender identity disorder of adolescence, previously heterosexual	68963006
+Schizoaffective disorder (disorder)	Schizoaffective disorder	68890003
+Rett's disorder (disorder)	Rett's disorder	68618008
+Manic bipolar I disorder (disorder)	Manic bipolar I disorder	68569003
+Recurrent major depression in remission (disorder)	Recurrent major depression in remission	68019004
+Primary dysthymia late onset (disorder)	Primary dysthymia late onset	67711008
+Pedophilia, same sex (disorder)	Pedophilia, same sex	67227000
+Acute stress disorder (disorder)	Acute stress disorder	67195008
+Adult gender identity disorder, sexually attracted to both sexes (disorder)	Adult gender identity disorder, sexually attracted to both sexes	67123006
+Severe bipolar II disorder, most recent episode major depressive, in partial remission (disorder)	Severe bipolar II disorder, most recent episode major depressive, in partial remission	67002003
+Identity disorder (disorder)	Identity disorder	66936004
+Moderate depressed bipolar I disorder (disorder)	Moderate depressed bipolar I disorder	66631006
+Psychogenic headache (disorder)	Psychogenic headache	66551002
+Adjustment disorder with mixed disturbance of emotions AND conduct (disorder)	Adjustment disorder with mixed disturbance of emotions AND conduct	66381006
+Impulse control disorder (disorder)	Impulse control disorder	66347000
+Recurrent major depression (disorder)	Recurrent major depression	66344007
+Conduct disorder, group type (disorder)	Conduct disorder, group type	66307007
+Primary degenerative dementia of the Alzheimer type, senile onset, uncomplicated (disorder)	Primary degenerative dementia of the Alzheimer type, senile onset, uncomplicated	66108005
+Psychogenic torticollis (disorder)	Psychogenic torticollis	65438001
+Compulsive sexual masochism (disorder)	Compulsive sexual masochism	65410009
+Psychogenic alopecia (disorder)	Psychogenic alopecia	65384007
+Locuru (disorder)	Locuru	65207000
+Koro (disorder)	Koro	65179007
+Primary degenerative dementia of the Alzheimer type, presenile onset, with delirium (disorder)	Primary degenerative dementia of the Alzheimer type, presenile onset, with delirium	65096006
+Panic disorder without agoraphobia with moderate panic attacks (disorder)	Panic disorder without agoraphobia with moderate panic attacks	65064003
+Bipolar I disorder, most recent episode mixed with postpartum onset (disorder)	Bipolar I disorder, most recent episode mixed with postpartum onset	65042007
+Paranoid schizophrenia (disorder)	Paranoid schizophrenia	64905009
+Severe mixed bipolar I disorder with psychotic features, mood-congruent (disorder)	Severe mixed bipolar I disorder with psychotic features, mood-congruent	64731001
+Avoidant disorder of childhood (disorder)	Avoidant disorder of childhood	64165008
+Psychogenic voice disorder (disorder)	Psychogenic voice disorder	64161004
+Panic disorder with agoraphobia, moderate agoraphobic avoidance AND panic attacks in full remission (disorder)	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND panic attacks in full remission	64060000
+Psychogenic urticaria (disorder)	Psychogenic urticaria	63990000
+Inhalant-induced psychotic disorder with hallucinations (disorder)	Inhalant-induced psychotic disorder with hallucinations	63983005
+Panic disorder with agoraphobia AND panic attacks in partial remission (disorder)	Panic disorder with agoraphobia AND panic attacks in partial remission	63909006
+Voyeurism (disorder)	Voyeurism	63835008
+Major depressive disorder, single episode with melancholic features (disorder)	Major depressive disorder, single episode with melancholic features	63778009
+Panic disorder with agoraphobia, mild agoraphobic avoidance AND mild panic attacks (disorder)	Panic disorder with agoraphobia, mild agoraphobic avoidance AND mild panic attacks	63701002
+Cannabis delusional disorder (disorder)	Cannabis delusional disorder	63649001
+Major depression in full remission (disorder)	Major depression in full remission	63412003
+Folie à trois (disorder)	Folie à trois	63395003
+Anorexia nervosa, binge-eating purging type (disorder)	Anorexia nervosa, binge-eating purging type	63393005
+Manic bipolar I disorder in partial remission (disorder)	Manic bipolar I disorder in partial remission	63249007
+Bouffée délirante (disorder)	Bouffée délirante	63204009
+Paranoid schizophrenia in remission (disorder)	Paranoid schizophrenia in remission	63181006
+Urophilia (disorder)	Urophilia	62792007
+Frotteurism (disorder)	Frotteurism	62491004
+Generalized social phobia (disorder)	Generalized social phobia	62351001
+Conduct disorder, undifferentiated type (disorder)	Conduct disorder, undifferentiated type	61901004
+Induced psychotic disorder (disorder)	Induced psychotic disorder	61831009
+Agoraphobia without history of panic disorder (disorder)	Agoraphobia without history of panic disorder	61569007
+Severe depressed bipolar I disorder without psychotic features (disorder)	Severe depressed bipolar I disorder without psychotic features	61403008
+Panic disorder with agoraphobia, severe agoraphobic avoidance AND severe panic attacks (disorder)	Panic disorder with agoraphobia, severe agoraphobic avoidance AND severe panic attacks	61212007
+Adult gender identity disorder, sexually attracted to neither sex (disorder)	Adult gender identity disorder, sexually attracted to neither sex	61180001
+Combat fatigue (disorder)	Combat fatigue	61157009
+Alcohol-induced psychotic disorder with delusions (disorder)	Alcohol-induced psychotic disorder with delusions	61144001
+Inhalant-induced organic mental disorder (disorder)	Inhalant-induced organic mental disorder	61104008
+Delusional disorder, mixed type (disorder)	Delusional disorder, mixed type	60123008
+Inhibited female orgasm (disorder)	Inhibited female orgasm	60103007
+Severe major depression with psychotic features, mood-incongruent (disorder)	Severe major depression with psychotic features, mood-incongruent	60099002
+Panic disorder with agoraphobia AND panic attacks in full remission (disorder)	Panic disorder with agoraphobia AND panic attacks in full remission	59923000
+Sedative, hypnotic AND/OR anxiolytic-induced persisting dementia (disorder)	Sedative, hypnotic AND/OR anxiolytic-induced persisting dementia	59651006
+Bulimia nervosa, nonpurging type (disorder)	Bulimia nervosa, nonpurging type	59645001
+Severe depressed bipolar I disorder with psychotic features (disorder)	Severe depressed bipolar I disorder with psychotic features	59617007
+Sexual sadism (disorder)	Sexual sadism	59394009
+Adult gender identity disorder, sexually attracted to males (disorder)	Adult gender identity disorder, sexually attracted to males	59216005
+Fetishism (disorder)	Fetishism	59174009
+Symptomatic exhibitionism (disorder)	Symptomatic exhibitionism	58855008
+Huntington's chorea (disorder)	Huntington's chorea	58756001
+Postpartum depression (disorder)	Postpartum depression	58703003
+Severe mood disorder with psychotic features, mood-congruent (disorder)	Severe mood disorder with psychotic features, mood-congruent	58647003
+Physical AND emotional exhaustion state (disorder)	Physical AND emotional exhaustion state	58535001
+Exhibitionism (disorder)	Exhibitionism	58349009
+Organic mood disorder of manic type (disorder)	Organic mood disorder of manic type	58329000
+Schizophrenia (disorder)	Schizophrenia	58214004
+Gender identity disorder of adolescence (disorder)	Gender identity disorder of adolescence	57715001
+Adjustment disorder with depressed mood (disorder)	Adjustment disorder with depressed mood	57194009
+Anorexia nervosa (disorder)	Anorexia nervosa	56882008
+Axis II diagnosis (disorder)	Axis II diagnosis	56641006
+Psychosexual disorder (disorder)	Psychosexual disorder	56627002
+Panic disorder without agoraphobia (disorder)	Panic disorder without agoraphobia	56576003
+Transient tic disorder (disorder)	Transient tic disorder	56573006
+Multi-infarct dementia (disorder)	Multi-infarct dementia	56267009
+Necrosadism (disorder)	Necrosadism	56095002
+Compulsive exhibitionism (disorder)	Compulsive exhibitionism	56034001
+Anxiety disorder caused by phencyclidine (disorder)	Anxiety disorder caused by phencyclidine	55967005
+Schizophreniform disorder without good prognostic features (disorder)	Schizophreniform disorder without good prognostic features	55736003
+Sexual aversion disorder (disorder)	Sexual aversion disorder	55728007
+Adjustment disorder with mixed emotional features (disorder)	Adjustment disorder with mixed emotional features	55668003
+Bipolar I disorder, most recent episode manic with postpartum onset (disorder)	Bipolar I disorder, most recent episode manic with postpartum onset	55516002
+Histrionic personality disorder (disorder)	Histrionic personality disorder	55341008
+Primary degenerative dementia of the Alzheimer type, senile onset, with delusions (disorder)	Primary degenerative dementia of the Alzheimer type, senile onset, with delusions	55009008
+Severe depressed bipolar I disorder with psychotic features, mood-congruent (disorder)	Severe depressed bipolar I disorder with psychotic features, mood-congruent	54761006
+Simple phobia (disorder)	Simple phobia	54587008
+Windigo (disorder)	Windigo	54560009
+Primary degenerative dementia of the Alzheimer type, presenile onset, with delusions (disorder)	Primary degenerative dementia of the Alzheimer type, presenile onset, with delusions	54502004
+Adult gender identity disorder, sexually attracted to females (disorder)	Adult gender identity disorder, sexually attracted to females	54417002
+Disruptive behavior disorder (disorder)	Disruptive behavior disorder	54319003
+Panic disorder without agoraphobia with panic attacks in partial remission (disorder)	Panic disorder without agoraphobia with panic attacks in partial remission	53956006
+Depressed bipolar I disorder in remission (disorder)	Depressed bipolar I disorder in remission	53607008
+Anxiety disorder of childhood (disorder)	Anxiety disorder of childhood	53467004
+Organic mental disorder caused by hallucinogen (disorder)	Organic mental disorder caused by hallucinogen	53050002
+Severe bipolar disorder without psychotic features (disorder)	Severe bipolar disorder without psychotic features	53049002
+Schizoid personality disorder (disorder)	Schizoid personality disorder	52954000
+Anxiety disorder due to a general medical condition (disorder)	Anxiety disorder due to a general medical condition	52910006
+Opioid intoxication delirium (disorder)	Opioid intoxication delirium	52866005
+Developmental reading disorder (disorder)	Developmental reading disorder	52824009
+Dementia (disorder)	Dementia	52448006
+Heat stroke (disorder)	Heat stroke	52072009
+Susto (disorder)	Susto	51946000
+General paresis - neurosyphilis (disorder)	General paresis - neurosyphilis	51928006
+Chronic bipolar I disorder, most recent episode depressed (disorder)	Chronic bipolar I disorder, most recent episode depressed	51637008
+Anxiety disorder caused by cocaine (disorder)	Anxiety disorder caused by cocaine	51493001
+Amphetamine-induced psychotic disorder with hallucinations (disorder)	Amphetamine-induced psychotic disorder with hallucinations	51443000
+Sexual masochism (disorder)	Sexual masochism	51239001
+Residual schizophrenia in remission (disorder)	Residual schizophrenia in remission	51133006
+Panic disorder with agoraphobia, mild agoraphobic avoidance AND panic attacks in partial remission (disorder)	Panic disorder with agoraphobia, mild agoraphobic avoidance AND panic attacks in partial remission	50983008
+Hallucinogen delusional disorder (disorder)	Hallucinogen delusional disorder	50933003
+Delusional disorder caused by phencyclidine (disorder)	Phencyclidine (PCP) delusional disorder	50722006
+Factitious disorder (disorder)	Factitious disorder	50705009
+Latah (disorder)	Latah	50643003
+Paraphilia (disorder)	Paraphilia	50299009
+Organic anxiety disorder caused by psychoactive substance (disorder)	Organic anxiety disorder caused by psychoactive substance	50026000
+Panic disorder with agoraphobia, mild agoraphobic avoidance AND moderate panic attacks (disorder)	Panic disorder with agoraphobia, mild agoraphobic avoidance AND moderate panic attacks	49564006
+Depressed bipolar I disorder in partial remission (disorder)	Depressed bipolar I disorder in partial remission	49512000
+Postseizure delirium (disorder)	Postseizure delirium	49481000
+Depressed bipolar I disorder (disorder)	Depressed bipolar I disorder	49468007
+Deferred diagnosis on Axis II (disorder)	Deferred diagnosis on Axis II	49271002
+Bipolar II disorder, most recent episode hypomanic (disorder)	Bipolar II disorder, most recent episode hypomanic	48937005
+Conduct disorder, adolescent-onset type (disorder)	Conduct disorder, adolescent-onset type	48826008
+Minor depressive disorder (disorder)	Minor depressive disorder	48589009
+Delusional disorder (disorder)	Delusional disorder	48500005
+Pedophilia, nonexclusive type (disorder)	Paedophilia, nonexclusive type	48309007
+Symptomatic sexual masochism (disorder)	Symptomatic sexual masochism	48046002
+Developmental arithmetic disorder (disorder)	Developmental arithmetic disorder	47916000
+Sedative, hypnotic AND/OR anxiolytic-induced psychotic disorder with hallucinations (disorder)	Sedative, hypnotic AND/OR anxiolytic-induced psychotic disorder with hallucinations	47664006
+Posttraumatic stress disorder (disorder)	Posttraumatic stress disorder	47505003
+Grandiose delusion disorder (disorder)	Grandiose delusion disorder	47447001
+Adjustment disorder with anxious mood (disorder)	Adjustment disorder with anxious mood	47372000
+Organic mental disorder caused by cocaine (disorder)	Organic mental disorder caused by cocaine	46975003
+Sexual desire disorder (disorder)	Sexual desire disorder	46762006
+Organic personality disorder caused by psychoactive substance (disorder)	Organic personality disorder caused by psychoactive substance	46721000
+Lecherism (disorder)	Lecherism	46432001
+Recurrent major depression in full remission (disorder)	Recurrent major depression in full remission	46244001
+Severe mixed bipolar I disorder without psychotic features (disorder)	Severe mixed bipolar I disorder without psychotic features	46229002
+Mood disorder (disorder)	Mood disorder	46206005
+Pedophilia, same AND opposite sex (disorder)	Paedophilia, same AND opposite sex	46023009
+Erotic vomiting (disorder)	Erotic vomiting	45994004
+Necrophilia (disorder)	Necrophilia	45924006
+Organic hallucinosis (disorder)	Organic hallucinosis	45912004
+Developmental expressive writing disorder (disorder)	Developmental expressive writing disorder	45677003
+Manic bipolar I disorder in remission (disorder)	Manic bipolar I disorder in remission	45479006
+Passive aggressive personality disorder (disorder)	Passive aggressive personality disorder	44966003
+Recurrent transient tic disorder (disorder)	Recurrent transient tic disorder	44433009
+Dissociative disorder (disorder)	Dissociative disorder	44376007
+Reactive attachment disorder of early childhood (disorder)	Reactive attachment disorder of early childhood	44124003
+Postseizure confusion (disorder)	Postseizure confusion	44031002
+Mild mixed bipolar I disorder (disorder)	Mild mixed bipolar I disorder	43769008
+Autistic disorder of childhood onset (disorder)	Autistic disorder of childhood onset	43614003
+Bipolar II disorder, most recent episode major depressive with atypical features (disorder)	Bipolar II disorder, most recent episode major depressive with atypical features	43568002
+Amphetamine-induced mood disorder (disorder)	Amphetamine-induced mood disorder	43497001
+Panic disorder without agoraphobia with severe panic attacks (disorder)	Panic disorder without agoraphobia with severe panic attacks	43150009
+Major depressive disorder, single episode with atypical features (disorder)	Major depressive disorder, single episode with atypical features	42925002
+Subchronic catatonic schizophrenia (disorder)	Subchronic catatonic schizophrenia	42868002
+Major depression in remission (disorder)	Major depression in remission	42810003
+Organic mood disorder of depressed type (disorder)	Organic mood disorder of depressed type	42594001
+Amok (disorder)	Amok	41932008
+Bipolar disorder in full remission (disorder)	Bipolar disorder in full remission	41836007
+Severe bipolar I disorder, single manic episode with psychotic features (disorder)	Severe bipolar I disorder, single manic episode with psychotic features	41832009
+Ataque de nervios (disorder)	Ataque de nervios	41673007
+Mild bipolar I disorder, single manic episode (disorder)	Mild bipolar I disorder, single manic episode	41552001
+Reactive attachment disorder (disorder)	Reactive attachment disorder	41526007
+Flagellantism (disorder)	Flagellantism	41524005
+Dhat (disorder)	Dhat	41196008
+Psychologic dyspareunia (disorder)	Psychologic dyspareunia	41021005
+Intermittent explosive disorder (disorder)	Intermittent explosive disorder	40987004
+Zar (disorder)	Zar	40950007
+Moderate mixed bipolar I disorder (disorder)	Moderate mixed bipolar I disorder	40926005
+Post-encephalitic syndrome (disorder)	Post-encephalitic syndrome	40673001
+Hallucinogen intoxication delirium (disorder)	Hallucinogen intoxication delirium	40571009
+Recurrent brief depressive disorder (disorder)	Recurrent brief depressive disorder	40568001
+Mild recurrent major depression (disorder)	Mild recurrent major depression	40379007
+Stereotypic movement disorder with self-injurious behavior (disorder)	Stereotypic movement disorder with self-injurious behavior	40083003
+Cannabis-induced anxiety disorder (disorder)	Cannabis-induced anxiety disorder	39951001
+Recurrent major depressive disorder with catatonic features (disorder)	Recurrent major depressive disorder with catatonic features	39809009
+Cannabis intoxication delirium (disorder)	Cannabis intoxication delirium	39807006
+Undifferentiated schizophrenia in remission (disorder)	Undifferentiated schizophrenia in remission	39610001
+Emotional deprivation syndrome (disorder)	Emotional deprivation syndrome	39465007
+Psychoactive substance-induced organic delirium (disorder)	Psychoactive substance-induced organic delirium	39003006
+Recurrent major depressive disorder with atypical features (disorder)	Recurrent major depressive disorder with atypical features	38694004
+Mood disorder in full remission (disorder)	Mood disorder in full remission	38547003
+Primary dysthymia early onset (disorder)	Primary dysthymia early onset	38451003
+Schizoaffective disorder, bipolar type (disorder)	Schizoaffective disorder, bipolar type	38368003
+Panic disorder with agoraphobia, severe agoraphobic avoidance AND panic attacks in full remission (disorder)	Panic disorder with agoraphobia, severe agoraphobic avoidance AND panic attacks in full remission	38328002
+Involutional paraphrenia (disorder)	Involutional paraphrenia	38295006
+Rumination disorder (disorder)	Rumination disorder	37941009
+Avoidant disorder of childhood OR adolescence (disorder)	Avoidant disorder of childhood OR adolescence	37872007
+Anxiety disorder of adolescence (disorder)	Anxiety disorder of adolescence	37868008
+Avoidant personality disorder (disorder)	Avoidant personality disorder	37746008
+Mood disorder due to a general medical condition (disorder)	Mood disorder due to a general medical condition	37739004
+Organic mood disorder caused by psychoactive substance (disorder)	Organic mood disorder caused by psychoactive substance	37331004
+Psychogenic vomiting (disorder)	Psychogenic vomiting	37224001
+Major depression, single episode (disorder)	Major depression, single episode	36923009
+Mild mood disorder (disorder)	Mild mood disorder	36622002
+Mixed bipolar I disorder in partial remission (disorder)	Mixed bipolar I disorder in partial remission	36583000
+Severe recurrent major depression without psychotic features (disorder)	Severe recurrent major depression without psychotic features	36474008
+Pygmalionism (disorder)	Pygmalionism	36262007
+Organic personality disorder (disorder)	Organic personality disorder	36217008
+Secondary dysthymia late onset (disorder)	Secondary dysthymia late onset	36170009
+Schizophreniform disorder with good prognostic features (disorder)	Schizophreniform disorder with good prognostic features	36158005
+Rumination disorder of infancy (disorder)	Rumination disorder of infancy	36039004
+Pervasive developmental disorder (disorder)	Autism spectrum disorder	35919005
+Moderate bipolar II disorder, most recent episode major depressive (disorder)	Moderate bipolar II disorder, most recent episode major depressive	35846004
+Recurrent conversion disorder (disorder)	Recurrent conversion disorder	35827000
+Severe bipolar II disorder, most recent episode major depressive, in remission (disorder)	Severe bipolar II disorder, most recent episode major depressive, in remission	35722002
+Panic disorder with agoraphobia (disorder)	Panic disorder with agoraphobia	35607004
+Depressive disorder (disorder)	Depressive disorder	35489007
+Mixed bipolar I disorder in remission (disorder)	Mixed bipolar I disorder in remission	35481005
+Attention deficit hyperactivity disorder, predominantly inattentive type (disorder)	Attention deficit hyperactivity disorder, predominantly inattentive type	35253001
+Disorganized schizophrenia (disorder)	Disorganized schizophrenia	35252006
+Chronic disorganized schizophrenia with acute exacerbation (disorder)	Chronic disorganised schizophrenia with acute exacerbation	35218008
+Anxiety disorder caused by alcohol (disorder)	Anxiety disorder caused by alcohol	34938008
+Nervios (disorder)	Nervios	34741005
+Axis IV diagnosis (disorder)	Axis IV diagnosis	34485008
+Bipolar II disorder, most recent episode major depressive with melancholic features (disorder)	Bipolar II disorder, most recent episode major depressive with melancholic features	34315001
+Shenjing shuairuo (disorder)	Shenjing shuairuo	34134009
+Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND severe panic attacks (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND severe panic attacks	34116005
+Phencyclidine-induced psychotic disorder with hallucinations (disorder)	Phencyclidine-induced psychotic disorder with hallucinations	33871004
+Severe major depression with psychotic features, mood-congruent (disorder)	Severe major depression with psychotic features, mood-congruent	33736005
+Personality disorder (disorder)	Personality disorder	33449004
+Severe manic bipolar I disorder with psychotic features, mood-incongruent (disorder)	Severe manic bipolar I disorder with psychotic features, mood-incongruent	33380008
+Somatic delusion disorder (disorder)	Somatic delusion disorder	33323008
+Recurrent major depression in partial remission (disorder)	Recurrent major depression in partial remission	33135002
+Severe recurrent major depression with psychotic features, mood-congruent (disorder)	Severe recurrent major depression with psychotic features, mood-congruent	33078009
+Adjustment disorder with work inhibition (disorder)	Adjustment disorder with work inhibition	32880007
+Inhalant-induced persisting dementia (disorder)	Inhalant-induced persisting dementia	32875003
+Bulimia nervosa, purging type (disorder)	Bulimia nervosa, purging type	32721004
+Organic delusional disorder caused by psychoactive substance (disorder)	Organic delusional disorder caused by psychoactive substance	32552001
+Pederasty (disorder)	Pederasty	32410009
+Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND moderate panic attacks (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND moderate panic attacks	32388005
+Amphetamine delusional disorder (disorder)	Amphetamine delusional disorder	32358001
+Voice disorder due to psychosexual conflict (disorder)	Voice disorder due to psychosexual conflict	32174002
+Hallucinogen hallucinosis (disorder)	Hallucinogen hallucinosis	32009006
+Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND mild panic attacks (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND mild panic attacks	31781004
+Phencyclidine intoxication delirium (disorder)	PCP (phencyclidine) intoxication delirium	31715000
+Chronic paranoid schizophrenia (disorder)	Chronic paranoid schizophrenia	31658008
+Unaggressive type unsocialized behavior disorder (disorder)	Unaggressive type unsocialized behavior disorder	31648009
+Multiple personality disorder (disorder)	Multiple personality disorder	31611000
+Bipolar I disorder, most recent episode hypomanic (disorder)	Bipolar I disorder, most recent episode hypomanic	31446002
+Disorganized schizophrenia in remission (disorder)	Disorganised schizophrenia in remission	31373002
+Coprophilia (disorder)	Coprophilia	31358003
+Somatoform disorder (disorder)	Somatoform disorder	31297008
+Attention deficit hyperactivity disorder, combined type (disorder)	Attention deficit hyperactivity disorder, combined type	31177006
+Schizotypal personality disorder (disorder)	Schizotypal personality disorder	31027006
+Manic bipolar I disorder in full remission (disorder)	Manic bipolar I disorder in full remission	30935000
+Flashbacks (disorder)	Flashbacks	30871003
+Bipolar II disorder, most recent episode major depressive with postpartum onset (disorder)	Bipolar II disorder, most recent episode major depressive with postpartum onset	30687003
+Major depression in partial remission (disorder)	Major depression in partial remission	30605009
+Severe bipolar II disorder, most recent episode major depressive with psychotic features (disorder)	Severe bipolar II disorder, most recent episode major depressive with psychotic features	30520009
+Gender identity disorder of adolescence, previously homosexual (disorder)	Gender identity disorder of adolescence, previously homosexual	30509009
+Cocaine delusional disorder (disorder)	Cocaine delusional disorder	30491001
+Chronic residual schizophrenia with acute exacerbations (disorder)	Chronic residual schizophrenia with acute exacerbations	30336007
+Nicotine-induced organic mental disorder (disorder)	Nicotine-induced organic mental disorder	30310000
+Somatoform pain disorder (disorder)	Somatoform pain disorder	30077003
+Panic disorder with agoraphobia, severe agoraphobic avoidance AND moderate panic attacks (disorder)	Panic disorder with agoraphobia, severe agoraphobic avoidance AND moderate panic attacks	30059008
+Bipolar I disorder, most recent episode depressed with atypical features (disorder)	Bipolar I disorder, most recent episode depressed with atypical features	29929003
+Mood disorder caused by opioid (disorder)	Opioid-induced mood disorder	29733004
+Deferred diagnosis on Axis IV (disorder)	Deferred diagnosis on Axis IV	29657007
+Chronic undifferentiated schizophrenia (disorder)	Chronic undifferentiated schizophrenia	29599000
+Moderate bipolar I disorder, single manic episode (disorder)	Moderate bipolar I disorder, single manic episode	28884001
+Sedative, hypnotic AND/OR anxiolytic-induced mood disorder (disorder)	Sedative, hypnotic AND/OR anxiolytic-induced mood disorder	28864000
+Mood disorder with manic features due to general medical condition (disorder)	Mood disorder with manic features due to general medical condition	28676002
+Severe manic bipolar I disorder with psychotic features (disorder)	Severe manic bipolar I disorder with psychotic features	28663008
+Severe recurrent major depression with psychotic features (disorder)	Severe recurrent major depression with psychotic features	28475009
+Organic hallucinosis caused by psychoactive substance (disorder)	Psychoactive substance-induced organic hallucinosis	28368009
+Transitory postpartum mood disturbance (disorder)	Transitory postpartum mood disturbance	28357009
+Qi-gong psychotic reaction (disorder)	Qi-gong psychotic reaction	27803006
+Developmental coordination disorder (disorder)	Developmental coordination disorder	27544004
+Subchronic disorganized schizophrenia (disorder)	Subchronic disorganised schizophrenia	27387000
+Alzheimer's disease (disorder)	Alzheimer's disease	26929004
+Primary degenerative dementia of the Alzheimer type, senile onset, with depression (disorder)	Primary degenerative dementia of the Alzheimer type, senile onset, with depression	26852004
+Cannabis-induced psychotic disorder with hallucinations (disorder)	Cannabis-induced psychotic disorder with hallucinations	26714005
+Antisocial personality disorder (disorder)	Antisocial personality disorder	26665006
+Severe bipolar disorder with psychotic features, mood-incongruent (disorder)	Severe bipolar disorder with psychotic features, mood-incongruent	26530004
+Severe mood disorder with psychotic features (disorder)	Severe mood disorder with psychotic features	26516009
+Paraphrenia (disorder)	Paraphrenia	26472000
+Mental disorder in adolescence (disorder)	Mental disorder in adolescence	26453000
+Severe depressed bipolar I disorder with psychotic features, mood-incongruent (disorder)	Severe depressed bipolar I disorder with psychotic features, mood-incongruent	26203008
+Residual schizophrenia (disorder)	Residual schizophrenia	26025008
+Pedophilia, exclusive type (disorder)	Paedophilia, exclusive type	25971005
+Major depressive disorder, single episode with postpartum onset (disorder)	Major depressive disorder, single episode with postpartum onset	25922000
+Multi-infarct dementia with delusions (disorder)	Multi-infarct dementia with delusions	25772007
+Social phobia (disorder)	Social phobia	25501002
+Psychogenic adductor spastic dysphonia (disorder)	Psychogenic adductor spastic dysphonia	25297005
+Deferred diagnosis on Axis III (disorder)	Deferred diagnosis on Axis III	25029006
+Panic disorder with agoraphobia, mild agoraphobic avoidance AND panic attacks in full remission (disorder)	Panic disorder with agoraphobia, mild agoraphobic avoidance AND panic attacks in full remission	24781009
+Factitious disorder with combined physical AND psychological symptoms (disorder)	Factitious disorder with combined physical AND psychological symptoms	24315006
+Mental disorder in infancy (disorder)	Mental disorder in infancy	24125008
+Insomnia disorder related to another mental disorder (disorder)	Insomnia disorder related to another mental disorder	24121004
+Dysphonia of Gilles de la Tourette's syndrome (disorder)	Dysphonia of Gilles de la Tourette's syndrome	23772009
+Organic mood disorder (disorder)	Organic mood disorder	23645006
+Asperger's disorder (disorder)	Asperger's disorder	23560001
+Undifferentiated attention deficit disorder (disorder)	Undifferentiated attention deficit disorder	23148009
+Mood disorder with mixed features due to general medical condition (disorder)	Mood disorder with mixed features due to general medical condition	22419002
+Bipolar II disorder, most recent episode major depressive with catatonic features (disorder)	Bipolar II disorder, most recent episode major depressive with catatonic features	22407005
+Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND panic attacks in full remission (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND panic attacks in full remission	22230001
+Depressed bipolar I disorder in full remission (disorder)	Depressed bipolar I disorder in full remission	22121000
+Bipolar I disorder, most recent episode depressed with catatonic features (disorder)	Bipolar I disorder, most recent episode depressed with catatonic features	21900002
+Generalized anxiety disorder (disorder)	Generalised anxiety disorder	21897009
+Munchausen's syndrome (disorder)	Munchausen's syndrome	21586000
+Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-incongruent (disorder)	Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-incongruent	20960007
+Inhalant-induced anxiety disorder (disorder)	Inhalant-induced anxiety disorder	20876004
+Psychotic disorder with delusions caused by opioid (disorder)	Opioid-induced psychotic disorder with delusions	20385005
+Severe major depression, single episode, with psychotic features, mood-incongruent (disorder)	Severe major depression, single episode, with psychotic features, mood-incongruent	20250007
+Borderline personality disorder (disorder)	Borderline personality disorder	20010003
+Postencephalitic parkinsonism (disorder)	Postencephalitic parkinsonism	19972008
+Compulsive sexual sadism (disorder)	Compulsive sexual sadism	19922006
+Panic disorder with agoraphobia, mild agoraphobic avoidance AND severe panic attacks (disorder)	Panic disorder with agoraphobia, mild agoraphobic avoidance AND severe panic attacks	19766004
+Late onset dysthymia (disorder)	Late onset dysthymia	19694002
+Single episode of major depression in full remission (disorder)	Single episode of major depression in full remission	19527009
+Axis V diagnosis (disorder)	Axis V diagnosis	19480005
+Opioid-induced psychotic disorder with hallucinations (disorder)	Opioid-induced psychotic disorder with hallucinations	19445006
+Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-congruent (disorder)	Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-congruent	19300006
+Oppositional defiant disorder (disorder)	Oppositional defiant disorder	18941000
+Moderate recurrent major depression (disorder)	Moderate recurrent major depression	18818009
+Inhalant intoxication delirium (disorder)	Inhalant intoxication delirium	18689007
+Alcohol intoxication delirium (disorder)	Alcohol intoxication delirium	18653004
+Sunstroke (disorder)	Sunstroke	18615009
+Obsessional erotomania (disorder)	Obsessional erotomania	18573003
+Adjustment disorder with physical complaints (disorder)	Adjustment disorder with physical complaints	18478005
+Undifferentiated somatoform disorder (disorder)	Undifferentiated somatoform disorder	18393005
+Postpartum psychosis (disorder)	Postpartum psychosis	18260003
+Hypochondriasis (disorder)	Hypochondriasis	18193002
+True compulsive fetishism (disorder)	True compulsive fetishism	18186001
+Compulsive gambling (disorder)	Compulsive gambling	18085000
+Gender identity disorder of adulthood (disorder)	Gender identity disorder of adulthood	18003009
+Conduct disorder, childhood-onset type (disorder)	Conduct disorder, childhood-onset type	17961008
+Bipolar I disorder, most recent episode manic with catatonic features (disorder)	Bipolar I disorder, most recent episode manic with catatonic features	17782008
+Organic anxiety disorder (disorder)	Organic anxiety disorder	17496003
+Non-alcoholic Korsakoff's psychosis (disorder)	Non-alcoholic Korsakoff's psychosis	17262008
+Adjustment disorder (disorder)	Adjustment disorder	17226007
+Trichotillomania (disorder)	Trichotillomania	17155009
+Subchronic schizophrenia (disorder)	Subchronic schizophrenia	16990005
+Factitious hypoglycemia (disorder)	Factitious hypoglycaemia	16966009
+Cluster A personality disorder (disorder)	Cluster A personality disorder	16805009
+Mixed bipolar I disorder (disorder)	Mixed bipolar I disorder	16506000
+Bipolar II disorder, most recent episode major depressive (disorder)	Bipolar II disorder, most recent episode major depressive	16295005
+Adjustment disorder with academic inhibition (disorder)	Adjustment disorder with academic inhibition	15977008
+Psychogenic polydipsia (disorder)	Psychogenic polydipsia	15945005
+Symptomatic fetishism (disorder)	Symptomatic fetishism	15840001
+Senile dementia (disorder)	Senile dementia	15662003
+Moderate major depression, single episode (disorder)	Moderate major depression, single episode	15639000
+Hallucinogen-induced anxiety disorder (disorder)	Hallucinogen-induced anxiety disorder	15277004
+Severe recurrent major depression with psychotic features, mood-incongruent (disorder)	Severe recurrent major depression with psychotic features, mood-incongruent	15193003
+Organic mental disorder caused by opioid (disorder)	Opioid-induced organic mental disorder	14784000
+Severe bipolar I disorder, single manic episode without psychotic features (disorder)	Severe bipolar I disorder, single manic episode without psychotic features	14495005
+Subchronic disorganized schizophrenia with acute exacerbations (disorder)	Subchronic disorganised schizophrenia with acute exacerbations	14291003
+Chronic major depressive disorder, single episode (disorder)	Chronic major depressive disorder, single episode	14183003
+Erotomanic delusion disorder (disorder)	Erotomanic delusion disorder	14144000
+Pica (disorder)	Pica	14077003
+Multi-infarct dementia with depression (disorder)	Multi-infarct dementia with depression	14070001
+Bipolar disorder (disorder)	Bipolar disorder	13746004
+Gender identity disorder of adulthood, previously heterosexual (disorder)	Gender identity disorder of adulthood, previously heterosexual	13670005
+Paranoid personality disorder (disorder)	Paranoid personality disorder	13601005
+Severe bipolar I disorder, single manic episode with psychotic features, mood-congruent (disorder)	Severe bipolar I disorder, single manic episode with psychotic features, mood-congruent	13581000
+Overanxious disorder of childhood (disorder)	Overanxious disorder of childhood	13438001
+Mild bipolar disorder (disorder)	Mild bipolar disorder	13313007
+Factitious psychosis (disorder)	Factitious psychosis	13127006
+Severe bipolar II disorder, most recent episode major depressive, in full remission (disorder)	Severe bipolar II disorder, most recent episode major depressive, in full remission	12969000
+Chronic disorganized schizophrenia (disorder)	Chronic disorganized schizophrenia	12939007
+Presenile dementia (disorder)	Presenile dementia	12348006
+Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND panic attacks in full remission (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in full remission AND panic attacks in full remission	11941006
+Separation anxiety disorder of childhood (disorder)	Separation anxiety disorder of childhood	11806006
+Organic mental disorder caused by psychoactive substance (disorder)	Organic mental disorder caused by psychoactive substance	11387009
+Severe mixed bipolar I disorder with psychotic features (disorder)	Severe mixed bipolar I disorder with psychotic features	10981006
+Severe mixed bipolar I disorder with psychotic features, mood-incongruent (disorder)	Severe mixed bipolar I disorder with psychotic features, mood-incongruent	10875004
+Symptomatic pedophilia (disorder)	Symptomatic paedophilia	10783000
+Occupation-related stress disorder (disorder)	Occupation-related stress disorder	10586006
+Primary degenerative dementia of the Alzheimer type, presenile onset, with depression (disorder)	Primary degenerative dementia of the Alzheimer type, presenile onset, with depression	10532003
+Multi-infarct dementia with delirium (disorder)	Multi-infarct dementia with delirium	10349009
+Cocaine-induced mood disorder (disorder)	Cocaine-induced mood disorder	10327003
+Deferred diagnosis on Axis I (disorder)	Deferred diagnosis on Axis I	9760005
+Adjustment disorder with withdrawal (disorder)	Adjustment disorder with withdrawal	9674006
+Dialysis dementia (disorder)	Dialysis dementia	9345005
+Bipolar I disorder, single manic episode (disorder)	Bipolar I disorder, single manic episode	9340000
+Moderate mood disorder (disorder)	Moderate mood disorder	9167000
+Shin-byung (disorder)	Shin-byung	9116003
+Pedophilia, opposite sex (disorder)	Pedophilia, opposite sex	9083002
+Delirium caused by amphetamine (disorder)	Delirium caused by amphetamine	8837000
+Alcohol withdrawal delirium (disorder)	Alcohol withdrawal delirium	8635005
+Vocal abuse in children (disorder)	Vocal abuse in children	8547008
+Klismaphilia (disorder)	Klismaphilia	8522006
+Transient tic disorder, single episode (disorder)	Transient tic disorder, single episode	8511007
+Panic disorder with agoraphobia AND moderate panic attacks (disorder)	Panic disorder with agoraphobia AND moderate panic attacks	8185002
+Psychogenic vertigo (disorder)	Psychogenic vertigo	7956006
+Chronic motor tic disorder (disorder)	Chronic motor tic disorder	7794004
+Bilis (disorder)	Bilis	7718000
+Attention deficit hyperactivity disorder, predominantly hyperactive impulsive type (disorder)	Attention deficit hyperactivity disorder, predominantly hyperactive impulsive type	7461003
+Aggressor identification syndrome (disorder)	Aggressor identification syndrome	7397008
+Reactive attachment disorder of infancy (disorder)	Reactive attachment disorder of infancy	7291006
+Alcohol hallucinosis (disorder)	Alcohol hallucinosis	7052005
+Subchronic undifferentiated schizophrenia with acute exacerbations (disorder)	Subchronic undifferentiated schizophrenia with acute exacerbations	7025000
+Primary degenerative dementia of the Alzheimer type, presenile onset, uncomplicated (disorder)	Primary degenerative dementia of the Alzheimer type, presenile onset, uncomplicated	6475002
+Cocaine-induced psychotic disorder with hallucinations (disorder)	Cocaine-induced psychotic disorder with hallucinations	6348008
+Mixed behavior and emotional disorder (disorder)	Mixed behavior and emotional disorder	5793009
+Bipolar disorder in partial remission (disorder)	Bipolar disorder in partial remission	5703000
+Situational hypoactive sexual desire disorder (disorder)	Situational hypoactive sexual desire disorder	5664002
+Organic delusional disorder (disorder)	Organic delusional disorder	5510009
+Panic disorder with agoraphobia AND severe panic attacks (disorder)	Panic disorder with agoraphobia AND severe panic attacks	5509004
+Stereotypy habit disorder (disorder)	Stereotypy habit disorder	5507002
+Brief reactive psychosis (disorder)	Brief reactive psychosis	5464005
+Sedative, hypnotic AND/OR anxiolytic intoxication delirium (disorder)	Sedative, hypnotic AND/OR anxiolytic intoxication delirium	5444000
+Gilles de la Tourette's syndrome (disorder)	Gilles de la Tourette's syndrome	5158005
+Gender identity disorder of childhood (disorder)	Gender identity disorder of childhood	5095008
+Thyrotoxicosis factitia (disorder)	Thyrotoxicosis factitia	4997005
+Motor skill disorder (disorder)	Motor skill disorder	4949009
+Panic disorder with agoraphobia, moderate agoraphobic avoidance AND mild panic attacks (disorder)	Panic disorder with agoraphobia, moderate agoraphobic avoidance AND mild panic attacks	4932002
+Schizophrenia in remission (disorder)	Schizophrenia in remission	4926007
+Mood disorder caused by phencyclidine (disorder)	PCP (phencyclidine) mood disorder	4863002
+Primary degenerative dementia of the Alzheimer type, senile onset, with delirium (disorder)	Primary degenerative dementia of the Alzheimer type, senile onset, with delirium	4817008
+Severe bipolar disorder with psychotic features (disorder)	Severe bipolar disorder with psychotic features	4441000
+Cluster B personality disorder (disorder)	Cluster B personality disorder	4306003
+Mental disorder in childhood (disorder)	Mental disorder in childhood	3914008
+Psychogenic fugue (disorder)	Psychogenic fugue	3586005
+Bipolar I disorder, single manic episode, in full remission (disorder)	Bipolar I disorder, single manic episode, in full remission	3530005
+Amnestic disorder (disorder)	Amnestic disorder	3298001
+Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND panic attacks in partial remission (disorder)	Panic disorder with agoraphobia, agoraphobic avoidance in partial remission AND panic attacks in partial remission	3158007
+Secondary dysthymia early onset (disorder)	Secondary dysthymia early onset	3109008
+Brain fag (disorder)	Brain fag	2994004
+Piblokto (disorder)	Piblokto	2838003
+Sexual pyromania (disorder)	Sexual pyromania	2815001
+Delirium (disorder)	Delirium	2776000
+Chronic recurrent major depressive disorder (disorder)	Chronic recurrent major depressive disorder	2618002
+Early onset dysthymia (disorder)	Early onset dysthymia	2506003
+Reactive attachment disorder of infancy OR early childhood, inhibited type (disorder)	Reactive attachment disorder of infancy OR early childhood, inhibited type	2312009
+Sedative, hypnotic AND/OR anxiolytic-induced psychotic disorder with delusions (disorder)	Sedative, hypnotic AND/OR anxiolytic-induced psychotic disorder with delusions	1973000
+Developmental academic disorder (disorder)	Developmental academic disorder	1855002
+Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks (disorder)	Panic disorder with agoraphobia, severe agoraphobic avoidance AND mild panic attacks	1816003
+Sedative, hypnotic AND/OR anxiolytic-induced anxiety disorder (disorder)	Sedative, hypnotic AND/OR anxiolytic-induced anxiety disorder	1686006
+Bipolar I disorder, single manic episode with postpartum onset (disorder)	Bipolar I disorder, single manic episode with postpartum onset	1499003
+Hallucinogen mood disorder (disorder)	Hallucinogen mood disorder	1383008
+Agoraphobia without history of panic disorder with limited symptom attacks (disorder)	Agoraphobia without history of panic disorder with limited symptom attacks	1380006
+Obsessive compulsive personality disorder (disorder)	Obsessive compulsive personality disorder	1376001
+Chronic bipolar II disorder, most recent episode major depressive (disorder)	Chronic bipolar II disorder, most recent episode major depressive	1196001
+Axis I diagnosis (disorder)	Axis I diagnosis	899001
+Moderate major depression (disorder)	Moderate major depression	832007
+Root work (disorder)	Root work	651003
+Pyromania (disorder)	Pyromania	600009
+Premenstrual dysphoric disorder (disorder)	Premenstrual dysphoric disorder	596004
+Tic disorder (disorder)	Tic disorder	568005
+Dementia associated with alcoholism (disorder)	Dementia associated with alcoholism	281004
+Severe manic bipolar I disorder without psychotic features (disorder)	Severe manic bipolar I disorder without psychotic features	162004
+Anxiety disorder of childhood OR adolescence (disorder)	Anxiety disorder of childhood OR adolescence	109006
