@@ -1,0 +1,285 @@
+code,term
+10327003,Cocaine-induced mood disorder
+105550004,Misused volatile solvents in past
+1079141000000103,Emergency hospital admission to addiction service
+1087481000000103,Late onset cocaine-induced psychosis
+1087501000000107,Late onset cannabinoid-induced psychosis
+1094151000000108,Harmful use of alcohol
+1094161000000106,Harmful use of amphetamine
+1094171000000104,Harmful use of cannabis
+1094181000000102,Harmful use of Catha edulis
+1094191000000100,Harmful use of cocaine
+1094201000000103,Harmful use of hallucinogen
+1094211000000101,Harmful use of inhalant
+1094221000000107,Harmful use of methanol
+1094231000000109,Harmful use of opioid
+1094241000000100,Harmful use of sedative
+1094251000000102,Harmful use of barbiturate
+1094261000000104,Harmful use of stimulant
+1094271000000106,Harmful use of synthetic cannabinoid
+1094281000000108,Harmful use of synthetic cathinone
+11047881000119101,Cannabis hyperemesis syndrome co-occurrent and due to cannabis abuse
+11048011000119103,Cannabis hyperemesis syndrome co-occurrent and due to cannabis dependence
+112891000000107,Referral to community drug dependency team
+1149328002,Cannabis poisoning
+11651000000103,Drug addiction notification - HS2A 1(Revision) to Home Office
+11661000000100,Drug addiction re-notification - HS2A to Home Office
+117071000000103,Referral to community drug dependency team
+1187220002,Disorder caused by cocaine
+121811000000104,Referral to community drug dependency team
+1230071005,"Amfetamine and/or amfetamine derivative abuse, episodic"
+1230072003,"Amfetamine and/or amfetamine derivative abuse, continuous"
+1230074002,"Nondependent hypnotic abuse, episodic"
+1230075001,"Nondependent anxiolytic abuse, episodic"
+1230076000,"Nondependent anxiolytic abuse, continuous"
+1230077009,"Nondependent hypnotic abuse, continuous"
+1230078004,Nondependent anxiolytic abuse in remission
+1230079007,Nondependent hypnotic abuse in remission
+1230080005,Nondependent anxiolytic abuse
+1230081009,Nondependent hypnotic abuse
+1230082002,Nondependent psychostimulant abuse in remission
+1230083007,Nondependent amfetamine and/or amfetamine derivative abuse in remission
+1230084001,"Nondependent psychostimulant abuse, continuous"
+1230085000,"Nondependent amfetamine and/or amfetamine derivative abuse, continuous"
+1230086004,"Nondependent psychostimulant abuse, episodic"
+1230087008,"Nondependent amfetamine and/or amfetamine derivative abuse, episodic"
+1230088003,Nondependent amfetamine and/or amfetamine derivative abuse
+1230089006,Nondependent psychostimulant abuse
+1230266009,Amfetamine and/or amfetamine derivative abuse in remission
+125851000119106,Continuous sedative abuse
+13551000000103,HS2A form - drug addict notification
+145101000119102,Intravenous cocaine abuse
+145841000119107,Episodic phencyclidine abuse
+151151006,(Drug addiction therapy (& [dependence] or [methadone]) or (FP10 (MDA) issued)
+15167005,Alcohol abuse
+153299007,Drug addiction notification (& admin)
+153300004,Drug addict: [notific to CMO] or [HS2A 1(Rev) to HO]
+153301000,Drug addict re-notific due
+153302007,Drug addict: [renotif to CMO] or [renotif-HS2A to HO]
+153303002,Drug addict-notify local SMR22
+153304008,Drug addiction notif NOS
+16077051000119102,Tobacco dependence caused by cigarettes in remission
+16077091000119107,Tobacco dependence caused by cigarettes
+16077171000119107,Tobacco dependence caused by chewing tobacco
+17271000000101,Drug addiction re-notification to Chief Medical Officer
+182820008,(Drug addiction therapy (& [dependence] or [methadone]) or (FP10 (MDA) issued)
+185093008,Drug addiction notification (& admin)
+185094002,Drug addict: [notific to CMO] or [HS2A 1(Rev) to HO]
+185095001,Drug addict re-notific due
+185096000,Drug addict: [renotif to CMO] or [renotif-HS2A to HO]
+185098004,Drug addiction notif NOS
+188201000000102,Referral to community drug and alcohol team
+191701000000100,Referral to community drug and alcohol team
+191831000,"Cocaine dependence, continuous"
+191832007,"Cocaine dependence, episodic"
+191833002,Cocaine dependence in remission
+191837001,"Cannabis dependence, continuous"
+191838006,"Cannabis dependence, episodic"
+191839003,Cannabis dependence in remission
+191853003,Glue sniffing dependence
+191855005,"Glue sniffing dependence, continuous"
+191856006,"Glue sniffing dependence, episodic"
+191857002,Glue sniffing dependence in remission
+191859004,Drug dependence: [absinthe] or [other specified]
+191882002,"Nondependent alcohol abuse, continuous"
+191883007,"Nondependent alcohol abuse, episodic"
+191884001,Nondependent alcohol abuse in remission
+191887008,"Tobacco dependence, continuous"
+191888003,"Tobacco dependence, episodic"
+191889006,Tobacco dependence in remission
+191891003,Nondependent cannabis abuse
+191893000,"Nondependent cannabis abuse, continuous"
+191894006,"Nondependent cannabis abuse, episodic"
+191895007,Nondependent cannabis abuse in remission
+191899001,"Nondependent hallucinogen abuse, continuous"
+191900006,"Nondependent hallucinogen abuse, episodic"
+191901005,Nondependent hallucinogen abuse in remission
+191903008,Psychoactive substance abuse: [hypnotic (including non-dependent)] or [anxiolytic (including non-dependent)] or [barbiturate] or [sedative] or [tranquilliser]
+191916008,Nondependent cocaine abuse
+191918009,"Nondependent cocaine abuse, continuous"
+191919001,"Nondependent cocaine abuse, episodic"
+191920007,Nondependent cocaine abuse in remission
+191928000,Abuse of antidepressant drug
+191930003,"Nondependent antidepressant type drug abuse, continuous"
+191931004,"Nondependent antidepressant type drug abuse, episodic"
+191932006,Nondependent antidepressant type drug abuse in remission
+192220003,[X] Mental and behavioural disorders due to use of opioids: dependence syndrome (& [drug addiction & (heroin)])
+192265007,"[X] (Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome) or (drug addiction - other stimulant)"
+192299005,[X]solvents: [mental & behavioural disorders dependence syndrome due to use of] or [drug addiction]
+192310006,[X] (Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome) or (drug addiction NOS)
+200021000000100,Drug addiction detoxification therapy - methadone
+200031000000103,Drug addiction maintenance therapy - methadone
+201311000000102,Drug addiction therapy - buprenorphine
+204641000000107,Episodic nondependent crack cocaine abuse
+206121000000104,Drug addiction maintenance therapy - buprenorphine
+206131000000102,Drug addiction detoxification therapy - buprenorphine
+216431000000109,Drug addiction detoxification therapy - methadone
+216441000000100,Drug addiction detoxification therapy - methadone
+216451000000102,Drug addiction maintenance therapy - methadone
+216461000000104,Drug addiction maintenance therapy - methadone
+216583009,Accidental poisoning caused by cocaine
+218791008,Adverse reaction caused by cannabis
+219611000000108,Drug addiction maintenance therapy - buprenorphine
+219621000000102,Drug addiction maintenance therapy - buprenorphine
+219631000000100,Drug addiction detoxification therapy - buprenorphine
+219641000000109,Drug addiction detoxification therapy - buprenorphine
+22574000,Cocaine-induced sleep disorder
+228373001,Drug addict
+231221000000105,Delivery of rehabilitation for drug addiction
+231477003,Dependence on diamorphine
+23491000000101,Drug addict notification administration
+23527004,Cannabis intoxication
+23941000087103,Narcotic addiction service
+23951000087100,Opioid dependence service
+241761001,Poisoning caused by crack cocaine
+24331000087108,Narcotic addiction service with chronic pain management
+254250002,Fetal cocaine syndrome
+266707007,Drug addiction therapy
+26714005,Cannabis-induced psychotic disorder with hallucinations
+268645007,Nondependent alcohol abuse
+268646008,Nondependent hallucinogen abuse
+270393005,Drug addiction notification
+272561000000105,Delivery of rehabilitation for drug addiction 
+27956007,Cocaine intoxication
+284591009,Persistent alcohol abuse
+290412009,Nabilone poisoning
+290413004,Accidental nabilone poisoning
+290414005,Intentional nabilone poisoning
+290544006,Intentional cocaine poisoning
+291246000,Accidental cannabis poisoning
+291247009,Intentional cannabis poisoning
+291261004,Accidental poisoning caused by crack cocaine
+291263001,Intentional poisoning caused by crack cocaine
+292131000,Nabilone adverse reaction
+292181009,Cocaine adverse reaction
+295415009,Nabilone overdose
+295416005,Accidental nabilone overdose
+295417001,Intentional nabilone overdose
+296301000,Cannabis overdose
+296302007,Accidental cannabis overdose
+296303002,Intentional cannabis overdose
+296321004,Overdose of cocaine
+296322006,Accidental overdose by cocaine
+296323001,Intentional overdose by cocaine
+296325008,Overdose of crack cocaine
+296326009,Accidental overdose by crack cocaine
+296327000,Intentional overdose by crack cocaine
+304605000,Methanol abuse
+30491001,Cocaine delusional disorder
+310369001,Drug addiction notification status
+310653000,Drug addiction therapy using methadone
+315748003,[V]Personal history of psychoactive substance abuse
+31621000000101,Drug addict-notify local SMR22
+31956009,Cocaine dependence
+3221000000108,Drug addiction notification to Chief Medical Officer
+37344009,Cannabis abuse
+395215005,Adverse reaction caused by bupropion
+39807006,Cannabis intoxication delirium
+39951001,Cannabis-induced anxiety disorder
+401266006,Referral to drug abuse counselor
+402765009,Skin lesion in drug addict
+403746009,Skin lesion due to intravenous drug abuse
+403747000,Poppers' nodules due to intravenous drug abuse
+403748005,Cocaine-induced acrocyanosis and livedo reticularis
+405069002,Effect of substance addiction
+416479009,Previously injecting drug user
+417096006,Referral to community drug and alcohol team
+417699000,Referral to drug treatment center
+418761000000109,"[X] (Mental and behavioural disorders due to use of other stimulants, including caffeine: dependence syndrome) or (drug addiction - other stimulant)"
+418911000000109,[X] (Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances: dependence syndrome) or (drug addiction NOS)
+425885002,Continuous phencyclidine abuse
+4266003,Referral to drug addiction rehabilitation service
+44870007,Misused drugs in past
+46975003,Organic mental disorder caused by cocaine
+471241000000104,[X] Mental and behavioural disorders due to use of opioids: dependence syndrome (& [drug addiction & (heroin)])
+479471000000105,[V]Personal history of psychoactive substance abuse
+486211000000102,Drug addict 
+486311000000107,Misused drugs in past 
+487631000000106,Drug addict 
+487731000000101,Misused drugs in past 
+51493001,Anxiety disorder caused by cocaine
+553821000000100,Drug addiction notification NOS
+60112009,Drug addiction counseling
+6348008,Cocaine-induced psychotic disorder with hallucinations
+63649001,Cannabis delusional disorder
+64386003,Sedative abuse
+6525002,Dependent drug abuse
+699449003,Methamphetamine abuse
+70328006,Cocaine intoxication delirium
+7071007,Phencyclidine abuse
+713775002,Novel psychoactive substance misuse
+715351000000106,Drug addict notification administration
+723936000,Psychotic disorder caused by cannabis
+723937009,Sleep disorder caused by cannabis
+724689006,Psychotic disorder caused by cocaine
+724690002,Mood disorder with depressive symptoms caused by cocaine
+724691003,Mood disorder with manic symptoms caused by cocaine
+724692005,Mood disorder with mixed depressive and manic symptoms caused by cocaine
+724693000,Obsessive compulsive disorder caused by cocaine
+724694006,Harmful pattern of use of caffeine
+724697004,Harmful pattern of use of nicotine
+724713006,Harmful use of ketamine
+724717007,Delirium caused by dissociative drug
+724718002,Psychotic disorder caused by dissociative drug
+724720004,Mood disorder caused by dissociative drug
+724722007,Anxiety disorder caused by dissociative drug
+735750005,Psychotic disorder with schizophreniform symptoms caused by cocaine
+737226008,Disorder caused by cannabis
+737334000,Disorder caused by synthetic cannabinoid use
+737335004,Synthetic cannabinoid intoxication
+737336003,Synthetic cannabinoid abuse
+737337007,Synthetic cannabinoid dependence
+737338002,Synthetic cannabinoid withdrawal syndrome
+737339005,Delirium caused by synthetic cannabinoid
+737340007,Psychotic disorder caused by synthetic cannabinoid
+737341006,Anxiety disorder caused by synthetic cannabinoid
+737342004,Sleep disorder caused by synthetic cannabinoid
+74851005,Hallucinogen abuse
+762344002,Mood disorder with manic symptoms caused by dissociative drug
+762345001,Mood disorder with depressive symptoms caused by dissociative drug
+762346000,Mood disorder with mixed depressive and manic symptoms caused by dissociative drug
+762503004,Disorder caused by synthetic cathinone
+762504005,Abuse of synthetic cathinone
+762505006,Synthetic cathinone dependence
+762506007,Delirium caused by synthetic cathinone
+762507003,Psychotic disorder caused by synthetic cathinone
+762508008,Psychotic disorder with hallucinations caused by synthetic cathinone
+762509000,Psychotic disorder with delusions caused by synthetic cathinone
+762510005,Psychotic disorder with schizophreniform symptoms caused by synthetic cathinone
+762511009,Mood disorder caused by synthetic cathinone
+762512002,Mood disorder with depressive symptoms caused by synthetic cathinone
+762513007,Mood disorder with manic symptoms caused by synthetic cathinone
+762514001,Mood disorder with mixed depressive and manic symptoms caused by synthetic cathinone
+762515000,Anxiety disorder caused by synthetic cathinone
+762516004,Obsessive compulsive disorder caused by synthetic cathinone
+762517008,Sexual dysfunction caused by synthetic cathinone
+762518003,Sleep disorder caused by synthetic cathinone
+762671008,Intoxication caused by synthetic cathinone
+762672001,Synthetic cathinone withdrawal syndrome
+764651000000101,Nondependent antidepressant type drug abuse
+768691000000103,Drug addiction maintenance therapy - naltrexone
+768711000000101,Drug addiction maintenance therapy - lofexidine
+772999000,Harmful use of hypnotic
+773000004,Harmful use of anxiolytic
+77355000,Organic mental disorder caused by cannabis
+78267003,Cocaine abuse
+785277001,Harmful pattern of use of amfetamine and/or amfetamine derivative
+788904003,Disorder caused by dissociative drug
+788955005,Impulse control disorder caused by cocaine
+788958007,Impulse control disorder caused by synthetic cathinone
+788983007,Mood disorder caused by cannabis
+789119007,Mood disorder caused by synthetic cannabinoid
+790211000000109,Referral to drug therapist
+790231000000101,Referral to drug worker
+792901003,Drug addiction therapy using buprenorphine
+792902005,Drug addiction therapy using buprenorphine and naloxone
+80868005,Cocaine withdrawal syndrome
+810891000000103,Referral to counselling assessment referral advice and throughcare drug service
+8431000000103,Drug addiction notification local SMR22
+85005007,Cannabis dependence
+890112007,Nondependent abuse of tobacco
+89765005,Tobacco dependence syndrome
+91388009,Psychoactive substance abuse
+965371000000105,Drug addiction maintenance therapy - naltrexone
+965381000000107,Drug addiction maintenance therapy - lofexidine
+9982009,Poisoning caused by cocaine

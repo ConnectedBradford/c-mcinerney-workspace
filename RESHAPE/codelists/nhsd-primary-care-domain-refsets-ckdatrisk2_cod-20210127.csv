@@ -1,0 +1,245 @@
+code,term
+1035471000000100,Dialysis therapy started by renal service
+105502003,Dependence on renal dialysis
+1095231000000108,Transplant of kidney using robotic assistance
+11000731000119102,Dependence on continuous ambulatory peritoneal dialysis
+11000771000119104,Dependence on continuous cycling peritoneal dialysis
+129151000119102,Chronic kidney disease stage 4 due to hypertension
+129161000119100,Chronic kidney disease stage 5 due to hypertension
+129171000119106,Chronic kidney disease stage 3 due to hypertension
+140101000119109,Hypertension in chronic kidney disease stage 5 due to type 2 diabetes mellitus
+140111000119107,Hypertension in chronic kidney disease stage 4 due to type 2 diabetes mellitus
+140121000119100,Hypertension in chronic kidney disease stage 3 due to type 2 diabetes mellitus
+153851000119106,Malignant hypertensive chronic kidney disease stage 5
+153891000119101,End stage renal disease on dialysis due to hypertension
+161665007,History of renal transplant
+16320631000119104,Dependence on continuous ambulatory peritoneal dialysis due to end stage renal disease
+175901007,Live donor renal transplant
+175902000,Cadaveric renal transplant
+180272001,Insertion of chronic ambulatory peritoneal dialysis catheter
+180273006,Removal of chronic ambulatory peritoneal dialysis catheter
+180277007,Insertion of temporary peritoneal dialysis catheter
+183985008,Renal transplant planned
+197589005,Nephrotic syndrome with proliferative glomerulonephritis
+197590001,Nephrotic syndrome with membranous glomerulonephritis
+197591002,Nephrotic syndrome with membranoproliferative glomerulonephritis
+197592009,Nephrotic syndrome (& [minimal change glomerulonephritis] or [steroid sensitive])
+197593004,"Nephrotic syndrome, minor glomerular abnormality"
+197594005,"Nephrotic syndrome, focal and segmental glomerular lesions"
+197595006,"Nephrotic syndrome, diffuse membranous glomerulonephritis"
+197596007,"Nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis"
+197597003,"Nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis"
+197598008,"Nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis"
+197599000,"Nephrotic syndrome, dense deposit disease"
+197600002,"Nephrotic syndrome, diffuse crescentic glomerulonephritis"
+197601003,Finnish congenital nephrotic syndrome
+197603000,Nephrotic syndrome associated with another disorder
+197604006,Nephrotic syndrome in amyloidosis
+197605007,Nephrotic syndrome due to diabetes mellitus
+197606008,Nephrotic syndrome in malaria
+197607004,Nephrotic syndrome in polyarteritis nodosa
+197614002,Chronic rapidly progressive glomerulonephritis
+197654000,Renal failure: [chronic] or [end stage]
+197747000,Renal tubulo-interstitial disorders in transplant rejection
+213150003,Kidney transplant failure and rejection
+224967001,Revision of cannula for dialysis
+225230008,Chronic peritoneal dialysis
+225231007,Stab peritoneal dialysis
+225892009,Revision of arteriovenous shunt for renal dialysis
+233575001,Intermittent hemodialysis
+233576000,Intermittent hemodialysis with sequential ultrafiltration
+233577009,Intermittent hemodialysis with continuous ultrafiltration
+233578004,Continuous hemodialysis
+233587008,Intermittent hemodiafiltration
+234046009,Transplant renal vein thrombosis
+236138007,Xenograft renal transplant
+236380004,Steroid-sensitive nephrotic syndrome
+236381000,Steroid-resistant nephrotic syndrome
+236382007,Steroid-dependent nephrotic syndrome
+236383002,Familial mesangial sclerosis
+236384008,Congenital nephrotic syndrome with focal glomerulosclerosis
+236385009,Drash syndrome
+236433006,Acute-on-chronic renal failure
+236434000,End stage renal failure untreated by renal replacement therapy
+236435004,End stage renal failure on dialysis
+236436003,End stage renal failure with renal transplant
+236530006,Pulmonic stenosis and congenital nephrosis
+236542001,Long-term disorder of dialysis
+236557008,Peritoneal dialysis catheter exit site infection
+236569000,Primary non-function of renal transplant
+236570004,Renal transplant rejection
+236571000,Hyperacute rejection of renal transplant
+236572007,Accelerated rejection of renal transplant
+236573002,Very mild acute rejection of renal transplant
+236574008,Acute rejection of renal transplant
+236575009,Acute rejection of renal transplant - grade I
+236576005,Acute rejection of renal transplant - grade II
+236577001,Acute rejection of renal transplant - grade III
+236578006,Chronic rejection of renal transplant
+236579003,Chronic rejection of renal transplant - grade I
+236580000,Chronic rejection of renal transplant - grade II
+236581001,Chronic rejection of renal transplant - grade III
+236582008,Acute-on-chronic rejection of renal transplant
+236583003,Failed renal transplant
+236584009,Perfusion injury of renal transplant
+236586006,De novo glomerulonephritis
+236587002,Transplant glomerulopathy
+236588007,Transplant glomerulopathy - early form
+236589004,Transplant glomerulopathy - late form
+236610003,Escape of urine from transplanted ureter
+236614007,Perirenal and periureteric post-transplant lymphocele
+238251000000109,Pre-transplantation of kidney work-up of recipient
+238314006,Renewal of chronic ambulatory peritoneal dialysis catheter
+238315007,Adjustment of chronic ambulatory peritoneal dialysis catheter
+238316008,Aspiration of chronic ambulatory peritoneal dialysis catheter
+238317004,Flushing of chronic ambulatory peritoneal dialysis catheter
+238318009,Continuous ambulatory peritoneal dialysis
+238319001,Continuous cycling peritoneal dialysis
+238321006,Intermittent peritoneal dialysis
+238322004,Tidal peritoneal dialysis
+238323009,Night-time intermittent peritoneal dialysis
+239101000000109,Pre-transplantation of kidney work-up of live donor
+265764009,Renal dialysis
+266549004,Nephrotic syndrome with minimal change glomerulonephritis
+271418008,Chronic ambulatory peritoneal dialysis catheter procedure
+276883000,Peritoneal dialysis-associated peritonitis
+277010001,Unexplained episode of renal transplant dysfunction
+277011002,Pre-existing disease in renal transplant
+278905001,Continuous ambulatory peritoneal dialysis diet
+284991000119104,Chronic kidney disease stage 3 due to benign hypertension
+285001000119105,Chronic kidney disease stage 4 due to benign hypertension
+285011000119108,Chronic kidney disease stage 5 due to benign hypertension
+285871000119106,Malignant hypertensive chronic kidney disease stage 3
+285881000119109,Malignant hypertensive chronic kidney disease stage 4
+286371000119107,Malignant hypertensive end stage renal disease on dialysis
+288182009,Extracorporeal kidney
+313030004,Donor renal transplantation
+324251000000105,Chronic kidney disease stage 3 with proteinuria
+324281000000104,Chronic kidney disease stage 3 without proteinuria
+324311000000101,Chronic kidney disease stage 3A with proteinuria
+324341000000100,Chronic kidney disease stage 3A without proteinuria
+324371000000106,Chronic kidney disease stage 3B with proteinuria
+324411000000105,Chronic kidney disease stage 3B without proteinuria
+324441000000106,Chronic kidney disease stage 4 with proteinuria
+324471000000100,Chronic kidney disease stage 4 without proteinuria
+324501000000107,Chronic kidney disease stage 5 with proteinuria
+324541000000105,Chronic kidney disease stage 5 without proteinuria
+33461007,Complication of peritoneal dialysis
+365061000000106,Active on kidney transplant waiting list
+385971003,Dialysis care
+398887003,Renal replacement
+399241000000100,[V]Kidney transplanted
+406168002,Dialysis access maintenance
+423062001,Stenosis of arteriovenous dialysis fistula
+426136000,Delayed renal graft function
+426340003,Creation of graft fistula for dialysis
+428575007,Hypertension secondary to kidney transplant
+428645009,Examination of recipient after kidney transplant
+428648006,Automated peritoneal dialysis
+428937001,Dependence on peritoneal dialysis due to end stage renal disease
+428982002,Dependence on hemodialysis due to end stage renal disease
+429075005,Dependence on dialysis due to end stage renal disease
+429451003,Disorder related to renal transplantation
+431857002,Chronic kidney disease stage 4
+432018009,Replacement of dialysis catheter using fluoroscopic guidance
+432654009,Insertion of peritoneal dialysis catheter using fluoroscopy guidance
+433144002,Chronic kidney disease stage 3
+433146000,Chronic kidney disease stage 5
+438342006,Replacement of peritoneal dialysis catheter
+439073006,Peritoneal dialysis catheter in situ
+440084005,Assessment of adequacy of dialysis
+442326005,Cloudy peritoneal dialysis effluent
+443143006,Dependence on hemodialysis
+443596009,Dependence on peritoneal dialysis
+44785005,Minimal change disease
+449288005,Infection of arteriovenous fistula for hemodialysis
+46177005,End-stage renal disease
+473195006,Normal renal function of transplanted kidney
+473397008,Dialysis catheter in situ usable
+48796009,Congenital nephrotic syndrome
+52254009,Nephrotic syndrome
+58797008,Complication of transplanted kidney
+6471000179103,Transplantation of kidney and pancreas
+676002,Peritoneal dialysis including cannulation
+691401000119104,Anemia co-occurrent and due to chronic kidney disease stage 4
+691411000119101,Anemia co-occurrent and due to chronic kidney disease stage 5
+691421000119108,Anemia co-occurrent and due to chronic kidney disease stage 3
+698074000,Sustained low-efficiency dialysis
+699235009,Continuous ambulatory peritoneal dialysis associated peritonitis
+700378005,Chronic kidney disease stage 3A
+700379002,Chronic kidney disease stage 3B
+703048006,Vesicoureteric reflux after renal transplant
+70536003,Transplant of kidney
+707148007,Recurrent post-transplant renal disease
+710071003,Management of peritoneal dialysis
+711000119100,Chronic kidney disease stage 5 due to type 2 diabetes mellitus
+711411006,Allotransplantation of kidney from beating heart cadaver
+711413009,Allotransplantation of kidney from non-beating heart cadaver
+711446003,Transplantation of kidney regime
+71192002,Peritoneal dialysis
+712754003,Replacement of continuous ambulatory peritoneal dialysis transfer set
+713825007,Renal artery stenosis of transplanted kidney
+714152005,Chronic kidney disease stage 5 on dialysis
+714153000,Chronic kidney disease stage 5 with transplant
+717738008,Peritoneal dialysis care assessment
+718308002,Peritoneal dialysis care
+718330001,Hemodialysis care
+721000119107,Chronic kidney disease stage 4 due to type 2 diabetes mellitus
+731000119105,Chronic kidney disease stage 3 due to type 2 diabetes mellitus
+73257006,Peritoneal dialysis catheter maintenance
+737295003,Transplanted kidney present
+765478004,Allotransplantation of left kidney
+765479007,Allotransplantation of right kidney
+771266007,"Torticollis, keloids, cryptorchidism, renal dysplasia syndrome"
+776416004,"Hyperuricemia, pulmonary hypertension, renal failure, alkalosis syndrome"
+782655004,Laparoscopic transplant of kidney using robotic assistance
+843691000000100,Urological complication of renal transplant
+844661000000109,Vascular complication of renal transplant
+846671000000106,Aneurysm of superficialised artery of dialysis arteriovenous fistula
+846731000000104,Aneurysm of dialysis arteriovenous fistula
+846761000000109,Aneurysm of needle site of dialysis arteriovenous fistula
+846801000000104,Aneurysm of anastomotic site of dialysis arteriovenous fistula
+847791000000101,Rupture of artery of transplanted kidney
+847811000000100,Rupture of vein of transplanted kidney
+847881000000107,Stenosis of vein of transplanted kidney
+852981000000100,Aneurysm of vein of transplanted kidney
+853021000000108,Aneurysm of artery of transplanted kidney
+863331000000100,Aneurysm of dialysis vascular access
+864271000000105,Thrombosis of artery of transplanted kidney
+864311000000105,Thrombosis of vein of transplanted kidney
+865841000000102,Stenosis of dialysis arteriovenous graft
+865981000000103,Thrombosis of dialysis arteriovenous graft
+866001000000102,Thrombosis of dialysis arteriovenous fistula
+866021000000106,Thrombosis of dialysis arteriovenous shunt
+866041000000104,Occlusion of dialysis arteriovenous graft
+866061000000103,Occlusion of dialysis arteriovenous fistula
+866991000000105,Haemorrhage of dialysis arteriovenous graft
+867011000000102,Haemorrhage of dialysis arteriovenous fistula
+867031000000105,Haemorrhage of dialysis arteriovenous shunt
+867071000000107,Rupture of dialysis arteriovenous fistula
+872481000000106,Stenosis of venous side of dialysis arteriovenous shunt
+88351001,Hypercalcemia associated with chronic dialysis
+90688005,Chronic renal failure syndrome
+90741000119107,Chronic kidney disease stage 3 due to type 1 diabetes mellitus
+90751000119109,Chronic kidney disease stage 4 due to type 1 diabetes mellitus
+90761000119106,Chronic kidney disease stage 5 due to type 1 diabetes mellitus
+90771000119100,End stage renal disease on dialysis due to type 1 diabetes mellitus
+90791000119104,End stage renal disease on dialysis due to type 2 diabetes mellitus
+949481000000108,Chronic kidney disease with glomerular filtration rate category G1 and albuminuria category A3
+949621000000109,Chronic kidney disease with glomerular filtration rate category G2 and albuminuria category A3
+949881000000106,Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A1
+949901000000109,Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A2
+949921000000100,Chronic kidney disease with glomerular filtration rate category G3a and albuminuria category A3
+950061000000103,Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A1
+950081000000107,Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A2
+950101000000101,Chronic kidney disease with glomerular filtration rate category G3b and albuminuria category A3
+950181000000106,Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A1
+950211000000107,Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A2
+950231000000104,Chronic kidney disease with glomerular filtration rate category G4 and albuminuria category A3
+950251000000106,Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A1
+950291000000103,Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A2
+950311000000102,Chronic kidney disease with glomerular filtration rate category G5 and albuminuria category A3
+96701000119107,Hypertensive heart AND chronic kidney disease on dialysis
+96711000119105,Hypertensive heart AND chronic kidney disease stage 5
+96721000119103,Hypertensive heart AND chronic kidney disease stage 4
+96731000119100,Hypertensive heart AND chronic kidney disease stage 3

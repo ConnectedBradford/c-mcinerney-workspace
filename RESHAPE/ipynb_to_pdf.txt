@@ -1,0 +1,3 @@
+To save a Jupyter notebook ("NAME_OF_FILE.ipynb") as a PDF without the code cells, run the following code in the terminal window, making sure to change the name of the file:
+
+jupyter nbconvert --to=pdf --FilesWriter.build_directory=pdf --ExecutePreprocessor.kernel_name=ir --no-input --execute NAME_OF_FILE.ipynb 
