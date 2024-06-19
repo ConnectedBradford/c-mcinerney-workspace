@@ -1,0 +1,476 @@
+code,term
+1003584006,Hind brain laceration with open intracranial wound and loss of consciousness
+1032761000000105,"Intraventricular (nontraumatic) haemorrhage, grade 4, of fetus and newborn"
+10349009,Multi-infarct dementia with delirium
+106021000119105,Multi-infarct dementia due to atherosclerosis
+107557061000119108,Cerebrovascular accident due to embolism of bilateral anterior cerebral arteries
+1078001000000105,Haemorrhagic stroke
+1089411000000104,Cerebral infarction due to occlusion of cerebral artery
+1089421000000105,Cerebral infarction due to stenosis of cerebral artery
+10943311000119108,Contusion of right cerebrum
+10943471000119107,Contusion of left cerebrum
+110030002,Concussion injury of brain
+111297002,Nonparalytic stroke
+111654000,Brain injury without open intracranial wound and with unspecified state of consciousness
+111655004,Brain injury with open intracranial wound and unspecified state of consciousness
+111897007,Acute necrotizing encephalitis
+1142056004,Neonatal ischemic stroke
+1144223007,Hypoxic ischemic encephalopathy of newborn
+1148741008,Necrosis of brain caused by exposure to ionizing radiation
+1156035006,Nontraumatic injury of brain
+1162261000,Necrosis of temporal lobe caused by exposure to ionizing radiation
+116288000,Paralytic stroke
+1163482004,Hemorrhagic cerebral infarction caused by Aspergillus
+117776611000119102,Cerebrovascular accident due to occlusion of left posterior communicating artery
+1186863001,Central diabetes insipidus due to and following traumatic event
+1187004001,Chronic traumatic encephalopathy
+11890005,Anoxic encephalopathy
+1197363004,Pediatric arterial ischemic stroke
+1197757006,Acute kernicterus of newborn
+1197758001,Kernicterus spectrum disorder
+1217046003,Avascular necrosis of pituitary gland
+1231168008,Malignant middle cerebral artery syndrome
+125081000119106,Cerebral infarction due to occlusion of precerebral artery
+12589008,Brain stem laceration with open intracranial wound
+1259062000,Acute toxicity due to and following early brain irradiation
+1259536000,Leak of cranial cerebrospinal fluid due to and following injury of head
+1259554001,Anoxic encephalopathy due to respiratory arrest
+1259556004,Anoxic encephalopathy due to cardiac arrest
+1259558003,Anoxic encephalopathy due to asphyxiation
+1259562009,Cognitive impairment due to late-delayed irradiation of brain
+1260271009,Hemorrhagic cerebral infarction due to hypertension
+1260338007,Hydrocephalus ex vacuo due to and following radiation therapy
+1260357003,Injury of brain due to early brain irradiation
+1260359000,Injury of brain due to early delayed brain irradiation
+126944002,Brain disorder resulting from a period of impaired oxygen delivery to the brain
+126945001,Perinatal anoxic-ischemic brain injury
+127294003,Traumatic or nontraumatic brain injury
+127295002,Traumatic brain injury
+127298000,Traumatic brain injury with loss of consciousness
+127299008,Traumatic brain injury with brief loss of consciousness
+127300000,Traumatic brain injury with moderate loss of consciousness
+127301001,Traumatic brain injury with prolonged loss of consciousness
+127302008,Traumatic brain injury with no loss of consciousness
+127303003,Cortex laceration
+127304009,Cerebellar contusion
+127305005,Brain stem contusion
+127306006,Cerebellar laceration
+127307002,Brain stem laceration
+127309004,Intracranial hemorrhage following injury with brief loss of consciousness
+127310009,Intracranial hemorrhage following injury with moderate loss of consciousness
+12912004,Brain injury with open intracranial wound AND no loss of consciousness
+134811000119108,Severe hypoxic ischemic encephalopathy of newborn
+134821000119101,Moderate hypoxic ischemic encephalopathy of newborn
+134831000119103,Mild hypoxic ischemic encephalopathy of newborn
+13752003,Brain injury with open intracranial wound AND loss of consciousness
+14070001,Multi-infarct dementia with depression
+140911000119109,Ischemic stroke with coma
+140921000119102,Ischemic stroke without coma
+141091000119105,Compression of brain co-occurrent and due to nontraumatic subarachnoid hemorrhage
+141151000119101,Nontraumatic subdural hematoma with brain compression
+14309005,Anterior choroidal artery syndrome
+143521000119103,Nontraumatic intraparenchymal cerebral hemorrhage
+14434006,Cerebellar laceration with open intracranial wound AND no loss of consciousness
+14900002,Radiotherapy-induced hypopituitarism
+149821000119103,Cerebral infarction due to carotid artery occlusion
+152148641000119104,Cerebrovascular accident due to embolism of bilateral carotid arteries
+15663121000119104,History of concussion injury of brain
+157320002,(Intracranial injury) or (brain injury) or (cerebral trauma [& haemorrhage due to]) or (head injury - no #)
+15985031000119102,Neonatal non-traumatic intraventricular hemorrhage
+16000351000119109,Cerebrovascular accident due to occlusion of left posterior cerebral artery
+16000391000119104,Cerebrovascular accident due to occlusion of right posterior cerebral artery
+16000431000119109,Cerebrovascular accident due to occlusion of right middle cerebral artery
+16000511000119103,Cerebrovascular accident due to occlusion of left middle cerebral artery
+16002031000119102,Cerebrovascular accident due to thrombus of right middle cerebral artery
+16002111000119106,Cerebrovascular accident due to thrombus of left middle cerebral artery
+16023911000119108,Cerebrovascular accident due to occlusion of right carotid artery
+16023991000119104,Cerebrovascular accident due to occlusion of left pontine artery
+16024031000119100,Cerebrovascular accident due to occlusion of right pontine artery
+16024111000119109,Cerebrovascular accident due to occlusion of left carotid artery
+16024151000119105,Cerebrovascular accident due to occlusion of left cerebellar artery
+16024271000119107,Cerebrovascular accident due to occlusion of right cerebellar artery
+16026951000119102,Cerebrovascular accident due to stenosis of right carotid artery
+16026991000119107,Cerebrovascular accident due to stenosis of left carotid artery
+16319002,Cortex contusion without open intracranial wound AND with concussion
+16371781000119100,Cerebellar stroke
+16542721000119108,History of anoxic brain injury
+16561007,Acute anoxic encephalopathy
+16644681000119102,Cerebrovascular accident due to occlusion of bilateral pontine arteries
+16661931000119102,Cerebrovascular accident due to stenosis of bilateral vertebral arteries
+16661971000119104,Cerebrovascular accident due to stenosis of bilateral carotid arteries
+168747591000119109,Cerebrovascular accident due to embolism of bilateral posterior cerebral arteries
+16891111000119104,Cryptogenic stroke
+17169009,Cerebellar contusion without open intracranial wound AND with loss of consciousness
+17258002,Chronic anoxic encephalopathy
+17498002,Cortex contusion without open intracranial wound AND with loss of consciousness
+182960891000119101,Cerebrovascular accident due to occlusion of left anterior cerebral artery
+18615009,Sunstroke
+188174841000119103,Cerebrovascular accident due to occlusion of bilateral middle cerebral arteries
+19210000,Brain stem laceration with open intracranial wound AND no loss of consciousness
+19233004,Cerebellar contusion with open intracranial wound AND loss of consciousness
+195185009,Cerebral infarct due to thrombosis of precerebral arteries
+195186005,Cerebral infarction due to embolism of precerebral arteries
+195189003,Cerebral infarction due to thrombosis of cerebral arteries
+195190007,Cerebral infarction due to embolism of cerebral arteries
+195209007,Middle cerebral artery syndrome
+195210002,Anterior cerebral artery syndrome
+195211003,Posterior cerebral artery syndrome
+195212005,Brainstem stroke syndrome
+195213000,Cerebellar stroke syndrome
+195216008,Left sided cerebral hemisphere cerebrovascular accident
+195217004,Right sided cerebral hemisphere cerebrovascular accident
+195230003,"Cerebral infarction due to cerebral venous thrombosis, non-pyogenic"
+206188000,Subdural and cerebral hemorrhage due to birth trauma
+206193002,"Injury due to birth trauma: [brain, NOS] or [cerebral]"
+206196005,Cerebral hemorrhage due to birth injury
+206238001,Cerebral edema due to birth injury
+206395003,"Intraventricular (nontraumatic) hemorrhage, grade 1, of fetus and newborn"
+206396002,"Intraventricular (nontraumatic) hemorrhage, grade 2, of fetus and newborn"
+206397006,"Intraventricular (nontraumatic) hemorrhage, grade 3, of fetus and newborn"
+206398001,Intraventricular hemorrhage due to birth injury
+206419007,Cerebellar (nontraumatic) and posterior fossa hemorrhage of fetus and newborn
+206578007,Neonatal cerebral leukomalacia
+20899000,Brain stem laceration without open intracranial wound
+209827006,Concussion with less than 1 hour loss of consciousness
+209845006,"Cortex contusion with open intracranial wound, with no loss of consciousness"
+209864000,"Cortex laceration with open intracranial wound, with no loss of consciousness"
+209900006,Hind brain laceration with open intracranial wound
+209902003,"Hind brain laceration with open intracranial wound, with no loss of consciousness"
+210015005,Injury: [head] or [intracranial NOS] or [brain NOS] or [head NOS]
+210037003,Diffuse brain injury
+210038008,Focal brain injury
+212142000,Visual cortex injury
+213208008,Anoxic brain damage complication
+213209000,Cerebral anoxia complication
+213383004,Injuries of brain and cranial nerves with injuries of nerves and spinal cord at neck level
+21601000119103,Hypoxic ischemic encephalopathy due to birth trauma
+22383006,Closed fracture of vault of skull with cerebral laceration AND/OR contusion
+22693008,Brain injury without open intracranial wound AND with brief loss of consciousness (less than one hour)
+22819008,Laceration of brain with open intracranial wound
+230282000,Post-traumatic dementia
+230285003,Vascular dementia of acute onset
+230287006,Mixed cortical and subcortical vascular dementia
+230360009,Encephalopathy caused by radiation damage
+230455006,Self-induced non-photosensitive epilepsy
+230518009,Infarction of optic tract
+230519001,Injury of optic tract
+230523009,Infarction of optic radiation
+230690007,Cerebrovascular accident
+230691006,Cerebrovascular accident due to occlusion of cerebral artery
+230692004,Infarction - precerebral
+230693009,Anterior cerebral circulation infarction
+230694003,Total anterior cerebral circulation infarction
+230695002,Partial anterior cerebral circulation infarction
+230696001,Posterior cerebral circulation infarction
+230698000,Lacunar infarction
+230699008,Pure motor lacunar infarction
+230700009,Pure sensory lacunar infarction
+230701008,Pure sensorimotor lacunar infarction
+230702001,Lacunar ataxic hemiparesis
+230703006,Dysarthria-clumsy hand syndrome
+230706003,Hemorrhagic cerebral infarction
+230707007,Anterior cerebral circulation hemorrhagic infarction
+230708002,Posterior cerebral circulation hemorrhagic infarction
+230713003,Stroke of uncertain pathology
+230714009,Anterior circulation stroke of uncertain pathology
+230715005,Posterior circulation stroke of uncertain pathology
+230763008,Cerebral edema due to trauma
+230769007,Periventricular leukomalacia
+23713006,Contusion of cerebral cortex
+237684005,Sheehan's syndrome
+237701005,Pituitary apoplexy
+239965291000119107,Cerebrovascular accident due to occlusion of basilar artery
+240312009,Cerebral injury due to birth trauma
+241993004,Cerebral decompression injury
+241994005,Cerebellar decompression injury
+24654003,Weber-Gubler syndrome
+25133001,Completed stroke
+251770561000119107,Cerebrovascular accident due to embolism of left anterior cerebral artery
+25772007,Multi-infarct dementia with delusions
+262686008,Brain injury NOS
+262687004,Cerebellar laceration and contusion
+262688009,Cortex laceration and contusion
+262689001,Contusion of cerebrum
+262690005,Laceration of brain
+262691009,Laceration of cerebrum
+262692002,Burst lobe of brain
+262693007,Diffuse brain injury
+262694001,Traumatic generalized cerebral edema
+262695000,Traumatic focal cerebral edema
+264534009,Hypothalamic injury
+268820007,Brain injury due to birth trauma NOS
+269144002,Cerebral laceration and contusion
+269338005,(Intracranial injury) or (brain injury) or (cerebral trauma [& haemorrhage due to]) or (head injury - no #)
+275362006,Falx laceration
+275382005,Cerebral trauma
+275434003,Stroke in the puerperium
+276219001,Occipital cerebral infarction
+276220007,Foville syndrome
+276221006,Millard-Gubler syndrome
+276222004,Top of basilar syndrome
+276593000,Perinatal falx laceration
+276599001,Cerebral leukomalacia
+277478008,Post-asphyxial encephalopathy
+277480002,Neonatal asphyxial encephalopathy
+27923006,Brain injury with open intracranial wound AND prolonged loss of consciousness (more than 24 hours) AND return to pre-existing conscious level
+281240008,Extension of cerebrovascular accident
+28155008,Extradural hemorrhage following injury with open intracranial wound AND concussion
+28156009,Brain injury with open intracranial wound AND brief loss of consciousness (less than one hour)
+28188001,Brain injury with open intracranial wound
+28534004,Spastic paralysis due to intracranial birth injury
+290653008,Postpartum hypopituitarism
+291621000119109,Cognitive deficit due to and following nontraumatic subarachnoid hemorrhage
+291711000119109,Cognitive deficit due to and following nontraumatic intracerebral hemorrhage
+292661000119105,Cerebrovascular accident due to stenosis of right vertebral artery
+292671000119104,Cerebrovascular accident due to stenosis of left vertebral artery
+292681000119101,Cerebrovascular accident due to occlusion of right vertebral artery
+292691000119103,Cerebrovascular accident due to occlusion of left vertebral artery
+292851000119109,Lacunar ataxic hemiparesis of right dominant side
+292861000119106,Lacunar ataxic hemiparesis of left dominant side
+293671000119109,Behavioral disturbance due to multi-infarct dementia
+293811000119100,Cerebral infarction due to vertebral artery stenosis
+293831000119105,Cerebral infarction due to stenosis of precerebral artery
+29807001,Brain stem contusion without open intracranial wound AND with loss of consciousness
+30031007,Cerebellar laceration without open intracranial wound
+302902003,Infarction of optic chiasm
+302904002,Infarction of visual cortex
+30371007,Cerebral laceration AND contusion co-occurrent and due to open fracture of base of skull
+307363008,Multiple lacunar infarcts
+307766002,Left sided cerebral infarction
+307767006,Right sided cerebral infarction
+30858001,Cerebellar laceration with open intracranial wound
+311826007,Traumatic cerebral edema with open intracranial wound
+3119002,Brain stem laceration with open intracranial wound AND loss of consciousness
+32106001,Cortex contusion without open intracranial wound
+32415004,Cerebellar contusion without open intracranial wound AND with concussion
+329361000119107,Cerebrovascular accident due to occlusion of right middle cerebral artery by embolus
+329371000119101,Cerebrovascular accident due to occlusion of left middle cerebral artery by embolus
+329421000119107,Cerebrovascular accident due to occlusion of right posterior cerebral artery by embolus
+329431000119105,Cerebrovascular accident due to occlusion of left posterior cerebral artery by embolus
+329451000119104,Cerebrovascular accident due to occlusion of right cerebellar artery by embolus
+329461000119102,Cerebrovascular accident due to occlusion of left cerebellar artery by embolus
+329641000119104,Cerebrovascular accident due to thrombus of basilar artery
+329651000119102,Cerebrovascular accident due to thrombus of right carotid artery
+329671000119106,Traumatic subarachnoid hemorrhage with loss of consciousness
+330011000119102,Non-traumatic cerebral edema
+330411000119109,Lacunar ataxic hemiparesis of left nondominant side
+330421000119102,Lacunar ataxic hemiparesis of right nondominant side
+330791000119108,Cerebrovascular accident due to thrombus of left carotid artery
+33332005,Brain injury without open intracranial wound AND with concussion
+34181000119102,Cerebral infarction due to occlusion of basilar artery
+34191000119104,Cerebral infarction due to vertebral artery occlusion
+34663006,Contusion of brain
+346674811000119104,Cerebrovascular accident due to occlusion of bilateral cerebellar arteries
+359007,Kernicterus due to isoimmunization
+371040005,Thrombotic stroke
+371041009,Embolic stroke
+371050006,Traumatic intracranial subdural hematoma with brief loss of consciousness
+371121002,Neonatal stroke
+373606000,Occlusive stroke
+384430101000119103,Cerebrovascular accident due to embolism of right carotid artery
+384993003,Periventricular hemorrhagic venous infarct
+38595071000119104,Cerebrovascular accident due to thrombosis of right posterior cerebral artery
+389098007,Anoxic encephalopathy
+389100007,Ischemic encephalopathy
+389101006,Anoxic-ischemic encephalopathy
+39020005,"Brain injury, without skull fracture"
+39925003,"Juvenile myopathy, encephalopathy, lactic acidosis AND stroke"
+4069002,Anoxic brain damage during AND/OR resulting from a procedure
+41222005,Brain stem laceration with open intracranial wound AND concussion
+413102000,Infarction of basal ganglia
+413758000,Cardioembolic stroke
+41713005,Benedikt's syndrome
+41870008,Cortex laceration with open intracranial wound AND loss of consciousness
+422504002,Ischemic stroke
+425957003,Non-traumatic intracerebral ventricular hemorrhage
+426107000,Acute lacunar infarction
+426983002,Infarction of medulla oblongata
+427296003,Thalamic infarction
+432504007,Cerebral infarction
+43262000,Subdural hemorrhage following injury with open intracranial wound AND concussion
+441526008,Infarct of cerebrum due to iatrogenic cerebrovascular accident
+444657001,Superior cerebellar artery syndrome
+447396006,Concussion injury of cerebrum
+450418003,Cerebral hemorrhage following injury
+450551009,Traumatic brain injury with prolonged loss of consciousness (more than 24 hours) and return to pre-existing conscious level
+450552002,Traumatic brain injury with prolonged loss of consciousness (more than 24 hours) without return to pre-existing conscious level
+450569000,Traumatic brain injury with loss of consciousness one hour or more
+46966000,Cerebral compression due to injury
+47450003,Brain injury without open intracranial wound AND with moderate loss of consciousness (1-24 hours)
+47462004,Brain injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) without return to pre-existing conscious level
+48518008,Subarachnoid hemorrhage following injury with open intracranial wound AND concussion
+496369931000119104,Cerebrovascular accident due to thrombosis of right cerebellar artery
+50143004,Kernicterus of newborn
+511452481000119102,Cerebrovascular accident due to thrombosis of right vertebral artery
+517253051000119105,Cerebrovascular accident due to embolism of left vertebral artery
+5202009,Brain injury with open intracranial wound AND concussion
+52888005,Brain stem contusion without open intracranial wound
+53267002,Brain injury without open intracranial wound AND with loss of consciousness
+55702009,Laceration of brain without open intracranial wound
+5571000124103,Cerebrovascular accident with intracranial hemorrhage
+55885004,Brain injury without open intracranial wound AND with prolonged loss of consciousness (more than 24 hours) with return to pre-existing conscious level
+56267009,Multi-infarct dementia
+57739006,Cerebellar contusion without open intracranial wound
+57981008,Progressing stroke
+58173271000119101,Cerebrovascular accident due to embolism of bilateral cerebellar arteries
+59572000,Necrosis of pituitary
+595899961000119100,Cerebrovascular accident of basal ganglia
+59748008,Cortex laceration with open intracranial wound
+59918000,Cerebellar laceration with open intracranial wound AND concussion
+62106007,Concussion with no loss of consciousness
+62564004,Concussion with loss of consciousness
+652287331000119104,Cerebrovascular accident of brainstem
+655081461000119101,Cerebrovascular accident due to occlusion of right anterior cerebral artery
+66393002,Brain stem contusion with open intracranial wound AND loss of consciousness
+668501000000101,Brain injury NOS
+682111000000109,Brain injury due to birth trauma NOS
+69820004,Injury of optic chiasm
+698617004,Concussion co-occurrent and due to closed fracture of vault of skull
+698618009,Loss of consciousness co-occurrent and due to open fracture of vault of skull
+698619001,Concussion co-occurrent and due to open fracture of vault of skull
+698620007,Closed fracture of base of skull with loss of consciousness
+698621006,Concussion co-occurrent and due to closed fracture of base of skull
+698687007,Post-traumatic dementia with behavioral change
+69875006,Cortex laceration with open intracranial wound AND concussion
+702632000,Acquired brain injury
+703300001,Hypoxic ischemic encephalopathy
+703301002,Mild hypoxic ischemic encephalopathy
+703302009,Moderate hypoxic ischemic encephalopathy
+703303004,Severe hypoxic ischemic encephalopathy
+703304005,Hypoxic ischemic encephalopathy due to strangulation
+703305006,Hypoxic ischemic encephalopathy due to cardiac arrest
+705128004,Cerebral infarction due to embolism of middle cerebral artery
+705130002,Cerebral infarction due to thrombosis of middle cerebral artery
+708728007,Traumatic brain injury of unknown intent
+70936005,"Multi-infarct dementia, uncomplicated"
+716051003,Cerebrovascular accident during surgery
+720261501000119107,Cerebrovascular accident due to occlusion of bilateral anterior cerebral arteries
+721330006,Diffuse injury of cerebrum
+721331005,Diffuse injury of cerebellum
+721332003,Diffuse injury of brainstem
+721333008,Crush injury of brain
+722381004,"Congenital cataract, nephropathy, encephalopathy syndrome"
+722575008,Traumatic hemorrhage of cerebellum due to birth trauma
+722576009,Injury of brain stem due to birth trauma
+722580004,Fetal or neonatal intraventricular non-traumatic hemorrhage grade 4
+722581000,Fetal or neonatal non-traumatic intraventricular hemorrhage
+722582007,Fetal or neonatal intracerebral non-traumatic hemorrhage
+722614006,Focal non-hemorrhagic contusion of cerebrum
+722615007,Focal hemorrhagic contusion of cerebrum
+722616008,Focal laceration of cerebrum
+722617004,Multiple focal injuries of cerebrum
+722618009,Focal non-hemorrhagic contusion of cerebellum
+722619001,Focal traumatic hemorrhage of cerebellum
+722620007,Focal traumatic hematoma of cerebellum
+722622004,Focal non-hemorrhagic contusion of brainstem
+722623009,Focal traumatic hemorrhage of brainstem
+722624003,Focal traumatic hematoma of brainstem
+722625002,Focal laceration of brainstem
+722626001,Multiple focal injuries of cerebellum
+722627005,Focal injury of brainstem
+722630003,Traumatic hemorrhage of cerebral white matter
+722631004,Traumatic hemorrhage of cerebellum
+722632006,Traumatic hemorrhage of brainstem
+722633001,Multiple traumatic hemorrhages of brain tissue
+722660008,Radiation injury of brain caused by ionizing radiation following radiotherapy procedure
+722702007,Focal laceration of cerebellum
+722703002,Traumatic intraventricular hemorrhage
+722907006,Contusion of cerebellum due to birth trauma
+722908001,Contusion of brain due to birth trauma
+722929005,Perinatal arterial ischemic stroke of fetus and/or neonate
+723082006,Silent cerebral infarct
+723123001,Ischemic vascular dementia
+723138000,Primary traumatic hemorrhage of brainstem
+723139008,Secondary traumatic hemorrhage of brainstem
+723359002,Familial acute necrotizing encephalopathy
+724424009,Cerebral ischemic stroke due to small artery occlusion
+724425005,Cerebral ischemic stroke due to intracranial large artery atherosclerosis
+724426006,Cerebral ischemic stroke due to extracranial large artery atherosclerosis
+724429004,Stroke co-occurrent with migraine
+724993002,Cerebral ischemic stroke due to occlusion of extracranial large artery
+724994008,Cerebral ischemic stroke due to stenosis of extracranial large artery
+725132001,Ischemic stroke without residual deficits
+732330391000119107,Cerebrovascular accident due to embolism of bilateral vertebral arteries
+733185001,Dementia following injury caused by exposure to ionizing radiation
+733199002,Multifocal cerebral infarction due to and following procedure on cardiovascular system
+73413009,Cortex contusion with open intracranial wound AND concussion
+735649003,Injury of bilateral optic tracts
+736321008,Injury of both visual cortices
+737231005,Traumatic hemorrhage of thalamus
+737232003,Traumatic hemorrhage of basal ganglia
+75023009,Post-traumatic epilepsy
+759950981000119101,Cerebrovascular accident due to thrombosis of left vertebral artery
+762362006,Traumatic injury of left optic tract
+762363001,Traumatic injury of right optic tract
+762436001,Injury of left visual cortex
+762617003,Injury of right visual cortex
+763310000,Acute necrotizing encephalopathy of childhood
+76418009,Concussion with mental confusion AND/OR disorientation without loss of consciousness
+76474001,Herpetic acute necrotizing encephalitis
+769023031000119104,Cerebrovascular accident of thalamus
+771305006,Progressive polyneuropathy with bilateral striatal necrosis
+78028004,Brain stem contusion with open intracranial wound AND concussion
+78569004,Posterior inferior cerebellar artery syndrome
+78879009,Intracranial hemorrhage following injury with open intracranial wound AND concussion
+788880006,Cerebral ischemic stroke due to dissection of artery
+788881005,Cerebral ischemic stroke due to aortic arch embolism
+788882003,Cerebral ischemic stroke due to global hypoperfusion with watershed infarct
+788883008,Cerebral ischemic stroke due to hypercoagulable state
+788884002,Cerebral ischemic stroke due to subarachnoid hemorrhage
+788930004,Focal contusion of brain
+788931000,Focal contusion of occipital lobe
+788932007,Focal contusion of parietal lobe
+788933002,Focal contusion of temporal lobe
+788934008,Focal laceration of brain
+78914008,Laceration of brain
+78968003,Brain stem contusion with open intracranial wound
+79220008,Brain stem contusion without open intracranial wound AND with concussion
+79228001,Brain injury without open intracranial wound AND with no loss of consciousness
+806161651000119106,Cerebrovascular accident due to embolism of right vertebral artery
+81412002,Cortex contusion with open intracranial wound AND loss of consciousness
+82344002,Cerebellar contusion with open intracranial wound
+84170006,Contusion of brain with open intracranial wound
+84900008,Cerebellar laceration with open intracranial wound AND loss of consciousness
+849488701000119104,Cerebrovascular accident due to embolism of right anterior cerebral artery
+849579281000119106,Cerebrovascular accident due to occlusion of right posterior communicating artery
+851365731000119106,Cerebrovascular accident due to thrombosis of left posterior cerebral artery
+859422751000119101,Cerebrovascular accident due to embolism of left carotid artery
+86010003,Brain injury with open intracranial wound AND moderate loss of consciousness (1-24 hours)
+86125000,Cerebellar contusion with open intracranial wound AND concussion
+86488006,Brain injury with open intracranial wound AND prolonged loss of consciousness (more than 24 hours) without return to pre-existing conscious level
+86553761000119103,Cerebrovascular accident due to occlusion of bilateral posterior cerebral arteries
+870540001,Contusion of hindbrain
+870548008,Closed fracture of skull with cerebral laceration
+870549000,Closed fracture of skull with cerebral contusion
+870550000,Closed fracture of base of skull with cerebral laceration
+870551001,Closed fracture of base of skull with cerebral contusion
+870553003,Open fracture of vault of skull with cerebral laceration
+870554009,Open fracture of vault of skull with cerebral contusion
+870555005,Open fracture of skull with cerebral contusion
+870556006,Open fracture of skull with cerebral laceration
+870563006,Contusion of cerebrum with open intracranial wound
+870565004,Contusion of hindbrain with open intracranial wound
+874937002,Cerebral cortex laceration with concussion
+874939004,Cerebellar laceration with concussion
+874940002,Brain stem laceration with concussion
+874943000,Brain stem laceration with loss of consciousness
+87555007,Claude's syndrome
+87888006,Cortex contusion with open intracranial wound
+881031000000104,Acquired brain injury
+881694631000119107,Cerebrovascular accident of medulla oblongata
+88611000119100,History of traumatic brain injury
+890551000000109,Acquired brain injury
+898941951000119108,Cerebrovascular accident due to occlusion of bilateral vertebral arteries
+9015001,Brain injury without open intracranial wound
+90429009,Cerebellar laceration without open intracranial wound AND with loss of consciousness
+90768003,Contusion of brain without open intracranial wound
+91012008,Repeated concussion of brain
+915141931000119109,Cerebrovascular accident due to embolism of basilar artery
+939885431000119109,Cerebrovascular accident due to embolism of bilateral middle cerebral arteries
+95457000,Brain stem infarction
+95460007,Cerebellar infarction
+95610008,Congenital brain damage
+957319791000119104,Cerebrovascular accident due to thrombosis of left cerebellar artery
+95830009,Pituitary infarction
+9901000119100,Occlusion of cerebral artery with stroke
+99451000119105,Cerebral infarction due to stenosis of carotid artery
