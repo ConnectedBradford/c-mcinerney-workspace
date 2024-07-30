@@ -17,7 +17,7 @@ pacman::p_load(
 ##############################
 
 # Setup connection to GCP.
-project_id = "yhcr-prd-phm-bia-core"
+project_id = "yhcr-prd-bradfor-bia-core"
 con <- DBI::dbConnect( drv = bigquery(), project = project_id ) %>% suppressWarnings()
 
 # Define R tibbles from GCP tables.
