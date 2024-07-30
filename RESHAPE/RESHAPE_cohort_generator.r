@@ -375,15 +375,35 @@ df_TandMultiMorb_factor <-
 r_tbl_srcode <-
     r_tbl_srcode %>%
     dplyr::select( person_id, dateevent, numericvalue, snomedcode ) %>%
-    # Convert A1c% values to mmol/mol values. Formala taken from https://ebmcalc.com/GlycemicAssessment.htm
+    # Convert A1c% values to mmol/mol values. The rationale for the following syntax is
+    # in `RESHAPE_check_HbA1c_SNOMED_codes.ipynb`.
+    # ## Apply transformations, where appropriate
+    dplyr::mutate( numericvalue = numericvalue %>% as.numeric() ) %>%
+    dplyr::mutate(
+            numericvalue = 
+                dplyr::case_when(
+                   snomedcode %in%
+                        c( '1003671000000109'
+                          ,'999791000000106' ) ~ numericvalue %>%
+                                                 `-`( 2.15 ) %>%
+                                                 `*`( 10.929 ) %>%
+                                                 round()
+                    ,snomedcode == '1049301000000100' ~ numericvalue
+                    ,snomedcode == '365845005' ~ NA
+
+                    ,TRUE ~ NA_character_
+                )
+        ) %>%
+    # ## Apply bandpass filter.
     dplyr::mutate(
         numericvalue = 
             dplyr::if_else(
-                ( snomedcode %in% codes_SNOMED_test_of_interest ) & sql("REGEXP_CONTAINS( numericvalue, r'\\.')" )
-                ,( numericvalue %>% as.numeric() %>% `-`( 2.15 ) ) %>% `*`( 10.929 ) %>% as.character()
-                ,numericvalue
-            )
+                numericvalue < 30 | numericvalue > 100
+                ,NA
+                ,numericvalue ) %>%
+            as.character()
     )
+
 
 qry_records_with_T2DM_diagnoses_coded <-
     r_tbl_srcode %>%
