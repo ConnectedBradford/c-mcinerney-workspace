@@ -173,8 +173,9 @@ date_followup_start <- date_diagnosis_threshold + lubridate::years( followup_del
 followup_duration_in_years <- 10
 date_followup_end <- date_followup_start + lubridate::years( followup_duration_in_years )
 
-# Threshold value for the test, which in this case is HbA1c.
-val_test_threshold <- 48
+# Set upper and lower thresholds for acceptable values of the test.
+test_value_cutoff_lower <- 0
+test_value_cutoff_upper <- 200
 
 # Threshold for the expected interval between subsequent tests, in months
 val_testing_interval_LB <- 2
@@ -188,7 +189,7 @@ val_meaningful_test_disimprovement <- 10
 window_repeated_prescription_months <- 3
 
 # Set number of tests, treatments, or iterations after diagnosis that should be tracked.
-n_iterations <- 10
+n_iterations <- followup_duration_in_years*4
 
 # Set the date window within which mutimorbidity diagnoses and the index diagnosis must fit in, in months.
 multimorb_inclusion_window_months <- 60
@@ -379,29 +380,34 @@ r_tbl_srcode <-
     # in `RESHAPE_check_HbA1c_SNOMED_codes.ipynb`.
     # ## Apply transformations, where appropriate
     dplyr::mutate( numericvalue = numericvalue %>% as.numeric() ) %>%
-    dplyr::mutate(
-            numericvalue = 
-                dplyr::case_when(
-                   snomedcode %in%
-                        c( '1003671000000109'
-                          ,'999791000000106' ) ~ numericvalue %>%
-                                                 `-`( 2.15 ) %>%
-                                                 `*`( 10.929 ) %>%
-                                                 round()
-                    ,snomedcode == '1049301000000100' ~ numericvalue
-                    ,snomedcode == '365845005' ~ NA
-
-                    ,TRUE ~ NA_character_
-                )
-        ) %>%
-    # ## Apply bandpass filter.
+    dplyr::filter(
+        dplyr::case_when(
+            snomedcode %in% codes_SNOMED_test_of_interest ~ numericvalue > 2.15
+            ,.default = numericvalue == numericvalue
+        )
+    ) %>%         
     dplyr::mutate(
         numericvalue = 
             dplyr::if_else(
-                numericvalue < 30 | numericvalue > 100
-                ,NA
-                ,numericvalue ) %>%
-            as.character()
+                ( snomedcode %in% codes_SNOMED_test_of_interest ) & ( numericvalue < 20 )
+                ,( numericvalue %>% `-`( 2.15 ) ) %>% `*`( 10.929 )
+                ,numericvalue
+            )
+        ,testType = 
+                dplyr::case_when(
+                   snomedcode == '1003671000000109'  ~ "Media 58"
+                    ,snomedcode =='999791000000106'  ~ "Median 42"
+                    ,snomedcode == '1049301000000100' ~ "Median 43"
+                    ,TRUE ~ NA_character_
+                )
+        ) %>%
+    dplyr::filter( ( numericvalue >= 20 ) | is.na( numericvalue ) ) %>%
+    # ## Apply bandpass filter.
+    dplyr::filter(
+        dplyr::case_when(
+            snomedcode %in% codes_SNOMED_test_of_interest ~ dplyr::between( numericvalue, test_value_cutoff_lower, test_value_cutoff_upper )
+            ,.default = numericvalue == numericvalue
+        )
     )
 
 
@@ -426,7 +432,7 @@ qry_records_with_T2DM_diagnoses_coded <-
 qry_records_with_T2DM_diagnoses_HbA1c <-
     r_tbl_srcode %>%
     dplyr::filter( snomedcode %in% codes_SNOMED_test_of_interest) %>%
-    dplyr::select( person_id, dateevent, numericvalue ) %>%
+    dplyr::select( person_id, dateevent, numericvalue, testType ) %>%
     # Filter for raised test scores.
     dplyr::filter( as.numeric( numericvalue ) > 48 ) %>%
     # Identify records with raised HbA1c values before April 2003.
@@ -445,7 +451,7 @@ qry_records_with_T2DM_diagnoses_HbA1c <-
     dplyr::filter( as.numeric( numericvalue ) == max( as.numeric( numericvalue ) ) ) %>%
     dplyr::ungroup() %>%
     # Tidy up.
-    dplyr::rename( date_HbA1c_diagnosis = dateevent)
+    dplyr::rename( date_HbA1c_diagnosis = dateevent )
 
 qry_records_with_T2DM_diagnoses <-
     # Join the two query results.
@@ -512,47 +518,13 @@ qry_log_prescription_longFormat <-
 
 
 # Retrieve dates of tests in the follow-up period.
-qry_log_prescription_longFormat <-
-    qry_records_with_T2DM_diagnoses %>%
-    dplyr::left_join( r_tbl_srprimarycaremedication, by = join_by( person_id ) ) %>% 
-    # Select every record that has a prescription for any diabetes medication.
-    dplyr::inner_join( names_meds_of_interest, by = join_by( nameofmedication == DMplusD_ProductDescription ) ) %>%
-    # Filter for records within the follow-up period.
-    dplyr::filter( dplyr::between( dateevent, date_followup_start, date_followup_end ) ) %>%
-    dplyr::select( person_id, date_diagnosis, dateevent, nameofmedication ) %>%
-    dplyr::distinct() %>%
-    # Filter for however many subsequent prescriptions were specified in `n_iteraions`, then number them.
-    dplyr::group_by( person_id ) %>%
-    dbplyr::window_order( person_id, dateevent ) %>%
-    dplyr::mutate( new_prescp_day = if_else( dateevent != lag( dateevent), 1, 0 ) ) %>%
-    tidyr::replace_na( list( new_prescp_day = 1 ) ) %>%
-    dplyr::mutate( i_prescrp = cumsum( new_prescp_day ) ) %>%
-    dplyr::filter( i_prescrp <= n_iterations + 1 ) %>% # The "+ 1" is added so that we always include the final "Unobserved" state.
-    dplyr::mutate( event_name = paste0( "prescription_", i_prescrp ) ) %>% 
-    dplyr::ungroup() %>%
-    # Rename columns.
-    dplyr::rename(
-        start_dttm = dateevent
-        ,event_value = nameofmedication
-    ) %>%
-    # Set the end time of each prescription as the start time of the previous one.
-    dplyr::group_by( person_id ) %>%
-    dbplyr::window_order( person_id, start_dttm ) %>%
-    dplyr::mutate(
-        end_dttm = dplyr::if_else( person_id != lag( person_id ), start_dttm, lead( start_dttm ) )
-    ) %>%
-    dplyr::mutate( end_dttm = dplyr::if_else( is.na( end_dttm ), start_dttm, end_dttm )  )%>%
-    dplyr::ungroup() %>%
-    # Tidy up.
-    dplyr::select( person_id, start_dttm, event_name, event_value, end_dttm )
-
 qry_log_test_longFormat <- 
     qry_records_with_T2DM_diagnoses %>%
     dplyr::left_join( r_tbl_srcode, by = join_by( person_id ) ) %>% 
     # Filter records for only those that refer to the test of interest.
     dplyr::filter( snomedcode %in% codes_SNOMED_test_of_interest ) %>% 
     # Extract the required fields.
-    dplyr::select( person_id, dateevent, numericvalue ) %>%
+    dplyr::select( person_id, dateevent, numericvalue, testType ) %>%
     dplyr::distinct() %>%
     # Filter out test scores of 0, which are expected to be data entry anomalies, given my selection of columns.
     dplyr::filter( numericvalue != "0" ) %>%
@@ -587,22 +559,20 @@ qry_log_test_longFormat <-
     ) %>%
     dplyr::rename( HbA1c = event_value_numeric ) %>%
     # Tidy up.
-    dplyr::select( person_id, start_dttm, event_name, event_value, end_dttm, HbA1c ) %>%
+    dplyr::select( person_id, start_dttm, event_name, event_value, end_dttm, HbA1c, testType ) %>%
     dplyr::distinct()
 
 
 # Create a variable to indicate the date from which we no longer observe the patient in the record.
 patients_of_interest_with_death_dates <-
     r_tbl_srpatient %>%
-    # Select only those patients in whom we are interested.
+    # ## Select only those patients in whom we are interested.
     dplyr::inner_join( qry_records_with_T2DM_diagnoses, by = join_by( person_id ) )
-
-if( !is.na( nrow( patients_of_interest_with_death_dates ) ) )
+if( !is.na( dplyr::count(patients_of_interest_with_death_dates) %>% dplyr::pull() ) )
 {
     df_date_unobserved <-
         patients_of_interest_with_death_dates %>%
-        dplyr::select( person_id, datedeath ) %>% 
-        dplyr::distinct() %>%
+        dplyr::distinct( person_id, datedeath ) %>% 
         dplyr::collect() %>%
         tidyr::separate(
             col = datedeath
@@ -619,11 +589,20 @@ if( !is.na( nrow( patients_of_interest_with_death_dates ) ) )
         ) %>%
         # If there are multiple dates of death, chose the earliest one.
         dplyr::group_by( person_id ) %>%
-        dplyr::filter( if (is.na( date_unobserved ) ) min( date_unobserved, na.rm = TRUE) else date_unobserved ) %>%
+        dplyr::mutate(
+            date_unobserved = 
+                dplyr::if_else(
+                    is.na( date_unobserved )
+                    ,min( date_unobserved, na.rm = TRUE )
+                    ,date_unobserved
+                    )
+        ) %>%
         dplyr::ungroup() %>%
+        tidyr::drop_na() %>%
         # Tidy up.
         dplyr::select( person_id, date_unobserved ) %>%
-        dplyr::arrange( person_id )
+        dplyr::arrange( person_id ) %>%
+        suppressWarnings()
 } else {
     df_date_unobserved <-
         data.frame(
@@ -631,8 +610,7 @@ if( !is.na( nrow( patients_of_interest_with_death_dates ) ) )
             ,date_unobserved = Date(0)
         )
 }
-                      
-           
+
 # Append the prescriptions and tests dataframe logs.
 df_log_PandT_longFormat <-
     qry_log_prescription_longFormat %>%
@@ -696,4 +674,5 @@ qry_log_multimorb_longFormat <-
     ) %>%
     dplyr::ungroup() %>%
     # Tidy up.
-    dplyr::arrange(person_id, date_multimorb )                     
+    dplyr::arrange(person_id, date_multimorb )          
+              
