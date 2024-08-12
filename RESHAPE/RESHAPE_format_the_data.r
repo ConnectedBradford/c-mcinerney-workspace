@@ -87,6 +87,47 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     dplyr::arrange( person_id, start_dttm )
 
 
+# Append an age column.
+df_age <-
+    r_tbl_srpatient %>%
+    # Select only those patients in whom we are interested.
+    dplyr::inner_join( qry_records_with_T2DM_diagnoses, by = join_by( person_id ) ) %>%
+    dplyr::distinct( person_id, datebirth ) %>% 
+    dplyr::collect() %>%
+    tidyr::separate(
+        col = datebirth
+        ,sep = 4
+        ,into = c( "birth_year", "birth_month" )
+    ) %>%
+    dplyr::mutate(
+        DOB = 
+            dplyr::if_else(
+                is.na( birth_year )
+                ,NA
+                ,ISOdate( year = birth_year, month = birth_month, day = 1, hour = 0 )
+            )
+    ) %>%
+    # If there are multiple dates of death, chose the earliest one.
+    dplyr::group_by( person_id ) %>%
+    dplyr::mutate( DOB = min( DOB, na.rm = TRUE ) ) %>%
+    dplyr::ungroup() %>% 
+    tidyr::drop_na() %>%
+    # Tidy up.
+    dplyr::distinct( person_id, DOB ) %>%
+    dplyr::arrange( person_id ) %>%
+    suppressWarnings() 
+
+df_log_PandT_longFormat_simplified_StrataLabels <-
+    df_log_PandT_longFormat_simplified_StrataLabels %>%
+    dplyr::left_join(
+        df_age
+        ,by = join_by( person_id )
+        ,relationship = 'many-to-one'
+    ) %>%
+    dplyr::mutate(
+        Age = lubridate::interval( DOB, start_dttm ) / lubridate::years( 1 )
+    )
+
 #########################
 # H.M.A. stratification #
 #########################
@@ -411,7 +452,7 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
         TandI =
             factor(
                 TandI
-                , levels = df_TandI_factor %>% dplyr::select( TandI_fct_order ) %>% dplyr::pull()
+                ,levels = df_TandI_factor %>% dplyr::select( TandI_fct_order ) %>% dplyr::pull()
             )
     )
 
@@ -473,7 +514,7 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
         TandMultiMorb =
               factor(
                   TandMultiMorb
-                  , levels = df_TandMultiMorb_factor %>% dplyr::select( TandMultiMorb_fct_order ) %>% dplyr::pull()
+                  ,levels = df_TandMultiMorb_factor %>% dplyr::select( TandMultiMorb_fct_order ) %>% dplyr::pull()
               )
     )
 
