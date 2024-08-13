@@ -174,7 +174,7 @@ followup_duration_in_years <- 10
 date_followup_end <- date_followup_start + lubridate::years( followup_duration_in_years )
 
 # Set upper and lower thresholds for acceptable values of the test.
-test_value_cutoff_lower <- 0
+test_value_cutoff_lower <- 20
 test_value_cutoff_upper <- 200
 
 # Threshold for the expected interval between subsequent tests, in months
@@ -373,7 +373,7 @@ df_TandMultiMorb_factor <-
 # First, I need to convert historic A1c% values to up-to-date mmol/mol values
 # (Formala taken from https://ebmcalc.com/GlycemicAssessment.htm). Then I will define the cohort of relevant records
 #
-r_tbl_srcode <-
+r_tbl_srcode_tests <-
     r_tbl_srcode %>%
     dplyr::select( person_id, dateevent, numericvalue, snomedcode ) %>%
     # Convert A1c% values to mmol/mol values. The rationale for the following syntax is
@@ -408,7 +408,26 @@ r_tbl_srcode <-
             snomedcode %in% codes_SNOMED_test_of_interest ~ dplyr::between( numericvalue, test_value_cutoff_lower, test_value_cutoff_upper )
             ,.default = numericvalue == numericvalue
         )
-    )
+    ) %>%
+    # Recast `numericvalue` to string.
+    dplyr::mutate( numericvalue = numericvalue %>% as.character() )
+
+r_tbl_srcode_diagnoses <-
+    r_tbl_srcode %>%
+    dplyr::select( person_id, dateevent, numericvalue, snomedcode ) %>%
+    dplyr::filter( snomedcode %in% codes_SNOMED_diagnoses_of_interest ) 
+
+r_tbl_srcode_other <-
+    r_tbl_srcode %>%
+    dplyr::select( person_id, dateevent, numericvalue, snomedcode ) %>%
+    dplyr::filter( ( !snomedcode %in% codes_SNOMED_test_of_interest ) & ( !snomedcode %in% codes_SNOMED_diagnoses_of_interest ) )
+
+r_tbl_srcode <-
+    r_tbl_srcode_tests %>%
+    dplyr::union_all( r_tbl_srcode_diagnoses ) %>%
+    dplyr::union_all( r_tbl_srcode_other )
+
+rm( r_tbl_srcode_tests, r_tbl_srcode_diagnoses, r_tbl_srcode_other )
 
 
 qry_records_with_T2DM_diagnoses_coded <-
@@ -674,5 +693,5 @@ qry_log_multimorb_longFormat <-
     ) %>%
     dplyr::ungroup() %>%
     # Tidy up.
-    dplyr::arrange(person_id, date_multimorb )          
+    dplyr::arrange( person_id, date_multimorb )          
               
