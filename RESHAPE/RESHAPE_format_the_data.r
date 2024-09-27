@@ -1,4 +1,4 @@
-f# The purpose of this script is...
+# The purpose of this script is...
 #
 
 #####################
@@ -32,25 +32,24 @@ df_log_PandT_longFormat_simplified <-
     # Remove the numbers in the event name.
     dplyr::mutate_at(
         .vars = vars( event_name )
-        ,.funs = ~ gsub( "_[0-9]", "", . )
-    ) %>% 
-    # Aggregate medications.
-    dplyr::left_join(
-        shortNames_meds_of_interest
-        ,by = join_by( event_value == drug_name )
-    ) %>%
-    dplyr::mutate(
-        event_value = dplyr::if_else( is.na( drug_name_short ), event_value, drug_name_short )
-    ) %>%
-    dplyr::select( -drug_name_short ) %>%
-    # Convert to factor ## Can no longer do this because the factor list is too large.
-    dplyr::mutate(
-        event_value = 
-            factor(
-                event_value
-                ,levels = df_event_factor %>% dplyr::select( event_fct_order ) %>% dplyr::pull()
-            )
+        ,.funs = ~ gsub( "_*[0-9]", "", . )
     )
+
+# Convert to factor. # This becomes too unwieldy if I don't substantially amalgamate the drugs.
+if( ( df_log_PandT_longFormat_simplified %>% dplyr::select( event_value ) %>% unique() %>% nrow() ) < 36 )
+    {
+    df_log_PandT_longFormat_simplified <-
+        df_log_PandT_longFormat_simplified %>%
+        dplyr::mutate(
+            event_value = 
+                    factor(
+                        event_value
+                        ,levels = df_event_factor %>% dplyr::select( event_fct_order ) %>% dplyr::pull()
+                    )
+            )
+    } else { 
+    message("\nNOTE: Prescriptions were not converted to factor type because there are too many.\n         Consider amalgamating them.")
+    }
 
 # Before I can begin analysing the data, I need to define the strata proposed by the Clinical Review Board.
 # The stratifications were:
@@ -74,9 +73,6 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
         idx_test_interval = 0 + cumsum( stringr::str_detect( event_value, pattern = "Test" ) )
     ) %>% 
     dplyr::ungroup() %>%
-    # Remove any record with `idx_test_interval` == 0, which indicates no tests on record. This
-    # removes all prescriptions before the first recorded test.
-    dplyr::filter( idx_test_interval != 0 ) %>%
     # Remove any calculated `idx_test_interval` for which the `event_value` is "Unobserved".
     dplyr::mutate(
         idx_test_interval =
@@ -128,14 +124,30 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
         Age = lubridate::interval( DOB, start_dttm ) / lubridate::years( 1 )
     )
 
+
+# Include the date of diagnosis.
+df_log_PandT_longFormat_simplified_StrataLabels <-
+    df_log_PandT_longFormat_simplified_StrataLabels %>%
+    dplyr::group_by( person_id ) %>%
+    dplyr::group_modify( ~ tibble::add_row( .x ), .by = person_id ) %>% 
+    dplyr::left_join( qry_records_with_T2DM_diagnoses %>% collect(), by = join_by( person_id ) ) %>%
+    dplyr::mutate( start_dttm = if_else( is.na( start_dttm ), date_diagnosis , start_dttm ) ) %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
+    dplyr::mutate(
+        end_dttm = dplyr::if_else( is.na( end_dttm ), lead( start_dttm ), end_dttm )
+        ,event_name = dplyr::if_else( is.na( event_value ), "diagnosis", event_name )
+    ) %>%
+    dplyr::ungroup() 
+
+
 #########################
 # H.M.A. stratification #
 #########################
 #
 # The two components of this stratification are the testing interval and the change in prescription. The testing
 # interval requries me to create a variable indicating that the inter-test duration was between
-# `val_testing_interval_LB` and `val_testing_interval_UB`. The change in prescription requires me to create a
-# variable indicating whether the prescriptions before and after an index test event are the same.
+# `val_testing_interval_LB` and `val_testing_interval_UB`. The change-in-prescription criterion refers to 
+# whether a new medication-dose set was prescribed, where "new" means not seen in the previous three months.
 #
 # The first thing is to calculate the inter-test duration. In this iteration, I will have to ignore the interval
 # between the diagnostic test and the subsequent test because I am deliberately looking at records ten years
@@ -143,20 +155,20 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
                       
 df_inter_test_duration <-
     qry_log_test_longFormat %>%
-    dplyr::filter( event_name != "diagnosis" ) %>%
-    # Calculate the duration between each test and the next.
-    dplyr::mutate( inter_test_duration_cont = sql( "DATE_DIFF( end_dttm, start_dttm, MONTH )" ) ) %>%
-    # If the event is a diagnosis, then I need to calculate the inter-test duration in a different way.
+    dplyr::collect() %>%
+    # Include the date of diagnosis.
     dplyr::group_by( person_id ) %>%
+    dplyr::group_modify( ~ tibble::add_row( .x ), .by = person_id ) %>% 
+    dplyr::left_join( qry_records_with_T2DM_diagnoses %>% collect(), by = join_by( person_id ) ) %>%
+    dplyr::mutate( start_dttm = if_else( is.na( start_dttm ), date_diagnosis , start_dttm ) ) %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
     dplyr::mutate(
-        inter_test_duration_cont =
-            dplyr::if_else(
-                event_name == "diagnosis"
-                ,sql( "DATE_DIFF( LEAD( start_dttm ) OVER( PARTITION BY person_id ORDER BY start_dttm ASC), start_dttm, MONTH )" )
-                ,inter_test_duration_cont
-            )
+        end_dttm = dplyr::if_else( is.na( end_dttm ), lead( start_dttm ), end_dttm )
+        ,event_name = dplyr::if_else( is.na( event_value ), "diagnosis", event_name )
     ) %>%
     dplyr::ungroup() %>%
+    # Calculate the duration between each test and the next.
+    dplyr::mutate( inter_test_duration_cont = lubridate::interval( start_dttm, end_dttm ) %>% `/`( months(1) ) ) %>%
     # Make any same-day tests or anomalies = NA.
     dplyr::mutate(
         inter_test_duration_cont = 
@@ -187,19 +199,18 @@ df_inter_test_duration <-
     # Tidy up.
     dplyr::filter( !is.na( inter_test_duration_cont ) ) %>%
     arrange( person_id, start_dttm ) %>%
-    dplyr::select( c( person_id, start_dttm
-                     ,inter_test_duration_cont, inter_test_duration_discr ) ) %>% 
-    dplyr::distinct()
+    dplyr::select( c( person_id, start_dttm, inter_test_duration_cont, inter_test_duration_discr ) ) %>% 
+    dplyr::distinct() 
 
 # Add the new variable to the dataframe.
 df_log_PandT_longFormat_simplified_StrataLabels <-
     # Join the variable indicating the inter-test duration.
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     dplyr::left_join(
-        df_inter_test_duration %>% dplyr::collect()
+        df_inter_test_duration 
         ,by = join_by( person_id, start_dttm )
         ,relationship = "many-to-many"
-        # The `relationship` argument is needed because a warning is raised happens for the situations
+        # The `relationship` argument is needed because a warning is raised for the situations
         # where multiple prescriptions are given on the same day.
     ) %>%
     # Fill in the values of the inter-test variables into subsequent rows until a new value is given.
@@ -210,10 +221,10 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     dplyr::ungroup()
   
                       
-# Next, I need to make the variable that indicates whether the prescription has changed since the previous interval.
+# Next, I need to make the variable that indicates whether the prescription has changed.
 df_log_PandT_longFormat_simplified_StrataLabels <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
-    # Create new columns that contain either the test events or the prescription events.
+    # Create new columns that contain the test events and the prescription events.
     dplyr::select( person_id, start_dttm, event_value, idx_test_interval ) %>%
     dplyr::mutate(
         tempCol_tests = dplyr::if_else( stringr::str_detect( event_value, pattern = "Test"), event_value, NA_character_ )
@@ -222,10 +233,10 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
         tempCol_prescrps = dplyr::if_else( !stringr::str_detect( event_value, pattern = "Test"), event_value, NA_character_ )
     ) %>%
     # Fill the test column until a new value is given.
-    dplyr::arrange( person_id, start_dttm ) %>%
+    dplyr::arrange( person_id, start_dttm, tempCol_prescrps ) %>%
     tidyr::fill( tempCol_tests ) %>%
     # Tidy away unecessary columns.
-    dplyr::select( - c( event_value, start_dttm ) ) %>%
+    dplyr::select( - c( event_value ) ) %>%
     # Remove repeated prescriptions within an inter-test period.
     dplyr::distinct() %>%
     # Pivot wider so that each row represents an inter-test period.
@@ -241,53 +252,79 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
         col = "meds_set"
         ,dplyr::select(
             .
-            ,- c('person_id', 'tempCol_tests', 'idx_test_interval')
+            ,- c('person_id', 'tempCol_tests', 'start_dttm', 'idx_test_interval')
         ) %>% colnames()
-        ,sep = ","
+        ,sep = " , "
         ,na.rm = TRUE
     ) %>%
-    # Check subsequent rows for a match.
-    dplyr::group_by( person_id ) %>% 
-    dplyr::mutate( prev_meds_set = lag( meds_set ) ) %>%
-    dplyr::ungroup() %>%
-    dplyr::mutate_at(
-        .vars = vars( meds_set, prev_meds_set )
-        ,.funs = funs( strsplit( ., ',') )
-    ) %>% 
-    dplyr::rowwise() %>%
+    suppressWarnings() %>%
+    # Create a list of the `meds_set`s that have occurred in the previous 
+    # `HMA_adjust_lookBack_window_in_wks`, inclusive of the given row's `med_set`.
     dplyr::mutate(
-        new_meds =
-            dplyr::if_else(
-                is.na( prev_meds_set[1] )
-                ,"",
-                toString( setdiff( meds_set, prev_meds_set ) ) 
-                ) %>% nchar() != 0
+        meds_set = strsplit( meds_set, split = " , ", fixed = TRUE )
+    ) %>%
+    dplyr::group_by( person_id ) %>%
+    dplyr::mutate(
+        meds_set_window = slider::slide_index(.x = meds_set, .i = start_dttm, .f = ~.x, .before = HMA_adjust_lookBack_window )
     ) %>%
     dplyr::ungroup() %>%
-    suppressWarnings() %>%
+    # Remove the current `meds_set` from the `meds_set_window`.
+    dplyr::rowwise() %>%
+    dplyr::mutate(
+        meds_set_window = 
+            meds_set_window %>%
+            head( -1 ) %>%
+            unlist() %>%
+            unique() %>%
+            list()
+    ) %>%
+    dplyr::ungroup() %>%
+    # Check if the current `meds_set` is not an element of the `meds_set_window`. Label as
+    # 'HMA_adjust` == TRUE if so.
+    dplyr::group_by( person_id ) %>%
+    dplyr::rowwise() %>%
+    dplyr::mutate(
+        HMA_adjust =
+            ifelse(
+                ( length( meds_set ) > 0 )
+                ,!meds_set %in% meds_set_window
+                ,NA
+                )
+        ,HMA_adjust = dplyr::if_else( all( meds_set == "Unobserved" ), NA, HMA_adjust)
+    ) %>%
+    dplyr::ungroup() %>%
+    # Set entire inter-test intervals to an 'Adjust' or 'Not adjust' value based
+    # whether an adjust event occured during that window.
+    dplyr::group_by( person_id, idx_test_interval ) %>%
+    dplyr::mutate( adjust_interval = dplyr::if_else( 'TRUE' %in% HMA_adjust, 'Adjust', 'Not adjust') ) %>%
+    dplyr::ungroup() %>%
     # Join the `new_meds` column to the original dataframe.
-    dplyr::select( person_id, idx_test_interval, new_meds ) %>%
+    dplyr::distinct( person_id, idx_test_interval, adjust_interval ) %>%
     dplyr::right_join(
         df_log_PandT_longFormat_simplified_StrataLabels
         ,by = join_by( person_id, idx_test_interval )
-    )
-
+    ) %>%
+    # Remove any record with `idx_test_interval` == 0. This removes all prescriptions before
+    # the first recorded test.
+    dplyr::filter( idx_test_interval != 0 )
                      
 # The final step is to combine the two components of the stratification's definition into a single variable called HMA.
+# Take note that the 'Adjust' label overrules a 'Monitor' label.
 df_log_PandT_longFormat_simplified_StrataLabels <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     dplyr::mutate(
         HMA =
             dplyr::case_when(
                 event_value == "Unobserved" ~ "Unobserved"
-
-                ,( inter_test_duration_discr == "As expected" & new_meds == FALSE ) ~ "Hold"
-                ,( inter_test_duration_discr == "Shorter than expected" & new_meds == FALSE ) ~ "Monitor"
-                ,( new_meds == TRUE ) ~ "Adjust"
+                
+                ,adjust_interval == "Adjust" ~ "Adjust"
+                , inter_test_duration_discr == "As expected" ~ "Hold"
+                , inter_test_duration_discr == "Shorter than expected" ~ "Monitor"
 
                 ,TRUE ~ NA_character_
             )
     ) %>%
+    dplyr::select( -adjust_interval ) %>%
     # Set as a factor datatype and order the factors.
     dplyr::mutate( HMA = factor( HMA, levels = df_HMA_factor %>% dplyr::select( HMA_fct_order ) %>% dplyr::pull() ) )
 
