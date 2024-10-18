@@ -24,7 +24,7 @@ con <- DBI::dbConnect( drv = bigquery(), project = project_id ) %>% suppressWarn
 # Define R tibbles from GCP tables.
 r_tbl_srcode <- dplyr::tbl( con, sql( "SELECT * FROM CB_FDM_PrimaryCare.tbl_srcode" ) )
 r_tbl_srpatient <- dplyr::tbl( con, sql( "SELECT * FROM CB_FDM_PrimaryCare.tbl_srpatient" ) )
-r_tbl_BNF_DMD_SNOMED_lkp <- dplyr::tbl( con, sql( "SELECT * FROM ref_Lookups.tbl_BNF_DMD_SNOMED_lkp" ) )
+r_tbl_BNF_DMD_SNOMED_lkp <- dplyr::tbl( con, sql( "SELECT * FROM ref_Lookups.lkp_BNF_DMD_SNOMED_lkp" ) )
 r_tbl_srprimarycaremedication <- dplyr::tbl( con, sql( "SELECT * FROM CB_FDM_PrimaryCare.tbl_srprimarycaremedication" ) )
 r_tbl_srappointment <- dplyr::tbl( con, sql( "SELECT * FROM CB_FDM_PrimaryCare.tbl_srappointment" ) )
 
