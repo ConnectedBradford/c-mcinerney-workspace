@@ -168,16 +168,7 @@ df_inter_test_duration <-
     ) %>%
     dplyr::ungroup() %>%
     # Calculate the duration between each test and the next.
-    dplyr::mutate( inter_test_duration_cont = lubridate::interval( start_dttm, end_dttm ) %>% `/`( months(1) ) ) %>%
-    # Make any same-day tests or anomalies = NA.
-    dplyr::mutate(
-        inter_test_duration_cont = 
-            dplyr::if_else(
-                inter_test_duration_cont == 0
-                ,NA_real_
-                ,inter_test_duration_cont
-            )
-    ) %>%
+    dplyr::mutate( inter_test_duration_cont = lubridate::interval( start_dttm, end_dttm ) %>% `/`( months(1) ) ) %>% 
     # Create a discretised version of the inter-test duration variable.
     dplyr::mutate(
         inter_test_duration_discr =
@@ -186,21 +177,20 @@ df_inter_test_duration <-
                 ,"Shorter than expected"
                 ,"As expected"
             )
-    ) %>%
+    ) %>% 
     # Make any same-day tests or anomalies = NA.
     dplyr::mutate(
         inter_test_duration_discr =
              dplyr::if_else(
-                 inter_test_duration_cont == 0
-                 ,NA_character_
+                 is.na( inter_test_duration_cont )
+                 ,"Not applicable"
                  ,inter_test_duration_discr
              )
     ) %>%
     # Tidy up.
-    dplyr::filter( !is.na( inter_test_duration_cont ) ) %>%
     arrange( person_id, start_dttm ) %>%
     dplyr::select( c( person_id, start_dttm, inter_test_duration_cont, inter_test_duration_discr ) ) %>% 
-    dplyr::distinct() 
+    dplyr::distinct() %>% dplyr::arrange(person_id, start_dttm)
 
 # Add the new variable to the dataframe.
 df_log_PandT_longFormat_simplified_StrataLabels <-
@@ -218,6 +208,7 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     dplyr::arrange( start_dttm ) %>%
     tidyr::fill( inter_test_duration_cont ) %>%
     tidyr::fill( inter_test_duration_discr ) %>%
+    dplyr::mutate( inter_test_duration_cont = dplyr::if_else( inter_test_duration_discr == "Not applicable", NA_real_, inter_test_duration_cont ) ) %>%
     dplyr::ungroup()
   
                       
@@ -236,18 +227,19 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     dplyr::arrange( person_id, start_dttm, tempCol_prescrps ) %>%
     tidyr::fill( tempCol_tests ) %>%
     # Tidy away unecessary columns.
-    dplyr::select( - c( event_value ) ) %>%
+    #dplyr::select( - c( event_value ) ) %>%
     # Remove repeated prescriptions within an inter-test period.
     dplyr::distinct() %>%
-    # Pivot wider so that each row represents an inter-test period.
+    # Pivot wider so that each row represents an inter-test period. Order within the grouping doesn't matter because
+    # I'm just collecting the set of prescriptions rather than the sequence of them.
     dplyr::group_by( person_id, tempCol_tests ) %>%
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
     tidyr::pivot_wider(
         names_from = rn
         ,values_from = tempCol_prescrps
-        ) %>% 
-    # List-concatonate the repeated prescriptions into one string
+        ) %>%
+    # List-concatonate the repeated prescriptions into one string.
     tidyr::unite(
         col = "meds_set"
         ,dplyr::select(
@@ -257,12 +249,11 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
         ,sep = " , "
         ,na.rm = TRUE
     ) %>%
-    suppressWarnings() %>%
     # Create a list of the `meds_set`s that have occurred in the previous 
     # `HMA_adjust_lookBack_window_in_wks`, inclusive of the given row's `med_set`.
     dplyr::mutate(
         meds_set = strsplit( meds_set, split = " , ", fixed = TRUE )
-    ) %>%
+    ) %>% 
     dplyr::group_by( person_id ) %>%
     dplyr::mutate(
         meds_set_window = slider::slide_index(.x = meds_set, .i = start_dttm, .f = ~.x, .before = HMA_adjust_lookBack_window )
@@ -304,9 +295,17 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
         df_log_PandT_longFormat_simplified_StrataLabels
         ,by = join_by( person_id, idx_test_interval )
     ) %>%
-    # Remove any record with `idx_test_interval` == 0. This removes all prescriptions before
-    # the first recorded test.
-    dplyr::filter( idx_test_interval != 0 )
+    # Impute the value for `idx_test_interval` for the event_value == `Unobserved` event.
+    dplyr::group_by( person_id ) %>%
+    dplyr::mutate(
+        idx_test_interval = dplyr::if_else( ( event_value == 'Unobserved' ) & ( !all(is.na(idx_test_interval)) ), max( idx_test_interval, na.rm = TRUE ) + 1, idx_test_interval )
+    ) %>%
+    dplyr::ungroup() %>%
+    # Remove any record with `idx_test_interval` == 0. This exlcudes all prescriptions before
+    # the first non-diagnostic test recorded. The syntax below will also exclude the diagnosis event.
+    dplyr::filter( idx_test_interval != 0 ) %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
+    suppressWarnings()
                      
 # The final step is to combine the two components of the stratification's definition into a single variable called HMA.
 # Take note that the 'Adjust' label overrules a 'Monitor' label.

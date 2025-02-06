@@ -222,7 +222,7 @@ val_meaningful_test_disimprovement <- 10
 window_repeated_prescription_months <- 3
 
 # Set number of tests, treatments, or iterations after diagnosis that should be tracked.
-n_iterations <- followup_duration_in_years*4
+n_iterations <- followup_duration_in_years*2#4
 
 # Set the window within which mutimorbidity diagnoses and the index diagnosis must fit in, in months.
 multimorb_inclusion_window_months <- 60
