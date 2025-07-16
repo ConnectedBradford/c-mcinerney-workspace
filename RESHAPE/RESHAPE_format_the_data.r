@@ -14,7 +14,7 @@ pacman::p_load(
 
 
 ##########################
-# Check for reequisites. #
+# Check for requisites. #
 ##########################
 if( !exists( "df_log_PandT_longFormat" ) )
     {
@@ -84,14 +84,17 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
 
 
 # Append an age column.
+# ## For some unknown reason, I have to reload `r_tbl_srpatient` or the `DateBirth` field isn't recognised in functions like `colnames()` and `dplyr::distinct`
+# ## despite clearly showing up when `r_tbl_srpatient` is printed to screen. Figure that one out!
+r_tbl_srpatient <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".cb_SRPatient" ) ) )
 df_age <-
     r_tbl_srpatient %>%
     # Select only those patients in whom we are interested.
     dplyr::inner_join( qry_records_with_T2DM_diagnoses, by = join_by( person_id ) ) %>%
-    dplyr::distinct( person_id, datebirth ) %>% 
+    dplyr::distinct( person_id, DateBirth ) %>%
     dplyr::collect() %>%
     tidyr::separate(
-        col = datebirth
+        col = DateBirth
         ,sep = 4
         ,into = c( "birth_year", "birth_month" )
     ) %>%
@@ -151,7 +154,9 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
 #
 # The first thing is to calculate the inter-test duration. In this iteration, I will have to ignore the interval
 # between the diagnostic test and the subsequent test because I am deliberately looking at records ten years
-# after the diagnostic test.
+# after the diagnostic test.# ****************************************************
+                            # **************************************************** This isn't always true. For the paper I might be doing straight after diagnosis.
+                            # ****************************************************
                       
 df_inter_test_duration <-
     qry_log_test_longFormat %>%
@@ -168,14 +173,20 @@ df_inter_test_duration <-
     ) %>%
     dplyr::ungroup() %>%
     # Calculate the duration between each test and the next.
-    dplyr::mutate( inter_test_duration_cont = lubridate::interval( start_dttm, end_dttm ) %>% `/`( months(1) ) ) %>% 
+    dplyr::mutate( inter_test_duration_cont = lubridate::interval( start_dttm, end_dttm  ) %>% `/`( months(1) ) ) %>% # So, `inter_test_duration` is the duration *to* the next rather than *since* the previous.
     # Create a discretised version of the inter-test duration variable.
     dplyr::mutate(
         inter_test_duration_discr =
             dplyr::if_else(
-                ( inter_test_duration_cont > val_testing_interval_LB ) & ( inter_test_duration_cont < val_testing_interval_UB )
+                inter_test_duration_cont < val_testing_interval_UB
                 ,"Shorter than expected"
                 ,"As expected"
+            )
+        ,inter_test_duration_discr = 
+            dplyr::if_else(
+                inter_test_duration_cont < val_testing_interval_LB
+                ,"Not applicable"
+                ,inter_test_duration_discr
             )
     ) %>% 
     # Make any same-day tests or anomalies = NA.
@@ -192,9 +203,9 @@ df_inter_test_duration <-
     dplyr::select( c( person_id, start_dttm, inter_test_duration_cont, inter_test_duration_discr ) ) %>% 
     dplyr::distinct() %>% dplyr::arrange(person_id, start_dttm)
 
-# Add the new variable to the dataframe.
+# Add the inter-test duration variables to the dataframe.
 df_log_PandT_longFormat_simplified_StrataLabels <-
-    # Join the variable indicating the inter-test duration.
+    # Join the data.frame with the variables indicating the inter-test duration.
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     dplyr::left_join(
         df_inter_test_duration 
@@ -212,7 +223,7 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     dplyr::ungroup()
   
                       
-# Next, I need to make the variable that indicates whether the prescription has changed.
+# Next, I need to make the variable that indicates whether the prescription has changed *since*??????
 df_log_PandT_longFormat_simplified_StrataLabels <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     # Create new columns that contain the test events and the prescription events.

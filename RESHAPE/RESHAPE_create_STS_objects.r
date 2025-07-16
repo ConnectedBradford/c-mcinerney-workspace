@@ -234,7 +234,7 @@ d <- TraMineRextras::TSE_to_STS(
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_test_only_excludingUnobserved <-
     d %>%
-    TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+    TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%
     suppressMessages()
 
 
@@ -291,7 +291,7 @@ d <- TraMineRextras::TSE_to_STS(
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_intervention_only <-
     d %>%
-    TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+    TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%
     suppressMessages()
 
 # Define list of events to focus on.
@@ -341,7 +341,7 @@ d <- TraMineRextras::TSE_to_STS(
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_intervention_only_excludingUnobserved <-
     d %>%
-    TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+    TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%
     suppressMessages()
 
 
@@ -382,7 +382,7 @@ d <-
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_TandI <-
    d %>%
-   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%
    suppressMessages()
 
 # Convert the time series dataframe to a state sequence object.
@@ -399,7 +399,7 @@ d <-
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_TandI_excludingUnobserved <-
    d %>%
-   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%
    suppressMessages()
 
 
@@ -447,7 +447,7 @@ d <-
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_HMA <-
    d %>%
-   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%   
    suppressMessages()
 
 # Convert the time series dataframe to a state sequence object.
@@ -471,7 +471,7 @@ d <-
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_HMA_excludingUnobserved <-
    d %>%
-   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%   
    suppressMessages()
 
 
@@ -512,7 +512,8 @@ d <-
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_HMAandTestStatus <-
    d %>%
-   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%
+   
    suppressMessages()
 
 # Convert the time series dataframe to a state sequence object.    
@@ -529,7 +530,7 @@ d <-
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_HMAandTestStatus_excludingUnobserved <-
    d %>%
-   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%   
    suppressMessages()
 
 
@@ -570,7 +571,7 @@ d <-
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_TandMultiMorb <-
    d %>%
-   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%   
    suppressMessages()
 
 # Convert the time series dataframe to a state sequence object.
@@ -587,5 +588,5 @@ d <-
 statl <- TraMineR:::seqxtract(d, NULL, data.frame = TRUE) %>% seqstatl()
 sts_seqmine_TandMultiMorb_excludingUnobserved <-
    d %>%
-   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] ) %>%
+   TraMineR::seqdef( labels = events_selection[ events_selection %in% statl ] )%>%   
    suppressMessages()
