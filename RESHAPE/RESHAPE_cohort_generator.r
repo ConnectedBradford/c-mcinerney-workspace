@@ -18,15 +18,15 @@ pacman::p_load(
 ##############################
 
 # Setup connection to GCP.
-project_id = "yhcr-prd-bradfor-bia-core"
-con <- DBI::dbConnect( drv = bigquery(), project = project_id ) %>% suppressWarnings()
+server_id = "yhcr-prd-bradfor-bia-core"
+con <- DBI::dbConnect( drv = bigquery(), project = server_id ) %>% suppressWarnings()
 
 # Define R tibbles from GCP tables.
-r_tbl_srcode <- dplyr::tbl( con, sql( "SELECT * FROM CB_FDM_PrimaryCare.tbl_srcode" ) )
-r_tbl_srpatient <- dplyr::tbl( con, sql( "SELECT * FROM CB_FDM_PrimaryCare.tbl_srpatient" ) )
-r_tbl_BNF_DMD_SNOMED_lkp <- dplyr::tbl( con, sql( "SELECT * FROM ref_Lookups.lkp_BNF_DMD_SNOMED_lkp" ) )
-r_tbl_srprimarycaremedication <- dplyr::tbl( con, sql( "SELECT * FROM CB_FDM_PrimaryCare.tbl_srprimarycaremedication" ) )
-r_tbl_srappointment <- dplyr::tbl( con, sql( "SELECT * FROM CB_FDM_PrimaryCare.tbl_srappointment" ) )
+project_id = "CB_2078"
+r_tbl_srcode <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".cb_SRCode" ) ) ) %>% dplyr::mutate( SNOMEDCode = as.character( SNOMEDCode ) )
+r_tbl_srpatient <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".cb_SRPatient" ) ) )
+r_tbl_BNF_DMD_SNOMED_lkp <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".lkp_BNF_DMD_SNOMED" ) ) )
+r_tbl_srprimarycaremedication <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".cb_SRPrimaryCareMedication" ) ) ) %>% dplyr::rename( DateEvent = dateevent )
 
 # Clinical code lists (BNF, SNOMED-CT, etc).
 # ## Medication codes.
@@ -192,44 +192,6 @@ codes_SNOMED_didNotAttend <-
  ##   readr::read_csv(file = 'meds_expected_prescription_duration.csv',
   ##                  col_types = cols( term = col_character(), duration = col_numeric() ) )
 
-# Study dates
-# ## The date before which a patient must have had their diagnosis.
-date_diagnosis_threshold <- lubridate::ymd('2000-01-01') # NULL
-# ## The date after which test and intervention records will be studied.
-followup_delay_in_years <- 0
-date_followup_start <- date_diagnosis_threshold + lubridate::years( followup_delay_in_years )
-# ## The date before which test and intervention records will be studied.
-followup_duration_in_years <- 10
-date_followup_end <- date_followup_start + lubridate::years( followup_duration_in_years )
-
-# Set the duration of the window back in time to review prescriptions when identifying
-# the HMA status.
-HMA_adjust_lookBack_window <- lubridate::weeks( 16 )
-
-# Set upper and lower thresholds for acceptable values of the test.
-test_value_cutoff_lower <- 20
-test_value_cutoff_upper <- 200
-
-# Threshold for the expected interval between subsequent tests, in months
-val_testing_interval_LB <- 2
-val_testing_interval_UB <- 5
-
-# Set values for meaningful changes in the values of the test.
-val_meaningful_test_improvement <- -10
-val_meaningful_test_disimprovement <- 10
-
-# Set window within which to search for repeated (but not repeat) prescriptions.
-window_repeated_prescription_months <- 3
-
-# Set number of tests, treatments, or iterations after diagnosis that should be tracked.
-n_iterations <- followup_duration_in_years*2#4
-
-# Set the window within which mutimorbidity diagnoses and the index diagnosis must fit in, in months.
-multimorb_inclusion_window_months <- 60
-
-# Set the window outwith which at least two mutimorbidity diagnoses must be of each other, in months.
-multimorb_gap_window_months <- 1
-
 # Set ordering of factors labels for the event variable.
 temp_meds_names <-
     shortNames_meds_of_interest %>%
@@ -377,10 +339,10 @@ df_TandMultiMorb_factor <-
 ########################
 # Define study cohort. #
 ########################
-# This was trivial in previous iterations because I relied on clinicall-coded diagnoses, only. This time I
+# This was trivial in previous iterations because I relied on clinically-coded diagnoses, only. This time I
 # will also permit diagnosis to be indicated by abnormal HbA1c (i.e. >48 mmol/mol). The justification is that
-# concurrent work by CMI and colleagues shows that clinicall-coded dates of diabetes diagnosis disagree with
-# HbA1c values by more than 10 years. The HbA1c values are surperior indicators but the validity of HbA1c
+# concurrent work by CMI and colleagues shows that clinically-coded dates of diabetes diagnosis disagree with
+# HbA1c values by more than 10 years. The HbA1c values are superior indicators but the validity of HbA1c
 # values decreases as we go further back in the record because they weren't used diagnostically until a while
 # after introduction. Therefore, in the early days, we will have to trust the clinically-coded date.
 #
@@ -405,57 +367,65 @@ df_TandMultiMorb_factor <-
 # My approach to identifying the date of diagnosis will be to start with the original method of using clinical
 # codes, and then only change the date if it satisfies option #2, above.
 #
-# First, I need to convert historic A1c% values to up-to-date mmol/mol values
-# (Formala taken from https://ebmcalc.com/GlycemicAssessment.htm). Then I will define the cohort of relevant records
+# First, I need to convert historic percentage values to up-to-date mmol/mol values (Formala taken from Sacks (2012;
+# doi: 10.2337/dc12-1348). Then I will define the cohort of relevant records.
 #
 r_tbl_srcode_tests <-
     r_tbl_srcode %>%
-    dplyr::select( person_id, dateevent, numericvalue, snomedcode ) %>%
+    dplyr::select( person_id, DateEvent, NumericValue, SNOMEDCode ) %>%
     # Convert A1c% values to mmol/mol values. The rationale for the following syntax is
     # in `RESHAPE_check_HbA1c_SNOMED_codes.ipynb`.
     # ## Apply transformations, where appropriate
-    dplyr::mutate( numericvalue = numericvalue %>% as.numeric() ) %>%
+    dplyr::mutate( NumericValue = NumericValue %>% as.numeric() ) %>%
     dplyr::filter(
         dplyr::case_when(
-            snomedcode %in% codes_SNOMED_test_of_interest ~ numericvalue > 2.15
-            ,.default = numericvalue == numericvalue
+            SNOMEDCode %in% codes_SNOMED_test_of_interest ~ NumericValue > 2.15 ######################Problem with this
+            ,.default = NumericValue == NumericValue
         )
     ) %>%         
     dplyr::mutate(
-        numericvalue = 
+        NumericValue = 
             dplyr::if_else(
-                ( snomedcode %in% codes_SNOMED_test_of_interest ) & ( numericvalue < 20 )
-                ,( numericvalue %>% `-`( 2.15 ) ) %>% `*`( 10.929 )
-                ,numericvalue
+                ( SNOMEDCode %in% codes_SNOMED_test_of_interest ) & ( NumericValue < 20 )
+                ,10.93 * ( NumericValue ) - 23.50 # Sacks (2012) formula, for which there is no justification. It results
+                                                  # in almost the exact same value as the commonly-used but completely
+                                                  # unreferenced (% - 2.15) * 10.929. The original formula in the
+                                                  # original IFCC study converts HbA1c to percentage, which is the other
+                                                  # other way around (2004; doi:  10.1373/clinchem.2003.024802).
+                ,NumericValue
             )
         ,testType = 
                 dplyr::case_when(
-                   snomedcode == '1003671000000109'  ~ "Median 58"
-                    ,snomedcode =='999791000000106'  ~ "Median 42"
-                    ,snomedcode == '1049301000000100' ~ "Median 43"
+                   SNOMEDCode == '1003671000000109'  ~ "Median 58"
+                    ,SNOMEDCode =='999791000000106'  ~ "Median 42"
+                    ,SNOMEDCode == '1049301000000100' ~ "Median 43"
                     ,TRUE ~ NA_character_
                 )
         ) %>%
-    dplyr::filter( ( numericvalue >= 20 ) | is.na( numericvalue ) ) %>%
+    dplyr::filter( ( NumericValue >= test_value_cutoff_lower ) | is.na( NumericValue ) ) %>%
     # ## Apply bandpass filter.
     dplyr::filter(
         dplyr::case_when(
-            snomedcode %in% codes_SNOMED_test_of_interest ~ dplyr::between( numericvalue, test_value_cutoff_lower, test_value_cutoff_upper )
-            ,.default = numericvalue == numericvalue
+            SNOMEDCode %in% codes_SNOMED_test_of_interest ~ dplyr::between( NumericValue, test_value_cutoff_lower, test_value_cutoff_upper )
+            ,.default = NumericValue == NumericValue
         )
     ) %>%
-    # Recast `numericvalue` to string.
-    dplyr::mutate( numericvalue = numericvalue %>% as.character() )
+    # Recast `NumericValue` to string.
+    dplyr::mutate( NumericValue = NumericValue %>% as.character() )
 
 r_tbl_srcode_diagnoses <-
     r_tbl_srcode %>%
-    dplyr::select( person_id, dateevent, numericvalue, snomedcode ) %>%
-    dplyr::filter( snomedcode %in% codes_SNOMED_diagnoses_of_interest ) 
+    dplyr::select( person_id, DateEvent, NumericValue, SNOMEDCode ) %>%
+    dplyr::filter( SNOMEDCode %in% codes_SNOMED_diagnoses_of_interest )  %>%
+    # Recast `NumericValue` to string.
+    dplyr::mutate( NumericValue = NumericValue %>% as.character() ) 
 
 r_tbl_srcode_other <-
     r_tbl_srcode %>%
-    dplyr::select( person_id, dateevent, numericvalue, snomedcode ) %>%
-    dplyr::filter( ( !snomedcode %in% codes_SNOMED_test_of_interest ) & ( !snomedcode %in% codes_SNOMED_diagnoses_of_interest ) )
+    dplyr::select( person_id, DateEvent, NumericValue, SNOMEDCode ) %>%
+    dplyr::filter( ( !SNOMEDCode %in% codes_SNOMED_test_of_interest ) & ( !SNOMEDCode %in% codes_SNOMED_diagnoses_of_interest ) ) %>%
+    # Recast `NumericValue` to string.
+    dplyr::mutate( NumericValue = NumericValue %>% as.character() ) 
 
 r_tbl_srcode <-
     r_tbl_srcode_tests %>%
@@ -468,9 +438,9 @@ date_coded_diag_threshold <- date_diagnosis_threshold + lubridate::years( 4 )
 qry_records_with_T2DM_diagnoses_coded <-
     r_tbl_srcode %>%
     # Identify records with a clinical code for Type 2 Diabetes Mellitus.
-    dplyr::filter( snomedcode %in% codes_SNOMED_diagnoses_of_interest ) %>%
+    dplyr::filter( SNOMEDCode %in% codes_SNOMED_diagnoses_of_interest ) %>%
     dplyr::group_by( person_id ) %>%
-    dplyr::summarise( date_coded_diagnosis = min( dateevent, na.rm = TRUE ) ) %>%
+    dplyr::summarise( date_coded_diagnosis = min( DateEvent, na.rm = TRUE ) ) %>%
     dplyr::ungroup() %>%
     dplyr::select( person_id, date_coded_diagnosis ) %>%
     # Identify records whose clinically-coded date of diagnosis is after April 2004.
@@ -486,27 +456,27 @@ qry_records_with_T2DM_diagnoses_coded <-
 date_HbA1c_diag_threshold <- date_diagnosis_threshold + lubridate::years( 3 )  
 qry_records_with_T2DM_diagnoses_HbA1c <-
     r_tbl_srcode %>%
-    dplyr::filter( snomedcode %in% codes_SNOMED_test_of_interest) %>%
-    dplyr::select( person_id, dateevent, numericvalue, testType ) %>%
+    dplyr::filter( SNOMEDCode %in% codes_SNOMED_test_of_interest) %>%
+    dplyr::select( person_id, DateEvent, NumericValue, testType ) %>%
     # Filter for raised test scores.
-    dplyr::filter( as.numeric( numericvalue ) > 48 ) %>%
+    dplyr::filter( as.numeric( NumericValue ) > 48 ) %>%
     # Identify records with raised HbA1c values before April 2003.
     dplyr::mutate(
         raised_HbA1c_before_April2003 =
             dplyr::if_else(
-                ( dateevent  < date_HbA1c_diag_threshold )
+                ( DateEvent  < date_HbA1c_diag_threshold )
                 ,TRUE
                 ,FALSE
             )
     ) %>%
     # Filter for the earliest test that has satisfied the criteria so far.
     dplyr::group_by( person_id ) %>%
-    dplyr::filter( dateevent == min( dateevent ) ) %>%
+    dplyr::filter( DateEvent == min( DateEvent ) ) %>%
     # Filter for the largest score because, sometimes, a patient has two tests on the same date, one of which seems spuriously low.
-    dplyr::filter( as.numeric( numericvalue ) == max( as.numeric( numericvalue ) ) ) %>%
+    dplyr::filter( as.numeric( NumericValue ) == max( as.numeric( NumericValue ) ) ) %>%
     dplyr::ungroup() %>%
     # Tidy up.
-    dplyr::rename( date_HbA1c_diagnosis = dateevent )
+    dplyr::rename( date_HbA1c_diagnosis = DateEvent )
 
 qry_records_with_T2DM_diagnoses <-
     # Join the two query results.
@@ -546,19 +516,19 @@ qry_log_prescription_longFormat <-
     qry_records_with_T2DM_diagnoses %>%
     dplyr::left_join( r_tbl_srprimarycaremedication, by = join_by( person_id ) ) %>% 
     # Select every record that has a prescription for any diabetes medication.
-    dplyr::inner_join( names_meds_of_interest, by = join_by( nameofmedication == DMplusD_ProductDescription ) ) %>%
+    dplyr::inner_join( names_meds_of_interest, by = join_by( NameOfMedication == DMplusD_ProductDescription ) ) %>%
     # Filter for records within the follow-up period. I subtract `HMA_adjust_loockBack_window` I will need to 
     # know patients' prescriptions before follow-up when calculating the H.M.A. state.
-    dplyr::filter( dplyr::between( dateevent, adjusted_date_followup_start, date_followup_end ) ) %>%
-    # Create a new variable that is the concatenation of `nameofmedication` and `medicationdosage`.
-    dplyr::mutate( meds_nameAndDose = paste0( nameofmedication, " DOSE: ", medicationdosage ) ) %>% 
+    dplyr::filter( dplyr::between( DateEvent, adjusted_date_followup_start, date_followup_end ) ) %>%
+    # Create a new variable that is the concatenation of `NameOfMedication` and `MedicationDosage`.
+    dplyr::mutate( meds_nameAndDose = paste0( NameOfMedication, " DOSE: ", MedicationDosage ) ) %>% 
     # Select the variables of interest.
-    dplyr::select( person_id, date_diagnosis, dateevent, nameofmedication, meds_nameAndDose ) %>%
+    dplyr::select( person_id, date_diagnosis, DateEvent, NameOfMedication, meds_nameAndDose ) %>%
     dplyr::distinct() %>%
     # Filter for however many subsequent prescriptions were specified in `n_iteraions`, then number them.
     dplyr::group_by( person_id ) %>%
-    dbplyr::window_order( person_id, dateevent ) %>%
-    dplyr::mutate( new_prescp_day = if_else( dateevent != lag( dateevent), 1, 0 ) ) %>%
+    dbplyr::window_order( person_id, DateEvent ) %>%
+    dplyr::mutate( new_prescp_day = if_else( DateEvent != lag( DateEvent), 1, 0 ) ) %>%
     tidyr::replace_na( list( new_prescp_day = 1 ) ) %>%
     dplyr::mutate( i_prescrp = cumsum( new_prescp_day ) ) %>%
     dplyr::filter( i_prescrp <= n_iterations + 1 ) %>% # The "+ 1" is added so that we always include the final "Unobserved" state.
@@ -566,8 +536,8 @@ qry_log_prescription_longFormat <-
     dplyr::ungroup() %>%
     # Rename columns.
     dplyr::rename(
-        start_dttm = dateevent
-        ,event_value = nameofmedication
+        start_dttm = DateEvent
+        ,event_value = NameOfMedication
     ) %>%
     # Set the end time of each prescription as the start time of the previous one.
     dplyr::group_by( person_id ) %>%
@@ -584,18 +554,30 @@ qry_log_test_longFormat <-
     qry_records_with_T2DM_diagnoses %>%
     dplyr::left_join( r_tbl_srcode, by = join_by( person_id ) ) %>% 
     # Filter records for only those that refer to the test of interest.
-    dplyr::filter( snomedcode %in% codes_SNOMED_test_of_interest ) %>% 
+    dplyr::filter( SNOMEDCode %in% codes_SNOMED_test_of_interest ) %>% 
     # Extract the required fields.
-    dplyr::select( person_id, dateevent, numericvalue, testType ) %>%
+    dplyr::select( person_id, DateEvent, NumericValue, testType ) %>%
     dplyr::distinct() %>%
     # Filter out test scores of 0, which are expected to be data entry anomalies, given my selection of columns.
-    dplyr::filter( numericvalue != "0" ) %>%
-     # Filter for records within the follow-up period.
-    dplyr::filter( dplyr::between( dateevent, date_followup_start, date_followup_end ) ) %>%
+    dplyr::filter( NumericValue != "0" ) %>%
+    ## Filter for the last test on a given day, in the cases where multiple test were taken on a given day.
+    dplyr::group_by( person_id, DateEvent ) %>%
+    dplyr::mutate( date_of_datetime = Date( DateEvent ) ) %>%
+    dplyr::ungroup() %>%
+    dplyr::group_by( person_id, date_of_datetime ) %>%
+    dplyr::filter( DateEvent == max( DateEvent ) ) %>%
+    dplyr::ungroup() %>% 
+    dplyr::select( - date_of_datetime ) %>%
+    # Filter for the last test on a given day, in the cases where multiple test were taken on a given day.
+    dplyr::group_by( person_id, DateEvent ) %>%
+    dplyr::filter( DateEvent == max( DateEvent ) ) %>%
+    dplyr::ungroup() %>%
+    # Filter for records within the follow-up period.
+    dplyr::filter( dplyr::between( DateEvent, date_followup_start, date_followup_end ) ) %>%
     # Rename columns.
     dplyr::rename(
-        start_dttm = dateevent
-        ,event_value_numeric = numericvalue
+        start_dttm = DateEvent
+        ,event_value_numeric = NumericValue
     ) %>% 
     # Filter for however many subsequent tests were specified in `n_iteraions`, then number them.
     dplyr::group_by( person_id ) %>% 
@@ -634,10 +616,10 @@ if( !is.na( dplyr::count(patients_of_interest_with_death_dates) %>% dplyr::pull(
 {
     df_date_unobserved <-
         patients_of_interest_with_death_dates %>%
-        dplyr::distinct( person_id, datedeath ) %>% 
+        dplyr::distinct( person_id, DateDeath ) %>% 
         dplyr::collect() %>%
         tidyr::separate(
-            col = datedeath
+            col = DateDeath
             ,sep = 4
             ,into = c( "death_year", "death_month" )
         ) %>%
@@ -723,18 +705,22 @@ qry_log_multimorb_longFormat <-
     # Filter for only those patients that we already identified in our prescription table.
     dplyr::inner_join( qry_log_prescription_longFormat %>% dplyr::select( person_id ), by = join_by( person_id ) ) %>%
     # Filter records for only those that refer to one of the diagnoses that constitute the multimorbidity variable.
-    dplyr::filter( snomedcode %in% codes_SNOMED_all_multimorbidity_diagnoses ) %>% 
+    dplyr::filter( SNOMEDCode %in% codes_SNOMED_all_multimorbidity_diagnoses ) %>% 
     # Extract the required fields.
-    dplyr::select( person_id, dateevent, snomedcode ) %>%
+    dplyr::select( person_id, DateEvent, SNOMEDCode ) %>%
     # Rename columns.
-    dplyr::rename( date_multimorb = dateevent ) %>%
+    dplyr::rename( date_multimorb = DateEvent ) %>%
     # Include each person's date of diagnosis.
     dplyr::left_join( qry_records_with_T2DM_diagnoses, by = join_by( person_id ) ) %>%
     # Filter for multimorbidity diagnoses recorded outwith the multimorbidity gap window of the date of diagnosis of the main diagnosis of interest.
+    dplyr::mutate(
+        date_multimorb = lubridate::as_date( date_multimorb )
+        ,date_diagnosis = lubridate::as_date( date_diagnosis )
+    ) %>%
     dplyr::filter(
         ( sql( paste0( 'DATE_DIFF( date_multimorb, date_diagnosis, MONTH)' ) ) %>% abs() ) >= multimorb_gap_window_months
     ) %>%
-    dplyr::select( - c( date_diagnosis, snomedcode ) ) %>%
+    dplyr::select( - c( date_diagnosis, SNOMEDCode ) ) %>%
     dplyr::distinct() %>% 
     # Filter for the earliest date of the multimorbdity diagnosis.
     dplyr::group_by( person_id ) %>%
