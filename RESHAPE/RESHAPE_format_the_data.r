@@ -223,7 +223,7 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     dplyr::ungroup()
   
                       
-# Next, I need to make the variable that indicates whether the prescription has changed *since*??????
+# Next, I need to make the variable that indicates whether the prescription has changed `HMA_adjust_lookBack_window_in_wks` previously.
 df_log_PandT_longFormat_simplified_StrataLabels <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     # Create new columns that contain the test events and the prescription events.
