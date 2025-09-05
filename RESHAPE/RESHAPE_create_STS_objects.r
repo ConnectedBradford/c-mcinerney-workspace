@@ -48,6 +48,7 @@ df_seq <-
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
     as.data.frame() %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
     suppressWarnings()
 
 # Create the transition matrix.
@@ -98,6 +99,7 @@ df_seq_excludingUnobserved <-
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
     as.data.frame() %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
     suppressWarnings()
 
 # Create the transition matrix.
@@ -154,6 +156,7 @@ df_seq_test_only <-
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
     as.data.frame() %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
     suppressWarnings()
 
 # Create the transition matrix.
@@ -204,6 +207,7 @@ df_seq_test_only_excludingUnobserved <-
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
     as.data.frame() %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
     suppressWarnings()
 
 # Create the transition matrix.
@@ -261,6 +265,7 @@ df_seq_intervention_only <-
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
     as.data.frame() %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
     suppressWarnings()
 
 # Create the transition matrix.
@@ -311,6 +316,7 @@ df_seq_intervention_only_excludingUnobserved <-
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
     as.data.frame() %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
     suppressWarnings()
 
 # Create the transition matrix.
@@ -433,6 +439,7 @@ seqdata_HMA <-
     dplyr::group_by( person_id ) %>%
     dplyr::mutate( rn = row_number() ) %>% # Need to reassign the row number.
     dplyr::ungroup() %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
     as.data.frame()
 d <-
     TraMineRextras::TSE_to_STS(
@@ -457,6 +464,7 @@ seqdata_HMA_excludingUnobserved <-
     dplyr::group_by( person_id ) %>%
     dplyr::mutate( rn = row_number() ) %>% # Need to reassign the row number.
     dplyr::ungroup() %>%
+    dplyr::arrange( person_id, start_dttm ) %>%
     as.data.frame()
 d <-
     TraMineRextras::TSE_to_STS(

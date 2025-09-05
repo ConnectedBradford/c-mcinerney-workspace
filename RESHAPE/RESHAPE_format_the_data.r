@@ -1,6 +1,7 @@
 # The purpose of this script is...
 #
 
+
 #####################
 # Install packages. #
 #####################
@@ -152,11 +153,7 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
 # `val_testing_interval_LB` and `val_testing_interval_UB`. The change-in-prescription criterion refers to 
 # whether a new medication-dose set was prescribed, where "new" means not seen in the previous three months.
 #
-# The first thing is to calculate the inter-test duration. In this iteration, I will have to ignore the interval
-# between the diagnostic test and the subsequent test because I am deliberately looking at records ten years
-# after the diagnostic test.# ****************************************************
-                            # **************************************************** This isn't always true. For the paper I might be doing straight after diagnosis.
-                            # ****************************************************
+# The first thing is to calculate the inter-test duration.
                       
 df_inter_test_duration <-
     qry_log_test_longFormat %>%
@@ -203,6 +200,7 @@ df_inter_test_duration <-
     dplyr::select( c( person_id, start_dttm, inter_test_duration_cont, inter_test_duration_discr ) ) %>% 
     dplyr::distinct() %>% dplyr::arrange(person_id, start_dttm)
 
+
 # Add the inter-test duration variables to the dataframe.
 df_log_PandT_longFormat_simplified_StrataLabels <-
     # Join the data.frame with the variables indicating the inter-test duration.
@@ -221,91 +219,79 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     tidyr::fill( inter_test_duration_discr ) %>%
     dplyr::mutate( inter_test_duration_cont = dplyr::if_else( inter_test_duration_discr == "Not applicable", NA_real_, inter_test_duration_cont ) ) %>%
     dplyr::ungroup()
-  
-                      
-# Next, I need to make the variable that indicates whether the prescription has changed `HMA_adjust_lookBack_window_in_wks` previously.
+
+# Next, I need to make the variable that indicates whether the prescription has changed `HMA_adjust_lookBack_window_in_wks` previously.df_log_PandT_longFormat_simplified_StrataLabels <- 
 df_log_PandT_longFormat_simplified_StrataLabels <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     # Create new columns that contain the test events and the prescription events.
     dplyr::select( person_id, start_dttm, event_value, idx_test_interval ) %>%
-    dplyr::mutate(
-        tempCol_tests = dplyr::if_else( stringr::str_detect( event_value, pattern = "Test"), event_value, NA_character_ )
-    ) %>%
-    dplyr::mutate(
-        tempCol_prescrps = dplyr::if_else( !stringr::str_detect( event_value, pattern = "Test"), event_value, NA_character_ )
-    ) %>%
-    # Fill the test column until a new value is given.
-    dplyr::arrange( person_id, start_dttm, tempCol_prescrps ) %>%
-    tidyr::fill( tempCol_tests ) %>%
-    # Tidy away unecessary columns.
-    #dplyr::select( - c( event_value ) ) %>%
-    # Remove repeated prescriptions within an inter-test period.
-    dplyr::distinct() %>%
-    # Pivot wider so that each row represents an inter-test period. Order within the grouping doesn't matter because
-    # I'm just collecting the set of prescriptions rather than the sequence of them.
-    dplyr::group_by( person_id, tempCol_tests ) %>%
-    dplyr::mutate( rn = row_number() ) %>%
-    dplyr::ungroup() %>%
-    tidyr::pivot_wider(
-        names_from = rn
-        ,values_from = tempCol_prescrps
-        ) %>%
-    # List-concatonate the repeated prescriptions into one string.
-    tidyr::unite(
-        col = "meds_set"
-        ,dplyr::select(
-            .
-            ,- c('person_id', 'tempCol_tests', 'start_dttm', 'idx_test_interval')
-        ) %>% colnames()
-        ,sep = " , "
-        ,na.rm = TRUE
-    ) %>%
-    # Create a list of the `meds_set`s that have occurred in the previous 
-    # `HMA_adjust_lookBack_window_in_wks`, inclusive of the given row's `med_set`.
-    dplyr::mutate(
-        meds_set = strsplit( meds_set, split = " , ", fixed = TRUE )
-    ) %>% 
-    dplyr::group_by( person_id ) %>%
-    dplyr::mutate(
-        meds_set_window = slider::slide_index(.x = meds_set, .i = start_dttm, .f = ~.x, .before = HMA_adjust_lookBack_window )
-    ) %>%
-    dplyr::ungroup() %>%
-    # Remove the current `meds_set` from the `meds_set_window`.
-    dplyr::rowwise() %>%
+    dplyr::filter( !stringr::str_detect( event_value, pattern = "Test") ) %>%
+    dplyr::filter( !stringr::str_detect( event_value, pattern = "Unobserved") ) %>%
+    dplyr::mutate( meds_only = as.character( event_value ) ) %>%
+    dplyr::select( -event_value ) %>%
+    # Remove duplicated prescriptions occuring on the same day.
+    dplyr::distinct( ) %>%
+    # Create a list-column of the prescriptions given in the preceding months of a given prescription, `HMA_adjust_lookBack_window`.
+    tidyr::nest( .by = person_id ) %>%
     dplyr::mutate(
         meds_set_window = 
-            meds_set_window %>%
-            head( -1 ) %>%
-            unlist() %>%
-            unique() %>%
-            list()
-    ) %>%
-    dplyr::ungroup() %>%
-    # Check if the current `meds_set` is not an element of the `meds_set_window`. Label as
-    # 'HMA_adjust` == TRUE if so.
-    dplyr::group_by( person_id ) %>%
-    dplyr::rowwise() %>%
+            lapply(
+                data
+                ,function(x) slider::slide_index(.x = x$meds_only, .i = x$start_dttm, .f = ~.x, .before = HMA_adjust_lookBack_window ) %>% array()
+            )
+        ) %>%
+    tidyr::unnest( cols = c( data, meds_set_window ) ) %>%
+    # Remove the current prescription from `meds_set_window`.
     dplyr::mutate(
-        HMA_adjust =
-            ifelse(
-                ( length( meds_set ) > 0 )
-                ,!meds_set %in% meds_set_window
-                ,NA
-                )
-        ,HMA_adjust = dplyr::if_else( all( meds_set == "Unobserved" ), NA, HMA_adjust)
+        meds_set_window = purrr::map2(
+            meds_only
+            ,meds_set_window
+            ,function( med, med_set) {
+                idx <- which( med_set == med )
+                if ( length( idx ) > 0) {
+                    med_set[ -idx[ 1 ] ]
+                } else {
+                    med_set
+                }
+            }
+        )
     ) %>%
+    # Join this data.frame to one that contains a list-column of the prescriptions given on a particular day.
+    dplyr::left_join(
+        x = dplyr::select( ., - meds_only )
+        # Create a list-column of the prescriptions given on a particular day.
+        ,y = stats::aggregate(
+                    meds_only ~ person_id + start_dttm
+                    ,data = .
+                    ,FUN = list
+                    ,na.action = NULL
+                ) %>% dplyr::arrange( person_id, start_dttm )
+        ,by = join_by( person_id, start_dttm )
+        ) %>%
+    # Find the difference between the history of meds and the meds on the day.
+    dplyr::mutate( new_meds = purrr::map2( meds_only, meds_set_window,  ~!all( .x %in% .y ) ) ) %>%
+    as.data.frame() %>%
+    dplyr::select( -c( meds_only, meds_set_window ) ) %>%
+    # Label any additional meds as ' Adjust'.
+    dplyr::rowwise() %>%
+    dplyr::mutate( HMA = dplyr::if_else( new_meds, 'Adjust', 'Not adjust' ) ) %>%
     dplyr::ungroup() %>%
-    # Set entire inter-test intervals to an 'Adjust' or 'Not adjust' value based
+    as.data.frame() %>%
+    dplyr::select( -new_meds ) %>%
+    # Set the entire inter-test intervals to an 'Adjust' or 'Not adjust' value based
     # whether an adjust event occured during that window.
     dplyr::group_by( person_id, idx_test_interval ) %>%
-    dplyr::mutate( adjust_interval = dplyr::if_else( 'TRUE' %in% HMA_adjust, 'Adjust', 'Not adjust') ) %>%
+    dplyr::mutate( HMA = dplyr::if_else( 'Adjust' %in% HMA, 'Adjust', 'Not adjust') ) %>%
     dplyr::ungroup() %>%
-    # Join the `new_meds` column to the original dataframe.
-    dplyr::distinct( person_id, idx_test_interval, adjust_interval ) %>%
+    as.data.frame() %>%
+    # Rejoin to the original dataframe.
+    dplyr::select( - start_dttm ) %>%
+    dplyr::distinct( ) %>%
     dplyr::right_join(
-        df_log_PandT_longFormat_simplified_StrataLabels
-        ,by = join_by( person_id, idx_test_interval )
-    ) %>%
+            df_log_PandT_longFormat_simplified_StrataLabels
+            ,by = join_by( person_id, idx_test_interval )
+        ,relationship = "one-to-many"
+        ) %>%
     # Impute the value for `idx_test_interval` for the event_value == `Unobserved` event.
     dplyr::group_by( person_id ) %>%
     dplyr::mutate(
@@ -315,9 +301,8 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     # Remove any record with `idx_test_interval` == 0. This exlcudes all prescriptions before
     # the first non-diagnostic test recorded. The syntax below will also exclude the diagnosis event.
     dplyr::filter( idx_test_interval != 0 ) %>%
-    dplyr::arrange( person_id, start_dttm ) %>%
     suppressWarnings()
-                     
+
 # The final step is to combine the two components of the stratification's definition into a single variable called HMA.
 # Take note that the 'Adjust' label overrules a 'Monitor' label.
 df_log_PandT_longFormat_simplified_StrataLabels <-
@@ -327,16 +312,16 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
             dplyr::case_when(
                 event_value == "Unobserved" ~ "Unobserved"
                 
-                ,adjust_interval == "Adjust" ~ "Adjust"
-                , inter_test_duration_discr == "As expected" ~ "Hold"
-                , inter_test_duration_discr == "Shorter than expected" ~ "Monitor"
+                ,HMA == "Adjust" ~ "Adjust"
+                ,inter_test_duration_discr == "As expected" ~ "Hold"
+                ,inter_test_duration_discr == "Shorter than expected" ~ "Monitor"
 
                 ,TRUE ~ NA_character_
             )
     ) %>%
-    dplyr::select( -adjust_interval ) %>%
     # Set as a factor datatype and order the factors.
-    dplyr::mutate( HMA = factor( HMA, levels = df_HMA_factor %>% dplyr::select( HMA_fct_order ) %>% dplyr::pull() ) )
+    dplyr::mutate( HMA = factor( HMA, levels = df_HMA_factor %>% dplyr::select( HMA_fct_order ) %>% dplyr::pull() ) ) %>%
+    dplyr::arrange( person_id, start_dttm )
 
 
 #######################################
