@@ -44,6 +44,7 @@ df_seq <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     #dplyr::mutate_at( .vars = vars( event_value ), .funs = funs( as.factor ) ) %>%
     dplyr::filter( event_value %in% events_selection ) %>%
+    dplyr::arrange( idx_test_interval ) %>%
     dplyr::group_by( person_id ) %>%
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
@@ -95,6 +96,7 @@ df_seq_excludingUnobserved <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     #dplyr::mutate_at( .vars = vars( event_value ), .funs = funs( as.factor ) ) %>%
     dplyr::filter( event_value %in% events_selection ) %>%
+    dplyr::arrange( idx_test_interval ) %>%
     dplyr::group_by( person_id ) %>%
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
@@ -152,6 +154,7 @@ df_seq_test_only <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     #dplyr::mutate_at( .vars = vars( event_value ), .funs = funs( as.factor ) ) %>%
     dplyr::filter( event_value %in% events_selection ) %>%
+    dplyr::arrange( idx_test_interval ) %>%
     dplyr::group_by( person_id ) %>%
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
@@ -203,6 +206,7 @@ df_seq_test_only_excludingUnobserved <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     #dplyr::mutate_at( .vars = vars( event_value ), .funs = funs( as.factor ) ) %>%
     dplyr::filter( event_value %in% events_selection ) %>%
+    dplyr::arrange( idx_test_interval ) %>%
     dplyr::group_by( person_id ) %>%
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
@@ -261,6 +265,7 @@ df_seq_intervention_only <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     #dplyr::mutate_at( .vars = vars( event_value ), .funs = funs( as.factor ) ) %>%
     dplyr::filter( event_value %in% events_selection ) %>%
+    dplyr::arrange( idx_test_interval ) %>%
     dplyr::group_by( person_id ) %>%
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
@@ -312,6 +317,7 @@ df_seq_intervention_only_excludingUnobserved <-
     df_log_PandT_longFormat_simplified_StrataLabels %>%
     #dplyr::mutate_at( .vars = vars( event_value ), .funs = funs( as.factor ) ) %>%
     dplyr::filter( event_value %in% events_selection ) %>%
+    dplyr::arrange( idx_test_interval ) %>%
     dplyr::group_by( person_id ) %>%
     dplyr::mutate( rn = row_number() ) %>%
     dplyr::ungroup() %>%
