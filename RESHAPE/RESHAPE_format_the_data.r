@@ -3,7 +3,7 @@
 
 
 #####################
-# Install packages. #
+# Install packages. #F
 #####################
 if( !"pacman" %in% installed.packages() ){ install.packages( "pacman" ) }
 pacman::p_load(
@@ -69,7 +69,7 @@ if( ( df_log_PandT_longFormat_simplified %>% dplyr::select( event_value ) %>% un
 df_log_PandT_longFormat_simplified_StrataLabels <-
     df_log_PandT_longFormat_simplified %>%
     dplyr::group_by( person_id ) %>%
-    dplyr::arrange( start_dttm ) %>%
+    dplyr::arrange( start_dttm, .by_group = TRUE ) %>%
     dplyr::mutate(
         idx_test_interval = 0 + cumsum( stringr::str_detect( event_value, pattern = "Test" ) )
     ) %>% 
@@ -136,7 +136,7 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     dplyr::group_modify( ~ tibble::add_row( .x ), .by = person_id ) %>% 
     dplyr::left_join( qry_records_with_T2DM_diagnoses %>% collect(), by = join_by( person_id ) ) %>%
     dplyr::mutate( start_dttm = if_else( is.na( start_dttm ), date_diagnosis , start_dttm ) ) %>%
-    dplyr::arrange( person_id, start_dttm ) %>%
+    dplyr::arrange( person_id, start_dttm, .group_by = TRUE ) %>%
     dplyr::mutate(
         end_dttm = dplyr::if_else( is.na( end_dttm ), lead( start_dttm ), end_dttm )
         ,event_name = dplyr::if_else( is.na( event_value ), "diagnosis", event_name )
@@ -163,7 +163,7 @@ df_inter_test_duration <-
     dplyr::group_modify( ~ tibble::add_row( .x ), .by = person_id ) %>% 
     dplyr::left_join( qry_records_with_T2DM_diagnoses %>% collect(), by = join_by( person_id ) ) %>%
     dplyr::mutate( start_dttm = if_else( is.na( start_dttm ), date_diagnosis , start_dttm ) ) %>%
-    dplyr::arrange( person_id, start_dttm ) %>%
+    dplyr::arrange( person_id, start_dttm, .group_by = TRUE ) %>%
     dplyr::mutate(
         end_dttm = dplyr::if_else( is.na( end_dttm ), lead( start_dttm ), end_dttm )
         ,event_name = dplyr::if_else( is.na( event_value ), "diagnosis", event_name )
@@ -198,7 +198,8 @@ df_inter_test_duration <-
     # Tidy up.
     arrange( person_id, start_dttm ) %>%
     dplyr::select( c( person_id, start_dttm, inter_test_duration_cont, inter_test_duration_discr ) ) %>% 
-    dplyr::distinct() %>% dplyr::arrange(person_id, start_dttm)
+    dplyr::distinct() %>%
+    dplyr::arrange( person_id, start_dttm )
 
 
 # Add the inter-test duration variables to the dataframe.
@@ -214,7 +215,7 @@ df_log_PandT_longFormat_simplified_StrataLabels <-
     ) %>%
     # Fill in the values of the inter-test variables into subsequent rows until a new value is given.
     dplyr::group_by( person_id ) %>%
-    dplyr::arrange( start_dttm ) %>%
+    dplyr::arrange( start_dttm, .group_by = TRUE ) %>%
     tidyr::fill( inter_test_duration_cont ) %>%
     tidyr::fill( inter_test_duration_discr ) %>%
     dplyr::mutate( inter_test_duration_cont = dplyr::if_else( inter_test_duration_discr == "Not applicable", NA_real_, inter_test_duration_cont ) ) %>%
