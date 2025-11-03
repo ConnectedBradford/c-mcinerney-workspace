@@ -96,6 +96,12 @@ shortNames_meds_of_interest <-
     ) %>%
     dplyr::select( c( drug_name, drug_name_short ) ) %>%
     dplyr::distinct()
+# If it doesn't exist, make a BigQuery-backed lazy table version of `shortNames_meds_of_interest` so that it can be used without collecting.
+if( !exists("bq_shortNames_meds_of_interest") )
+    {
+        bigrquery::bq_table( server_id, project_id, "bq_shortNames_meds_of_interest" ) %>% bigrquery::bq_table_upload( shortNames_meds_of_interest )
+        bq_shortNames_meds_of_interest <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".bq_shortNames_meds_of_interest" ) ) )
+    }
 
 # ## Multimorbidity codes.
 codes_SNOMED_depression <-
@@ -510,8 +516,8 @@ if( !is.null( date_diagnosis_threshold ) )
 qry_records_with_T2DM_diagnoses <- dplyr::select( qry_records_with_T2DM_diagnoses, person_id, date_diagnosis ) %>% dplyr::distinct()
 
 
-# Retrieve dates of prescriptions in the follow-up period.
-adjusted_date_followup_start <-date_followup_start - HMA_adjust_lookBack_window
+    # Retrieve dates of prescriptions in the follow-up period.
+adjusted_date_followup_start <- date_followup_start - ifelse( is.null( HMA_adjust_lookBack_window ), lubridate::weeks( 16 ), HMA_adjust_lookBack_window )
 qry_log_prescription_longFormat <-
     qry_records_with_T2DM_diagnoses %>%
     dplyr::left_join( r_tbl_srprimarycaremedication, by = join_by( person_id ) ) %>% 
@@ -524,28 +530,32 @@ qry_log_prescription_longFormat <-
     dplyr::mutate( meds_nameAndDose = paste0( NameOfMedication, " DOSE: ", MedicationDosage ) ) %>% 
     # Select the variables of interest.
     dplyr::select( person_id, date_diagnosis, DateEvent, NameOfMedication, meds_nameAndDose ) %>%
-    dplyr::distinct() %>%
-    # Filter for however many subsequent prescriptions were specified in `n_iteraions`, then number them.
-    dplyr::group_by( person_id ) %>%
-    dbplyr::window_order( person_id, DateEvent ) %>%
-    dplyr::mutate( new_prescp_day = if_else( DateEvent != lag( DateEvent), 1, 0 ) ) %>%
-    tidyr::replace_na( list( new_prescp_day = 1 ) ) %>%
-    dplyr::mutate( i_prescrp = cumsum( new_prescp_day ) ) %>%
-    dplyr::filter( i_prescrp <= n_iterations + 1 ) %>% # The "+ 1" is added so that we always include the final "Unobserved" state.
-    dplyr::mutate( event_name = paste0( "prescription_", i_prescrp ) ) %>% 
-    dplyr::ungroup() %>%
+    # Replace the name of the medication in `event_value` with the short name created earlier.
+    dplyr::left_join( bq_shortNames_meds_of_interest, by = join_by( NameOfMedication == drug_name ) ) %>%
     # Rename columns.
     dplyr::rename(
         start_dttm = DateEvent
         ,event_value = NameOfMedication
     ) %>%
+    dplyr::mutate( event_value = dplyr::if_else( is.na( drug_name_short ), event_value, drug_name_short ) ) %>%
+    dplyr::select( -c( drug_name_short, meds_nameAndDose ) ) %>%
+    distinct() %>%
+    # Filter for however many subsequent prescriptions were specified in `n_iteraions`, then number them.
+    dplyr::group_by( person_id ) %>%
+    dbplyr::window_order( person_id, start_dttm ) %>%
+    dplyr::mutate( new_prescp_day = if_else( start_dttm != lag( start_dttm), 1, 0 ) ) %>%
+    tidyr::replace_na( list( new_prescp_day = 1 ) ) %>%
+    dplyr::mutate( i_prescrp = cumsum( new_prescp_day ) ) %>%
+    dplyr::filter( i_prescrp <= n_iterations + 1 ) %>% # The "+ 1" is added so that we always include the final "Unobserved" state.
+    dplyr::mutate( event_name = paste0( "prescription_", i_prescrp ) ) %>% 
+    dplyr::ungroup() %>%
     # Set the end time of each prescription as the start time of the previous one.
+    dplyr::distinct() %>%
     dplyr::group_by( person_id ) %>%
     dbplyr::window_order( person_id, start_dttm ) %>%
     dplyr::mutate( end_dttm = dplyr::if_else( person_id != lag( person_id ), start_dttm, lead( start_dttm ) ) ) %>%
     dplyr::mutate( end_dttm = dplyr::if_else( is.na( end_dttm ), start_dttm, end_dttm ) ) %>%
     dplyr::ungroup() %>%
-    # Tidy up.
     dplyr::select( person_id, start_dttm, event_name, event_value, end_dttm )
 
 
