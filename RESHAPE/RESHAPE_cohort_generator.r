@@ -7,8 +7,7 @@
 #####################
 if( !"pacman" %in% installed.packages() ){ install.packages( "pacman" ) }
 pacman::p_load(
-    bigrquery
-    ,paletteer
+    paletteer
     ,tidyverse
     ,slider
     )
@@ -17,34 +16,45 @@ pacman::p_load(
 ## Set and load requisites. ##
 ##############################
 
-# Setup connection to GCP.
-server_id = "yhcr-prd-bradfor-bia-core"
-con <- DBI::dbConnect( drv = bigquery(), project = server_id ) %>% suppressWarnings()
+# Setup connection to server.
+server_id <- "BHTS-CONNECTYO3"
+project_id <- "CB_2078"
+con <- DBI::dbConnect(
+  drv = odbc::odbc()
+  ,driver = "SQL Server"
+  ,server = server_id
+  ,database = project_id
+)
 
-# Define R tibbles from GCP tables.
+# Define R lazy tables.
 project_id = "CB_2078"
-r_tbl_srcode <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".cb_SRCode" ) ) ) %>% dplyr::mutate( SNOMEDCode = as.character( SNOMEDCode ) )
-r_tbl_srpatient <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".cb_SRPatient" ) ) )
-r_tbl_BNF_DMD_SNOMED_lkp <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".lkp_BNF_DMD_SNOMED" ) ) )
-r_tbl_srprimarycaremedication <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".cb_SRPrimaryCareMedication" ) ) ) %>% dplyr::rename( DateEvent = dateevent )
+r_tbl_srcode <-
+  dplyr::tbl( con, sql( "SELECT * FROM dbo.cb_SRCode" ) ) %>%
+  dplyr::mutate( SNOMEDCode = as.character( SNOMEDCode ) )
+r_tbl_srpatient <- dplyr::tbl( con, sql( "SELECT * FROM cb_SRPatient" ) )
+r_tbl_BNF_DMD_SNOMED_lkp <-
+  dplyr::tbl( con, sql( "SELECT * FROM .lkp_BNF_DMD_SNOMED" ) )
+r_tbl_srprimarycaremedication <-
+  dplyr::tbl( con, sql( "SELECT * FROM cb_SRPrimaryCareMedication" ) ) %>%
+  dplyr::rename( DateEvent = dateevent )
 
 # Clinical code lists (BNF, SNOMED-CT, etc).
 # ## Medication codes.
 codes_SNOMED_diagnoses_of_interest <-
-    readr::read_csv(file = paste0( 'codelists/', 'nhsd-primary-care-domain-refsets-dmtype2_cod-20200812.csv' ),
+    readr::read_csv(file = 'codelists/nhsd-primary-care-domain-refsets-dmtype2_cod-20200812.csv',
                     col_types = cols( code = col_character(), term = col_character() ) )$code
 codes_SNOMED_test_of_interest <-
-    readr::read_csv(file = paste0( 'codelists/', 'opensafely-glycated-haemoglobin-hba1c-tests-3e5b1269.csv' ),
+    readr::read_csv(file = 'codelists/opensafely-glycated-haemoglobin-hba1c-tests-3e5b1269.csv',
                     col_types = cols( code = col_character(), term = col_character() ) )$code
 codes_BNF_metformin <-
-    readr::read_csv(file = paste0( 'codelists/', 'ciaranmci-metformin-bnf-0601022b0-and-child-bnf-codes-only-43e7d87e.csv' ),
+    readr::read_csv(file = 'codelists/ciaranmci-metformin-bnf-0601022b0-and-child-bnf-codes-only-43e7d87e.csv',
                     col_types = cols( code = col_character(), term = col_character() ) )$code
 names_metformin_meds <-
     r_tbl_BNF_DMD_SNOMED_lkp %>%
     dplyr::filter( BNF_Code %in% codes_BNF_metformin ) %>%
     dplyr::select( DMplusD_ProductDescription )
 BNF_meds_of_interest <-
-    readr::read_csv(file = paste0( 'codelists/', 'ciaranmci-bnf-section-61-drugs-for-diabetes-207573b7.csv' ),
+    readr::read_csv(file = 'codelists/ciaranmci-bnf-section-61-drugs-for-diabetes-207573b7.csv',
                     col_types = cols( code = col_character(), term = col_character() ) )
 codes_BNF_meds_of_interest <- BNF_meds_of_interest$code
 meds_names_simplified <-
@@ -96,12 +106,14 @@ shortNames_meds_of_interest <-
     ) %>%
     dplyr::select( c( drug_name, drug_name_short ) ) %>%
     dplyr::distinct()
-# If it doesn't exist, make a BigQuery-backed lazy table version of `shortNames_meds_of_interest` so that it can be used without collecting.
-if( !exists("bq_shortNames_meds_of_interest") )
-    {
-        bigrquery::bq_table( server_id, project_id, "bq_shortNames_meds_of_interest" ) %>% bigrquery::bq_table_upload( shortNames_meds_of_interest )
-        bq_shortNames_meds_of_interest <- dplyr::tbl( con, sql( paste0( "SELECT * FROM ", project_id, ".bq_shortNames_meds_of_interest" ) ) )
-    }
+# If it doesn't exist, make a BigQuery-backed lazy table version of
+# `shortNames_meds_of_interest` so that it can be used without collecting.
+if( !exists("r_tbl_shortNames_meds_of_interest") )
+{
+  dplyr::copy_to( dest = con, df = shortNames_meds_of_interest )
+  r_tbl_shortNames_meds_of_interest <-
+    dplyr::tbl( con, sql( "SELECT * FROM #shortNames_meds_of_interest" ) )
+}
 
 # ## Multimorbidity codes.
 codes_SNOMED_depression <-
